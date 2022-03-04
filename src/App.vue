@@ -1,18 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
 </template>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  &::selection {
+    background: rgb(183, 255, 14);
+    color: #2c3e50;
+  }
+}
+
+@font-face {
+  font-family: roadRage;
+  src: url(@/assets/Road_Rage.otf);
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {

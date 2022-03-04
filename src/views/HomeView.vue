@@ -5,9 +5,11 @@
         central India's biggest technical & Cultural Fest
       </h4>
       <h1 class="title">Technorollix'<span class="year">22</span></h1>
-      <h1 data-aos="fade" data-aos-delay="2500" class="soon">coming soon</h1>
+      <h1 data-aos="fade" data-aos-delay="2500" class="soon">
+        30th march - 2nd April
+      </h1>
     </div>
-    <h4 class="date">29TH March, 2022 | O.P Jindal University</h4>
+    <h4 class="date">O.P Jindal University</h4>
   </div>
 </template>
 

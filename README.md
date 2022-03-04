@@ -1,4 +1,4 @@
-# tehno
+# techno
 
 ## Project setup
 ```

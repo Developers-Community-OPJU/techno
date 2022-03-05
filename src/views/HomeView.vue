@@ -1,5 +1,8 @@
 <template>
-  <div class="home">
+  <!-- code start here -->
+  <preLoader v-if="loading" />
+  <!-- code end here -->
+  <div class="home" @load="load">
     <div class="content">
       <h4 data-aos="fade-down" class="tagline">
         central India's biggest technical & Cultural Fest
@@ -14,8 +17,29 @@
 </template>
 
 <script>
+//code start here
+import PreLoader from "./PreLoad.vue";
+// const preloader = document.getElementsByClassName("preloader");
+// console.log(preloader);
+// code end here
+
 export default {
   name: "HomeView",
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  // code start here
+  components: {
+    PreLoader,
+  },
+  created() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 4150);
+  },
+  // code end here
 };
 </script>
 

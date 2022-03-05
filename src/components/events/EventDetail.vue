@@ -62,12 +62,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  z-index: 1;
-}
 .title {
   font-size: 1rem;
   margin: 2rem 0 1rem 0;

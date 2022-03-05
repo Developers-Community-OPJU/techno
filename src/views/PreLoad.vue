@@ -1,7 +1,7 @@
 <template>
   <video
     id="preloader"
-    src="../assets/mixkit-123-preview.mp4"
+    src="@/assets/technorollix22.mp4"
     autoplay
     muted
   ></video>

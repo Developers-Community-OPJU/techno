@@ -2,8 +2,9 @@
   <!-- code start here -->
   <preLoader v-if="loading" />
   <!-- code end here -->
-  <div class="home" @load="load">
-    <div class="content">
+  <div v-if="!loading" class="home">
+    <appNavbar></appNavbar>
+    <!-- <div class="content">
       <h4 data-aos="fade-down" class="tagline">
         central India's biggest technical & Cultural Fest
       </h4>
@@ -12,16 +13,13 @@
         30th march - 2nd April
       </h1>
     </div>
-    <h4 class="date">O.P Jindal University</h4>
+    <h4 class="date">O.P Jindal University</h4> -->
   </div>
 </template>
 
 <script>
-//code start here
 import PreLoader from "./PreLoad.vue";
-// const preloader = document.getElementsByClassName("preloader");
-// console.log(preloader);
-// code end here
+import AppNavbar from "@/components/AppNavbar.vue";
 
 export default {
   name: "HomeView",
@@ -33,6 +31,7 @@ export default {
   // code start here
   components: {
     PreLoader,
+    AppNavbar,
   },
   created() {
     setTimeout(() => {
@@ -45,78 +44,87 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
+  position: relative;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(17, 17, 17, 0.205),
-      rgba(28, 3, 97, 0.137)
-    ),
-    url("@/assets/background1.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url(@/assets/technno-homescreen.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-.content {
-  text-align: center;
-  color: #fff;
-  overflow: hidden;
-  width: 100%;
-}
-.title {
-  width: 100%;
-  font-size: 7rem;
-  font-family: roadRage;
-  text-shadow: 1rem 1rem 2rem rgba(56, 56, 56, 0.507);
-  animation: animate-title 1.5s ease-in;
-  &::first-letter {
-    font-size: 9rem;
-  }
-  .year {
-    color: rgb(183, 255, 14);
-  }
-}
-.soon,
-.date,
-.tagline {
-  letter-spacing: 0.5rem;
-  text-transform: uppercase;
-  text-align: center;
-}
+// .home {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+//   width: 100%;
+//   background-image: linear-gradient(
+//       to bottom,
+//       rgba(17, 17, 17, 0.205),
+//       rgba(28, 3, 97, 0.137)
+//     ),
+//     url("@/assets/background1.jpg");
+//   background-size: cover;
+//   background-position: center;
+// }
+// .content {
+//   text-align: center;
+//   color: #fff;
+//   overflow: hidden;
+//   width: 100%;
+// }
+// .title {
+//   width: 100%;
+//   font-size: 7rem;
+//   font-family: roadRage;
+//   text-shadow: 1rem 1rem 2rem rgba(56, 56, 56, 0.507);
+//   animation: animate-title 1.5s ease-in;
+//   &::first-letter {
+//     font-size: 9rem;
+//   }
+//   .year {
+//     color: rgb(183, 255, 14);
+//   }
+// }
+// .soon,
+// .date,
+// .tagline {
+//   letter-spacing: 0.5rem;
+//   text-transform: uppercase;
+//   text-align: center;
+// }
 
-.date {
-  position: absolute;
-  bottom: 2rem;
-  color: #fff;
-  font-size: 0.8rem;
-}
+// .date {
+//   position: absolute;
+//   bottom: 2rem;
+//   color: #fff;
+//   font-size: 0.8rem;
+// }
 
-.soon {
-  font-weight: 200;
-}
+// .soon {
+//   font-weight: 200;
+// }
 
-.tagline {
-  font-size: 1rem;
-}
+// .tagline {
+//   font-size: 1rem;
+// }
 
-@keyframes animate-title {
-  0% {
-    letter-spacing: 10rem;
-    opacity: 0;
-    transform: scale(2);
-  }
-  70% {
-    letter-spacing: 4rem;
-    opacity: 0;
-  }
-  90% {
-    letter-spacing: 3rem;
-  }
-  100% {
-    letter-spacing: normal;
-    transform: scale(1);
-  }
-}
+// @keyframes animate-title {
+//   0% {
+//     letter-spacing: 10rem;
+//     opacity: 0;
+//     transform: scale(2);
+//   }
+//   70% {
+//     letter-spacing: 4rem;
+//     opacity: 0;
+//   }
+//   90% {
+//     letter-spacing: 3rem;
+//   }
+//   100% {
+//     letter-spacing: normal;
+//     transform: scale(1);
+//   }
+// }
 </style>

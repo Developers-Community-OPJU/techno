@@ -8,10 +8,35 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   &::selection {
     background: rgb(183, 255, 14);
     color: #2c3e50;
   }
+}
+
+html {
+  background: #000;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(37, 37, 37);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19ffba;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(207, 24, 24);
 }
 
 @font-face {

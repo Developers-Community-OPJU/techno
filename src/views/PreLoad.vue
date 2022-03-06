@@ -20,6 +20,6 @@ export default {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 </style>

@@ -24,10 +24,10 @@ export default {
   justify-content: center;
   align-content: center;
   background: #000;
+  z-index: 10;
 }
 #video {
   min-width: 100%;
   min-height: 100%;
-  z-index: 10;
 }
 </style>

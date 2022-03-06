@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper">
     <div class="navbar">
-      <h2>Technorillix'22</h2>
+      <h2 class="nav-brand">Technorillix'22</h2>
       <img
         v-if="!toggle"
         @click="toggleMenu()"
@@ -59,14 +59,21 @@ export default {
   color: #fff;
 }
 .navbar-wrapper {
-  position: relative;
+  position: fixed;
+  min-width: 100%;
+  z-index: 9;
+  background: #000;
+  margin-top: 2rem;
+}
+.nav-brand {
+  margin-left: 2rem;
 }
 .navbar {
-  padding: 3rem;
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  position: relative;
   transition: all 1s ease-in-out;
   animation: menu 0.5s ease;
 }
@@ -74,8 +81,8 @@ export default {
   cursor: pointer;
   height: 40px;
   width: 40px;
-  margin-left: auto;
   filter: invert(100%);
+  margin-right: 2rem;
 }
 .nav-items-wrapper {
   overflow: scroll;
@@ -121,6 +128,19 @@ export default {
     font-size: 6rem;
     font-weight: bolder;
     list-style: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-list {
+    padding: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    transition: animation 0.5s ease-out;
+    animation: nav-list 0.5s ease-in-out;
+    li {
+      font-size: 2rem;
+    }
   }
 }
 

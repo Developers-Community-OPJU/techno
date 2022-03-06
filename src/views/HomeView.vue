@@ -2,18 +2,23 @@
   <!-- code start here -->
   <preLoader v-if="loading" />
   <!-- code end here -->
+  <appNavbar></appNavbar>
   <div v-if="!loading" class="home">
-    <appNavbar></appNavbar>
-    <!-- <div class="content">
-      <h4 data-aos="fade-down" class="tagline">
-        central India's biggest technical & Cultural Fest
-      </h4>
-      <h1 class="title">Technorollix'<span class="year">22</span></h1>
-      <h1 data-aos="fade" data-aos-delay="2500" class="soon">
-        30th march - 2nd April
+    <div class="content">
+      <h5 class="tagline1" data-aos="fade-right">Welcome to</h5>
+      <h5 class="tagline2" data-aos="fade-right" data-aos-delay="300">
+        central india's biggest <br />
+        technial and cultural fest
+      </h5>
+      <h1 class="headline" data-aos="fade-right" data-aos-delay="500">
+        Technorollix<span>'22</span>
       </h1>
+      <h6 class="date" data-aos="fade-down" data-aos-delay="700">
+        30th march - 2nd april
+      </h6>
+      <a class="registerBtn" href="/events">Register</a>
     </div>
-    <h4 class="date">O.P Jindal University</h4> -->
+    <img class="spiral" src="@/assets/spiral.png" alt="spiral image" />
   </div>
 </template>
 
@@ -34,9 +39,17 @@ export default {
     AppNavbar,
   },
   created() {
-    setTimeout(() => {
-      this.loading = false;
-    }, 4150);
+    if (!sessionStorage.getItem("allowLoader")) {
+      setTimeout(() => {
+        this.loading = false;
+        sessionStorage.setItem("allowLoader", false);
+      }, 4100);
+    } else {
+      setTimeout(() => {
+        this.loading = false;
+        sessionStorage.setItem("allowLoader", false);
+      }, 0);
+    }
   },
   // code end here
 };
@@ -44,87 +57,112 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  overflow: hidden;
   position: relative;
-  height: 100vh;
   width: 100%;
-  background-image: url(@/assets/technno-homescreen.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+  .content {
+    position: absolute;
+    z-index: 1;
+    padding: 12rem;
+    padding-top: 15rem;
+    width: 100%;
+    color: #fff;
+    .tagline1 {
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.25rem;
+      margin-bottom: 1rem;
+    }
+    .tagline2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      letter-spacing: 0.25rem;
+    }
+    .headline {
+      margin: 1rem 0 1rem 0;
+      font-size: 7rem;
+      animation: animate-title 1s ease-in;
+      span {
+        color: rgb(183, 255, 14);
+      }
+    }
+    .date {
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 200;
+      letter-spacing: 0.25rem;
+    }
+  }
+  .spiral {
+    z-index: 0;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    animation: animate-spiral 30s ease infinite;
+  }
 }
-// .home {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100vh;
-//   width: 100%;
-//   background-image: linear-gradient(
-//       to bottom,
-//       rgba(17, 17, 17, 0.205),
-//       rgba(28, 3, 97, 0.137)
-//     ),
-//     url("@/assets/background1.jpg");
-//   background-size: cover;
-//   background-position: center;
-// }
-// .content {
-//   text-align: center;
-//   color: #fff;
-//   overflow: hidden;
-//   width: 100%;
-// }
-// .title {
-//   width: 100%;
-//   font-size: 7rem;
-//   font-family: roadRage;
-//   text-shadow: 1rem 1rem 2rem rgba(56, 56, 56, 0.507);
-//   animation: animate-title 1.5s ease-in;
-//   &::first-letter {
-//     font-size: 9rem;
-//   }
-//   .year {
-//     color: rgb(183, 255, 14);
-//   }
-// }
-// .soon,
-// .date,
-// .tagline {
-//   letter-spacing: 0.5rem;
-//   text-transform: uppercase;
-//   text-align: center;
-// }
 
-// .date {
-//   position: absolute;
-//   bottom: 2rem;
-//   color: #fff;
-//   font-size: 0.8rem;
-// }
+.registerBtn {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  background: rgba(51, 51, 51, 0.925);
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+  text-decoration: none;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    backdrop-filter: blur(5px);
+  }
+}
 
-// .soon {
-//   font-weight: 200;
-// }
+@keyframes animate-spiral {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-// .tagline {
-//   font-size: 1rem;
-// }
-
-// @keyframes animate-title {
-//   0% {
-//     letter-spacing: 10rem;
-//     opacity: 0;
-//     transform: scale(2);
-//   }
-//   70% {
-//     letter-spacing: 4rem;
-//     opacity: 0;
-//   }
-//   90% {
-//     letter-spacing: 3rem;
-//   }
-//   100% {
-//     letter-spacing: normal;
-//     transform: scale(1);
-//   }
-// }
+@media (max-width: 576px) {
+  .home {
+    .content {
+      padding: 3rem;
+      padding-top: 15rem;
+      width: 100%;
+      color: #fff;
+      .tagline2 {
+        font-size: 1rem;
+      }
+      .headline {
+        margin: 1rem 0 1rem 0;
+        font-size: 2rem;
+        animation: animate-title 1s ease-in;
+        span {
+          color: rgb(183, 255, 14);
+        }
+      }
+      .date {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 200;
+        letter-spacing: 0.25rem;
+      }
+    }
+    .spiral {
+      z-index: 0;
+      position: absolute;
+      top: 20%;
+      left: 45%;
+      animation: animate-spiral 30s ease infinite;
+    }
+  }
+}
 </style>

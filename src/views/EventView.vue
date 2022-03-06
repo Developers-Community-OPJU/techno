@@ -73,9 +73,9 @@ export default {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 900;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-left: 2rem;
   text-align: left;
 }

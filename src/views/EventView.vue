@@ -147,9 +147,22 @@ export default {
   height: 100%;
 }
 .section-title {
-  font-size: 4rem;
+  background: #fc466b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3f5efb,
+    #fc466b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3f5efb,
+    #fc466b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
   font-weight: 900;
-  color: white;
   margin-bottom: 3rem;
   margin-left: 2rem;
   text-align: left;

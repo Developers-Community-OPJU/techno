@@ -78,12 +78,14 @@ export default {
   filter: invert(100%);
 }
 .nav-items-wrapper {
+  overflow: scroll;
   z-index: 5;
   width: 100%;
   height: 100vh;
   background: #000;
 }
 .nav-list {
+  margin-bottom: 3rem;
   opacity: 1;
   transform: translateX(0rem);
   padding: 5rem;

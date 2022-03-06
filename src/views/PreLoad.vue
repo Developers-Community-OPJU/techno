@@ -8,8 +8,6 @@
 </template>
 
 <script>
-// const preloader = document.getElementById("preloader");
-
 export default {
   name: "PreLoader",
 };

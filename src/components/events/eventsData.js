@@ -4,101 +4,25 @@ const eventsData = [
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
         neque libero molestias laborum deserunt! Eius `,
     link: "",
-  },
-  {
-    name: "tech docx",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
-  },
-  {
-    name: "event name",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        neque libero molestias laborum deserunt! Eius.`,
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: ["Rule 1 ", "rule 2"],
+    timeline: "",
+    team: [
+      {
+        name: "",
+        contact: "",
+        designation: "",
+      },
+    ],
   },
 ];
 

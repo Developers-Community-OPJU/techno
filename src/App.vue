@@ -42,10 +42,6 @@ body {
   background: rgb(207, 24, 24);
 }
 
-@font-face {
-  font-family: roadRage;
-  src: url(@/assets/Road_Rage.otf);
-}
 #app {
   font-family: "Montserrat", sans-serif;
 }

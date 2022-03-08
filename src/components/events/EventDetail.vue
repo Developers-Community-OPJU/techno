@@ -2,7 +2,7 @@
   <div class="event-detail">
     <!-- your content here -->
     <div class="event-box">
-      <div class="event__content">
+      <div class="event-description">
         <h1>{{ $route.params.eventName }}</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
@@ -13,7 +13,7 @@
           nesciunt! Tempore minima autem ullam aperiam distinctio aspernatur
           cupiditate at!
         </p>
-        <div class="rules">
+        <div class="event-rules">
           <h4>Rules</h4>
           <ul>
             <li>
@@ -29,27 +29,32 @@
               quisquam.
             </li>
           </ul>
-        </div>
-        <h4 class="title">Team</h4>
-        <div class="team">
-          <div class="member">
-            <img src="@/assets/user.jpg" alt="" />
-            <h5 class="">Aman Vishwakarma</h5>
-            <p>B.tech CSE 8</p>
-          </div>
-          <div class="member">
-            <img src="@/assets/user.jpg" alt="" />
-            <h5 class="">Aman Vishwakarma</h5>
-            <p>B.tech CSE 8</p>
-          </div>
-          <div class="member">
-            <img src="@/assets/user.jpg" alt="" />
-            <h5 class="">Aman Vishwakarma</h5>
-            <p>B.tech CSE 8</p>
+          <h4 class="title">Team</h4>
+          <div class="team">
+            <div class="member">
+              <img src="@/assets/user.jpg" alt="" />
+              <h5 class="">Aman Vishwakarma</h5>
+              <p>B.tech CSE 8</p>
+            </div>
+            <div class="member">
+              <img src="@/assets/user.jpg" alt="" />
+              <h5 class="">Aman Vishwakarma</h5>
+              <p>B.tech CSE 8</p>
+            </div>
+            <div class="member">
+              <img src="@/assets/user.jpg" alt="" />
+              <h5 class="">Aman Vishwakarma</h5>
+              <p>B.tech CSE 8</p>
+            </div>
+            <div class="member">
+              <img src="@/assets/user.jpg" alt="" />
+              <h5 class="">Aman Vishwakarma</h5>
+              <p>B.tech CSE 8</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="event__links">
+      <div class="event-links">
         <a href="#" class="registration">Registration</a>
         <a href="#" class="more">More</a>
       </div>
@@ -62,77 +67,79 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.title {
-  font-size: 1rem;
-  margin: 2rem 0 1rem 0;
+img {
+  width: 80px;
+  height: 80px;
 }
-h1 {
-  text-transform: capitalize;
+
+h1,
+h4,
+h5 {
+  color: #fff;
 }
-.rules {
-  h4 {
-    margin: 2rem 0 1rem 0;
-  }
-  ul {
-    list-style: none;
-    li {
-      margin: 0.25rem 0;
-    }
-  }
-}
-.team {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-  .member {
-    margin-right: 2rem;
-    img {
-      height: 80px;
-      width: 80px;
-      border-radius: 50%;
-      filter: grayscale(100%) sepia(0%);
-      transition: all 0.5s ease;
-      &:hover {
-        filter: grayscale(0%) sepia(100%);
-      }
-    }
-    p {
-      font-size: 12px;
-    }
-    text-align: center;
-    display: inline-block;
-  }
+
+p,
+li {
+  color: #fff;
 }
 .event-detail {
   background-image: linear-gradient(to bottom, #061d3f, #111111);
   height: 100vh;
-  color: #fff;
+  width: 100vw;
   position: relative;
   overflow: auto;
-
   .event-box {
-    height: 100%;
-    width: 90%;
-    min-width: 300px;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 3rem auto;
-    padding: 4.5rem 0;
-
-    .event__content {
-      & > p {
-        width: 500px;
-        padding-top: 2rem;
+    margin-top: 5rem;
+    .event-description {
+      width: 50%;
+      min-width: 350px;
+      h1 {
+        margin-bottom: 1rem;
+      }
+      .event-rules {
+        h4 {
+          margin: 2rem 0 1rem 0;
+        }
+        ul li {
+          padding: 1rem 1rem;
+          list-style: none;
+        }
+        .title {
+          font-size: 1rem;
+          margin: 2rem 0 1rem 0;
+        }
+        .team {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 2rem 0;
+          .member {
+            margin-bottom: 1rem;
+            margin-right: 2rem;
+            img {
+              height: 80px;
+              width: 80px;
+              border-radius: 50%;
+              filter: grayscale(100%) sepia(0%);
+              transition: all 0.5s ease;
+              &:hover {
+                filter: grayscale(0%) sepia(100%);
+              }
+            }
+            p {
+              font-size: 12px;
+            }
+            text-align: center;
+            display: inline-block;
+          }
+        }
       }
     }
-
-    .event__links {
+    .event-links {
       display: flex;
       flex-direction: column;
-      & .registration,
-      a {
+      & a {
         margin: 0.45rem 0;
         text-decoration: none;
         color: #051937;
@@ -152,6 +159,14 @@ h1 {
         backdrop-filter: blur(5px);
       }
     }
+  }
+}
+
+@media (max-width: 500px) {
+  .event-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

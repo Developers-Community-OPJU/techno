@@ -3,6 +3,7 @@ const eventsData = [
     name: "Tech lab",
     desc: `Tech lab team feels proud to announce that your models are going to be examine by
     our HONOURABLE GUEST: EXECUTIVE DIRECTORATE OF NATIONAL THERMAL POWER CORPORATION, LARA(NTPC). `,
+    Image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
@@ -27,6 +28,7 @@ const eventsData = [
   {
     name: "Tech Docx",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
+    Image:"https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
     faqs: [
       {
@@ -80,6 +82,7 @@ const eventsData = [
   {
     name: "Robovation",
     desc: `Construct Your Machine to have the maximum speed to beat other machines on the given track to reach the final destination in minimum time. You have to build a manually controlled robot capable of traversing over different terrain and hurdles. There will be separate points for overcoming the obstacles as well as the other parameter being within time. Thus, the bot with the most cumulative points will win. The aim of the event is to check the robustness of the vehicle and its competence with the opponent on the same track. `,
+    Image:"https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80",
     link: "",
     faqs: [
       {
@@ -107,8 +110,8 @@ const eventsData = [
     The themes will be divided into various parts depicting  rounds:
      The themes will be decided later on.
      •	Based on ourthemes, all entries will judged and after that the best 50% entries will move to the next round.
-     •	And best 3 will be awarded, also 2 consolation prices. 
-`,
+     •	And best 3 will be awarded, also 2 consolation prices. `,
+    Image:"https://images.pexels.com/photos/105254/pexels-photo-105254.jpeg?auto=compress&cs=tinysrgb&",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -152,6 +155,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass and this event contain only single round.This event is a theme based event and the theme is Festivals`,
+    Image:"https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -184,6 +188,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
+    Image:"https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -217,6 +222,7 @@ const eventsData = [
   {
     name: "Exhitbiton and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
+    Image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -248,6 +254,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
+    Image:"https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -281,6 +288,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
+    Image:"https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -316,6 +324,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
+    Image:"https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -357,8 +366,8 @@ difficulty levels, moving from easy to tough. Questions from various backgrounds
 Current Affairs etc. will be given in each level. 
 Participants will take part in the conducted platform. The final round will be conducted in the college 
 premises where participants need to come and take quiz. The final round will occur on 30th March 
-2022.
-`,
+2022.`,
+    Image:"https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
     faqs: [
       {
@@ -412,8 +421,8 @@ premises where participants need to come and take quiz. The final round will occ
     The yuva sabha, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students.
     
     1.	There will be two rounds, namely - Qualifying and Finals.
-     2.	Top 6 - 8 teams will qualify for finals.
-`,
+     2.	Top 6 - 8 teams will qualify for finals.`,
+    Image:"https://images.pexels.com/photos/6949867/pexels-photo-6949867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/frTZgM4BX595bGf86",
     faqs: [
       {
@@ -518,6 +527,7 @@ premises where participants need to come and take quiz. The final round will occ
   {
     name: "Lan Gaming",
     desc: ``,
+    Image:"https://images.unsplash.com/photo-1627855437292-7efeee237b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=985&q=80",
     link: "",
     faqs: [
       {

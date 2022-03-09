@@ -18,12 +18,10 @@
           <p class="card-text">
             {{ event.desc }}
           </p>
-          <router-link :to="'/events/' + event.name" class="viewBtn"
+          <router-link :to="'/events/' + index" class="viewBtn"
             >View More</router-link
           >
-          <a href="http://www.google.com" class="registerBtn" target="_blank"
-            >Register</a
-          >
+          <a :href="event.link" class="registerBtn" target="_blank">Register</a>
         </div>
       </div>
     </div>

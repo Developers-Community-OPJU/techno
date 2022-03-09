@@ -16,7 +16,9 @@
       <h6 class="date" data-aos="fade-down" data-aos-delay="700">
         30th march - 2nd april
       </h6>
-      <a class="registerBtn" href="/events">Register</a>
+      <router-link to="/events" class="registerBtn" href="/events"
+        >Register</router-link
+      >
     </div>
     <img class="spiral" src="@/assets/spiral.png" alt="spiral image" />
   </div>

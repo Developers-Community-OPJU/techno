@@ -3,7 +3,7 @@ const eventsData = [
     name: "Tech lab",
     desc: `Tech lab team feels proud to announce that your models are going to be examine by
     our HONOURABLE GUEST: EXECUTIVE DIRECTORATE OF NATIONAL THERMAL POWER CORPORATION, LARA(NTPC). `,
-    link: "",
+    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
         question: "",
@@ -27,7 +27,7 @@ const eventsData = [
   {
     name: "Tech Docx",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
-    link: "",
+    link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
     faqs: [
       {
         question: "",
@@ -57,6 +57,16 @@ const eventsData = [
       "The decision of the judges shall be treated as final.",
       "Accommodation will be provided on prior information.",
       "All participants must carry their identity cards and registration slip at the time of presentation.",
+      "In one Abstract/Paper only three students are allowed. ",
+      "Abstract must be within 250 words and maximum 6 Keywords.",
+      "Abstract will select after scrutiny by the subject experts.",
+      "Only quality abstract will be selected.",
+      "There will be maximum 10 mins for the presentation and 2 minutes and for the question and answers.",
+      "You must submit your abstract and ppts before 25 March 2022.",
+      "* First and Second prize for the best papers will be given department wise and School wise. ",
+      "*Judges will be from outside of OPJU.",
+      "For this competition participating student must be regular students of OPJU or any Institute/ University..",
+      ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .",
     ],
     timeline: "",
     team: [
@@ -99,7 +109,7 @@ const eventsData = [
      •	Based on ourthemes, all entries will judged and after that the best 50% entries will move to the next round.
      •	And best 3 will be awarded, also 2 consolation prices. 
 `,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -123,12 +133,12 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Nikhil Nivedan Vatsa (Meta, 8th Sem) ",
+        name: "Nikhil Nivedan Vatsa \n (Meta, 8th Sem) ",
         contact: "nivats@opju.ac.in, 8298071805",
         designation: "Event Managers",
       },
       {
-        name: "Amul Raj (Meta, 8th Sem)  ",
+        name: "Amul Raj \n (Meta, 8th Sem)  ",
         contact: "amraj@opju.ac.in, 95751 79658",
         designation: "Event Managers",
       },
@@ -142,7 +152,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass and this event contain only single round.This event is a theme based event and the theme is Festivals`,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -165,7 +175,7 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Simrella Agrawal (CSE, 6th Sem) ",
+        name: "Simrella Agrawal \n (CSE, 6th Sem) ",
         contact: "7489211170",
         designation: "Event Manager",
       },
@@ -174,7 +184,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -198,7 +208,7 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Simrella Agrawal (CSE, 6th Sem) ",
+        name: "Simrella Agrawal \n (CSE, 6th Sem) ",
         contact: "7489211170",
         designation: "Event Managers",
       },
@@ -207,7 +217,7 @@ const eventsData = [
   {
     name: "Exhitbiton and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -229,7 +239,7 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Dharashree Patnaik (EE, 6th Sem) ",
+        name: "Dharashree Patnaik \n (EE, 6th Sem) ",
         contact: "8305374964",
         designation: "Event Managers",
       },
@@ -238,7 +248,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -257,12 +267,12 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Rubi Choudhary (CSE, 6th Sem)",
+        name: "Rubi Choudhary \n (CSE, 6th Sem)",
         contact: "9778741330",
         designation: "Event Manager",
       },
       {
-        name: "Himanshi Singh Chandel(Bsc, 4th sem)",
+        name: "Himanshi Singh Chandel \n (Bsc, 4th sem)",
         contact: "",
         designation: "Coordinator",
       },
@@ -271,7 +281,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -292,12 +302,12 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Rubi Choudhary (CSE, 6th Sem)",
+        name: "Rubi Choudhary \n (CSE, 6th Sem)",
         contact: "9778741330",
         designation: "Event Manager",
       },
       {
-        name: "Yashvi Solanki(Bcom , 2nd sem)",
+        name: "Yashvi Solanki \n (Bcom , 2nd sem)",
         contact: "",
         designation: "Coordinator",
       },
@@ -306,7 +316,7 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
-    link: "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "",
@@ -328,20 +338,186 @@ const eventsData = [
     timeline: "",
     team: [
       {
-        name: "Ajay Sajikumar (CSE, 6th Sem) ",
+        name: "Ajay Sajikumar \n (CSE, 6th Sem) ",
         contact: "9109760583",
         designation: "Event Manager",
       },
       {
-        name: "Suyash Dansena(MECH ,4th Sem) ",
+        name: "Suyash Dansena \n (MECH ,4th Sem) ",
         contact: "9109760583",
         designation: "Coordinator",
       },
     ],
   },
   {
-    name: "Exhibition and Expo - Exhibiton",
-    desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps.`,
+    name: "TechQuiz ",
+    desc: `Technorollix 2k22 presents you a tech cum exciting event "TechQuiz". TechQuiz basically deals with a 
+quiz type competition with different levels having different score marks. Each level will have its own 
+difficulty levels, moving from easy to tough. Questions from various backgrounds like tech, GK, GS, 
+Current Affairs etc. will be given in each level. 
+Participants will take part in the conducted platform. The final round will be conducted in the college 
+premises where participants need to come and take quiz. The final round will occur on 30th March 
+2022.
+`,
+    link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
+    faqs: [
+      {
+        question: "1. Can participants take part from their homes?",
+        answer: "Yes",
+      },
+      {
+        question: "2. How will teh results be announced?",
+        answer:
+          "Results will be announced on the platform itself as soon as you'll complete your quiz",
+      },
+    ],
+    rules: [
+      `The quiz will be conducted on may one of the following arenas:
+      • Surveymonkey.com
+      • Typeform.com
+      • Google form(last option)`,
+      "The quiz will be conducted on 2 levels, Qualifiers and Finale",
+      "The results (for every level) will be decided on the basis of their performance in the quiz.• Topics will be based on Technology, GK, Current Affairs, GS etc.",
+      "The event will be conducted online and the results will be displaced as same.",
+      "There will be negative markings (as per the questions).",
+      "There would be (approx) 50 questions and will be defined as per the levels.",
+      "Participation Certificates will be given to all those who will be taking part in quiz.",
+      "Top winners will be awarded with surprise gifts.",
+    ],
+    timeline: "",
+    team: [
+      {
+        name: "Ashwini Sahu \n 8th Sem, CSE",
+        contact: "9340497964",
+        designation: "Event Mananger",
+      },
+      {
+        name: "Nikhil Nivedan Vatsa \n 8th Sem, Meta",
+        contact: "8298071805",
+        designation: "Event Manager",
+      },
+      {
+        name: "Prof. R.N.Shukla",
+        contact: "",
+        designation: "Faculty Coordinator",
+      },
+    ],
+  },
+  {
+    name: " Yuva Sabha",
+    desc: `The yuva sabha, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students.
+    
+    
+    Why to participate? 
+    The yuva sabha, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students.
+    
+    1.	There will be two rounds, namely - Qualifying and Finals.
+     2.	Top 6 - 8 teams will qualify for finals.
+`,
+    link: "https://forms.gle/frTZgM4BX595bGf86",
+    faqs: [
+      {
+        question: "How to Register for Yuva Sabha ?",
+        answer:
+          "You can register from the official website or scan the QR code from flyers.",
+      },
+      {
+        question: "When will the topic be provided ?",
+        answer:
+          "The topics will be provided a week prior the first round and for final round, after qualification.",
+      },
+      {
+        question: "Is it free to register for yuva sabha ?",
+        answer:
+          "If you are from OPJU it’s free. But if you are from outside it’s not.",
+      },
+      {
+        question: "How many people will be in one team ?",
+        answer: "Three to Four.",
+      },
+      {
+        question: "How many teams can I join ?",
+        answer: "Only one team.",
+      },
+      {
+        question: "Can a team have members from different colleges ?",
+        answer: "Yes you can.",
+      },
+      {
+        question: `Can I join in more than one event ?`,
+        answer: `Yes`,
+      },
+    ],
+    rules: [
+      "Every team has to register on the official opju website for the yuva sabha.",
+      "The decision of organizer and judges shall be treated as final and binding on all.",
+      "No responsibility will be held by Technorollix, OPJU for any late lost or misdirected entries.",
+      "Registered participants will be informed through mail about any changes. Participants are advised to keep track of their Email account.",
+      "Each team have to introduce themselves for atleas 30 - 60 seconds.",
+      "Each team must contain 3 - 4 members.",
+      "Each duel will be a knockout and wll be replayed in several stages as game progresses.",
+      "Each team will be given the topics prior to the rounds.",
+      "5.	Each team will be given 3 minutes to speak their topic and 2 minutes will be given for a contradiction or argument of the opposition team.",
+      "Language could be Hindi/English.",
+    ],
+
+    timeline: "",
+    team: [
+      {
+        name: "Ayush Pandey",
+        contact: "6200742035",
+        designation: "Event Mananger",
+      },
+      {
+        name: "Sanskar Pandey ",
+        contact: "7987961784",
+        designation: "Coordinaters",
+      },
+      {
+        name: "Ujjwal Kesharwani ",
+        contact: "7770971760",
+        designation: "Coordinaters",
+      },
+      {
+        name: "Faizan Ahmad  ",
+        contact: "6265325535",
+        designation: "Coordinaters",
+      },
+      {
+        name: "Ayush Kumar Tiwari ",
+        contact: "8085752401",
+        designation: "Coordinaters",
+      },
+      {
+        name: "Anjali Patel ",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Shruti Kashyap",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Khushi Patel",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Dr. Ankur Rastogi ",
+        contact: "",
+        designation: "Faculty Coordinaters",
+      },
+      {
+        name: "Dr. Swapnasariti Kar",
+        contact: "",
+        designation: "Faculty Coordinaters",
+      },
+    ],
+  },
+  {
+    name: "Lan Gaming",
+    desc: ``,
     link: "",
     faqs: [
       {
@@ -353,22 +529,13 @@ const eventsData = [
         answer: "",
       },
     ],
-    rules: [
-      "Participants need to bring their collection and showcase them in the central library.",
-      "Registration are only valid through google forms.",
-      "Bring your collection before 30th March.",
-    ],
+    rules: ["Rule 1 ", "rule 2"],
     timeline: "",
     team: [
       {
-        name: "Dharashree Patnaik (EE, 6th Sem) ",
-        contact: "8305374964",
-        designation: "Event Mananger",
-      },
-      {
-        name: "Himanshi Singh Chandel(Bsc, 4th sem)",
+        name: "",
         contact: "",
-        designation: "Coordinaters",
+        designation: "",
       },
     ],
   },

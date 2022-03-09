@@ -16,7 +16,7 @@ const routes = [
     component: EventView,
   },
   {
-    path: "/events/:eventName",
+    path: "/events/:eventIndex",
     name: "eventDetail",
     component: EventDetail,
   },

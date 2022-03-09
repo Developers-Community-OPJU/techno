@@ -21,22 +21,22 @@
           {{ event.team }}
           <div class="team">
             <div class="member">
-              <img src="@/assets/user.jpg" alt="" />
+              <img src="@/assets/gamer.png" alt="" />
               <h5 class="">Aman Vishwakarma</h5>
               <p>B.tech CSE 8</p>
             </div>
             <div class="member">
-              <img src="@/assets/user.jpg" alt="" />
+              <img src="@/assets/gamer.png" alt="" />
               <h5 class="">Aman Vishwakarma</h5>
               <p>B.tech CSE 8</p>
             </div>
             <div class="member">
-              <img src="@/assets/user.jpg" alt="" />
+              <img src="@/assets/gamer.png" alt="" />
               <h5 class="">Aman Vishwakarma</h5>
               <p>B.tech CSE 8</p>
             </div>
             <div class="member">
-              <img src="@/assets/user.jpg" alt="" />
+              <img src="@/assets/gamer.png" alt="" />
               <h5 class="">Aman Vishwakarma</h5>
               <p>B.tech CSE 8</p>
             </div>
@@ -45,6 +45,7 @@
       </div>
       <div class="event-links">
         <a :href="event.link" class="registration">Registration</a>
+        <a :href="event.link" class="more">Registration</a>
       </div>
     </div>
   </div>
@@ -102,7 +103,7 @@ li {
 }
 
 .event-detail {
-  margin: 0 auto;
+  // margin: 0 auto;
   background-image: linear-gradient(to bottom, #061d3f, #111111);
   min-height: 100vh;
   max-height: 100%;
@@ -116,7 +117,7 @@ li {
     margin-bottom: 5rem;
     width: 60%;
     .event-description {
-      min-width: 350px;
+      min-width: 330px;
       h1 {
         margin-bottom: 1rem;
       }
@@ -168,7 +169,7 @@ li {
   display: block;
   margin: 0 auto;
   // display: flex;
-  // flex-direction: column;
+  // flex-direction: row;
   & a {
     width: 50%;
     margin: 0.45rem 0;
@@ -188,16 +189,44 @@ li {
     background-color: rgba(255, 255, 255, 0.2);
     color: #fff;
     backdrop-filter: blur(5px);
+    margin-left: 1.2rem;
   }
 }
 
-@media (min-width: 500px) {
-  .event-box {
-    width: 100%;
-    padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 500px) {
+  .event-detail {
+    justify-content: flex-start;
+    .event-box {
+      width: 100%;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: flex-start;
+      .event-description {
+        padding: 1rem;
+        min-width: 328px;
+        .event-header {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+        .event-rules {
+          .team {
+            justify-content: center;
+            align-items: center;
+            .member {
+              margin: 1.3rem 1.2rem 0 0;
+            }
+          }
+        }
+      }
+      .event-links {
+        display: flex;
+        flex-direction: column;
+        a {
+          margin: 0.5rem auto;
+        }
+      }
+    }
   }
 }
 </style>

@@ -3,7 +3,8 @@ const eventsData = [
     name: "Tech lab",
     desc: `Tech lab team feels proud to announce that your models are going to be examine by
     our HONOURABLE GUEST: EXECUTIVE DIRECTORATE OF NATIONAL THERMAL POWER CORPORATION, LARA(NTPC). `,
-    Image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
@@ -28,7 +29,8 @@ const eventsData = [
   {
     name: "Tech Docx",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
-    Image:"https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image:
+      "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
     faqs: [
       {
@@ -50,7 +52,7 @@ const eventsData = [
       "* First and Second prize for the best papers will be given department wise and School wise..",
       "*Judges will be from outside of OPJU.",
       "For this competition participating student must be regular students of OPJU or any Institute/ University..",
-      ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .
+      ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .",
     ],
     timeline: "",
     team: [
@@ -64,7 +66,8 @@ const eventsData = [
   {
     name: "Robovation",
     desc: `Construct Your Machine to have the maximum speed to beat other machines on the given track to reach the final destination in minimum time. You have to build a manually controlled robot capable of traversing over different terrain and hurdles. There will be separate points for overcoming the obstacles as well as the other parameter being within time. Thus, the bot with the most cumulative points will win. The aim of the event is to check the robustness of the vehicle and its competence with the opponent on the same track. `,
-    Image:"https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80",
     link: "",
     faqs: [
       {
@@ -93,7 +96,8 @@ const eventsData = [
      The themes will be decided later on.
      •	Based on ourthemes, all entries will judged and after that the best 50% entries will move to the next round.
      •	And best 3 will be awarded, also 2 consolation prices. `,
-    Image:"https://images.pexels.com/photos/105254/pexels-photo-105254.jpeg?auto=compress&cs=tinysrgb&",
+    Image:
+      "https://images.pexels.com/photos/105254/pexels-photo-105254.jpeg?auto=compress&cs=tinysrgb&",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -102,7 +106,8 @@ const eventsData = [
       },
       {
         question: "How to bring likes on for my photograph post on Instagram?",
-        answer: "You need to share your tagged post and earn max likes you can.",
+        answer:
+          "You need to share your tagged post and earn max likes you can.",
       },
     ],
     rules: [
@@ -137,11 +142,13 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass and this event contain only single round.This event is a theme based event and the theme is Festivals`,
-    Image:"https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
+        question:
+          "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
         answer: "Transparent Thin Glass Slab will be provided.",
       },
       {
@@ -160,8 +167,7 @@ const eventsData = [
     ],
     timeline: "30th and 31st March , Central Library",
     team: [
-      
-       {
+      {
         name: "Dharashree Patnaik \n (EE, 6th Sem) ",
         contact: "8305374964",
         designation: "Event Managers",
@@ -171,7 +177,8 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
-    Image:"https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -201,12 +208,14 @@ const eventsData = [
   {
     name: "Exhitbiton and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
-    Image: "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image:
+      "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
         question: "How will we get the material used in the Decoration Event?",
-        answer: "You have to bring your own Material and the funds will be provided by the university.",
+        answer:
+          "You have to bring your own Material and the funds will be provided by the university.",
       },
     ],
     rules: [
@@ -229,7 +238,8 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
-    Image:"https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -259,7 +269,8 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
-    Image:"https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -291,7 +302,8 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
-    Image:"https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image:
+      "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -330,7 +342,8 @@ Current Affairs etc. will be given in each level.
 Participants will take part in the conducted platform. The final round will be conducted in the college 
 premises where participants need to come and take quiz. The final round will occur on 30th March 
 2022.`,
-    Image:"https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image:
+      "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
     faqs: [
       {
@@ -356,7 +369,8 @@ premises where participants need to come and take quiz. The final round will occ
       "Participation Certificates will be given to all those who will be taking part in quiz.",
       "Top winners will be awarded with surprise gifts.",
     ],
-    timeline: "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
+    timeline:
+      "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
     team: [
       {
         name: "Ashwini Sahu \n 8th Sem, CSE",
@@ -385,7 +399,8 @@ premises where participants need to come and take quiz. The final round will occ
     
     1.	There will be two rounds, namely - Qualifying and Finals.
      2.	Top 6 - 8 teams will qualify for finals.`,
-    Image:"https://images.pexels.com/photos/6949867/pexels-photo-6949867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    Image:
+      "https://images.pexels.com/photos/6949867/pexels-photo-6949867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/frTZgM4BX595bGf86",
     faqs: [
       {
@@ -492,7 +507,8 @@ premises where participants need to come and take quiz. The final round will occ
     desc: ``,
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
 
-    Image:"https://images.unsplash.com/photo-1627855437292-7efeee237b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=985&q=80",
+    Image:
+      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/05/977398-974293-973307-950215-pubg-india-launch.jpg",
 
     faqs: [
       {
@@ -504,12 +520,19 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: ["3 matches will be conducted in qualifiers round and 3 matches in Finals ", 
-            "1 player from each team of finals will be allowed to play 1vs1 tdm battle",
-            "No one will be allowed to play from their place; they should be available on campus during the mathes"
-            ,"No Ipad/emulator players allowed.","Strict actions will be taken against hacking and teaming.",
-            "Players are requested to bring their own devices."],
-    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Semi Final at SB-08","Day 3: 1st April ,Finals at MP HALL"],
+    rules: [
+      "3 matches will be conducted in qualifiers round and 3 matches in Finals ",
+      "1 player from each team of finals will be allowed to play 1vs1 tdm battle",
+      "No one will be allowed to play from their place; they should be available on campus during the mathes",
+      "No Ipad/emulator players allowed.",
+      "Strict actions will be taken against hacking and teaming.",
+      "Players are requested to bring their own devices.",
+    ],
+    timeline: [
+      "Day 1: 30th March at SB-08",
+      "Day 2: 31st March , Semi Final at SB-08",
+      "Day 3: 1st April ,Finals at MP HALL",
+    ],
     team: [
       {
         name: "Prof. Asimkiran Dandapat",
@@ -526,7 +549,7 @@ premises where participants need to come and take quiz. The final round will occ
         contact: "6263448824",
         designation: "",
       },
-      
+
       {
         name: "Bindeshwer Dash",
         contact: "",
@@ -567,6 +590,7 @@ premises where participants need to come and take quiz. The final round will occ
   {
     name: "Lan Gaming - VALORANT",
     desc: ``,
+    Image: "https://wallpaperaccess.com/full/7877482.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
@@ -578,21 +602,27 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: ["Matches will be decided according to the number of teams registered."
-            , "All members of a roster must have their Riot account in good standing. This includes not being banned, chat banned, or restricted in any way due to toxicity, breaking game rules, or not complying with Riot’s code of conduct",
-            "The captain of each team must check in for their match 15 minutes before their scheduled match time. Failure to do so could result in losing “in-game pause time” or disqualification.",
-            "Any team that checks in on time but fails to join the lobby more than 10 minutes after the scheduled start time, will be disqualified."
-            ," If any unforeseen situations occur, judgment by tournament staff is final. Rules may be altered between phases of a tournament in the best interests of the event. (Example: A game-breaking glitch is discovered on a map mid-tournament that could be exploited. The map may need to be removed from legal play for the remainder of the event.)"
-            ,"No one will be allowed to play from their place; they should be available on campus during the mathes"
-            ,"Players are requested to bring their own laptop or devices."
-            ,`Lobby Rules:
+    rules: [
+      "Matches will be decided according to the number of teams registered.",
+      "All members of a roster must have their Riot account in good standing. This includes not being banned, chat banned, or restricted in any way due to toxicity, breaking game rules, or not complying with Riot’s code of conduct",
+      "The captain of each team must check in for their match 15 minutes before their scheduled match time. Failure to do so could result in losing “in-game pause time” or disqualification.",
+      "Any team that checks in on time but fails to join the lobby more than 10 minutes after the scheduled start time, will be disqualified.",
+      " If any unforeseen situations occur, judgment by tournament staff is final. Rules may be altered between phases of a tournament in the best interests of the event. (Example: A game-breaking glitch is discovered on a map mid-tournament that could be exploited. The map may need to be removed from legal play for the remainder of the event.)",
+      "No one will be allowed to play from their place; they should be available on campus during the mathes",
+      "Players are requested to bring their own laptop or devices.",
+      `Lobby Rules:
                 – Mode: Standard
                 – Allow Cheats: Off
                 – Tournament Mode: On
-                – Overtime: Win by Two: On`],
-    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Semi Final at SB-08","Day 3: 1st April ,Finals at MP HALL"],
+                – Overtime: Win by Two: On`,
+    ],
+    timeline: [
+      "Day 1: 30th March at SB-08",
+      "Day 2: 31st March , Semi Final at SB-08",
+      "Day 3: 1st April ,Finals at MP HALL",
+    ],
     team: [
-     {
+      {
         name: "Prof. Asimkiran Dandapat",
         contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
         designation: "Faculty Coordinator",
@@ -642,6 +672,7 @@ premises where participants need to come and take quiz. The final round will occ
   {
     name: "Lan Gaming - CLASH ROYALS",
     desc: ``,
+    Image: "https://images7.alphacoders.com/856/thumb-1920-856231.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
@@ -653,13 +684,18 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: ["Knockout matches will be conducted (1vs1)",
-            "Every player are required to join the same clan for the tournament The invite link will be provided before the tournament"
-            ,"No one will be allowed to play from their place; they should be available on campus during the mathes"
-            ,"Players are requested to bring their own devices."],
-    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Final at SB-08"],
+    rules: [
+      "Knockout matches will be conducted (1vs1)",
+      "Every player are required to join the same clan for the tournament The invite link will be provided before the tournament",
+      "No one will be allowed to play from their place; they should be available on campus during the mathes",
+      "Players are requested to bring their own devices.",
+    ],
+    timeline: [
+      "Day 1: 30th March at SB-08",
+      "Day 2: 31st March , Final at SB-08",
+    ],
     team: [
-     {
+      {
         name: "Prof. Asimkiran Dandapat",
         contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
         designation: "Faculty Coordinator",
@@ -720,12 +756,17 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: [" Knockout matches will be conducted (1vs1)",
-            "No one will be allowed to play from their place; they should be available on campus during the mathes.",
-            "Players are requested to bring their own laptops"],
-    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Final at SB-08"],
+    rules: [
+      " Knockout matches will be conducted (1vs1)",
+      "No one will be allowed to play from their place; they should be available on campus during the mathes.",
+      "Players are requested to bring their own laptops",
+    ],
+    timeline: [
+      "Day 1: 30th March at SB-08",
+      "Day 2: 31st March , Final at SB-08",
+    ],
     team: [
-     {
+      {
         name: "Prof. Asimkiran Dandapat",
         contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
         designation: "Faculty Coordinator",
@@ -772,8 +813,8 @@ premises where participants need to come and take quiz. The final round will occ
       },
     ],
   },
-  
-   {
+
+  {
     name: "Treasure Hunt",
     desc: `1.In this game teams search for the hidden objects by following a trail of clue.
 
@@ -786,7 +827,8 @@ premises where participants need to come and take quiz. The final round will occ
   Maximum = 6 members.
   Date of event 30th March 2022.
   Total prize money = Rs 5000.`,
-    Image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    Image:
+      "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
@@ -798,16 +840,56 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: ["1.	Participants cannot use their mobile phone during game. ",
-            "2.	Do not misbehave with coordinator and co-ordinator.",
-            "3.	Participants can't take any help or aid other than team member.",
-            "4. Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
-            "5.All participants must be present at the venue on time.",
-            "6.In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
-            "7.In case of any dispute, organising committee's decision will be final."
-
-           
-           ],
+    rules: [
+      "1.	Participants cannot use their mobile phone during game. ",
+      "2.	Do not misbehave with coordinator and co-ordinator.",
+      "3.	Participants can't take any help or aid other than team member.",
+      "4. Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
+      "5.All participants must be present at the venue on time.",
+      "6.In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
+      "7.In case of any dispute, organising committee's decision will be final.",
+    ],
+    timeline: "",
+    team: [
+      {
+        name: "",
+        contact: "",
+        designation: "",
+      },
+    ],
+  },
+  {
+    name: "Treasure-hunt",
+    desc: `1.In this game teams search for the hidden objects by following a trail of clue.
+          2.There will be 5 rounds in the 2022 treasure hunt.
+3.Teams other than OPJU needs to register by paying the registration fees of 100 INR.
+4.Maximum registrations will for first 50 teams including outside university teams.
+5.Team limit : Minimum = 4 members.
+Maximum = 6 members.
+Date of event 30th March 2022.
+Total prize money = Rs 5000.. `,
+    Image:
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: [
+      "1.	Participants cannot use their mobile phone during game. ",
+      "2.	Do not misbehave with coordinator and co-ordinator.",
+      "3.	Participants can't take any help or aid other than team member",
+      "4.	Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
+      "5. All participants must be present at the venue on time.",
+      "6. In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
+      "7. In case of any dispute, organising committee's decision will be final.",
+    ],
     timeline: "",
     team: [
       {
@@ -818,52 +900,5 @@ premises where participants need to come and take quiz. The final round will occ
     ],
   },
 ];
-
- {
-    name: "Treasure-hunt",
-    desc: `1.In this game teams search for the hidden objects by following a trail of clue.
-
-2.There will be 5 rounds in the 2022 treasure hunt.
-
-3.Teams other than OPJU needs to register by paying the registration fees of 100 INR.
-
-4.Maximum registrations will for first 50 teams including outside university teams.
-
-5.Team limit : Minimum = 4 members.
-Maximum = 6 members.
-
-Date of event 30th March 2022.
-Total prize money = Rs 5000.. `,
-    Image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    rules: ["1.	Participants cannot use their mobile phone during game. ", 
-            "2.	Do not misbehave with coordinator and co-ordinator.",
-            "3.	Participants can't take any help or aid other than team member",
-            "4.	Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
-            "5. All participants must be present at the venue on time.",
-            "6. In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
-            "7. In case of any dispute, organising committee's decision will be final."
-            
-
-           ],
-    timeline: "",
-    team: [
-      {
-        name: "",
-        contact: "",
-        designation: "",
-      },
-    ],
-  },
 
 export default eventsData;

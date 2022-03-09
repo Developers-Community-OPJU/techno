@@ -1,4 +1,5 @@
 <template>
+  <back />
   <div class="wrapper">
     <h1 class="section-title" data-aos="fade-right">Events</h1>
     <p v-if="loading" class="loading-text">
@@ -29,12 +30,16 @@
 </template>
 
 <script>
+import back from "@/components/backButton.vue";
 export default {
   data() {
     return {
       events: [],
       loading: false,
     };
+  },
+  components: {
+    back,
   },
   created() {
     this.loading = true;

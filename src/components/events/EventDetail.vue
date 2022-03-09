@@ -2,11 +2,11 @@
   <div class="event-detail">
     <!-- your content here -->
     <div class="event-box">
+      <back />
       <div class="event-description">
         <div class="event-header">
-          <img
-            src="https://images.unsplash.com/photo-1543941869-11da6518d88f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-          />
+          <div class="overlay"></div>
+          <img :src="event.Image" alt="" />
           <h1>{{ event.name }}</h1>
         </div>
         <p>
@@ -18,34 +18,21 @@
             <li v-for="rule in event.rules" :key="rule">{{ rule }}</li>
           </ul>
           <h4 class="title">Team</h4>
-          {{ event.team }}
           <div class="team">
-            <div class="member">
+            <div v-for="member in event.team" :key="member" class="member">
               <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
+              <h5 class="">{{ member.name }}</h5>
+              <p>{{ member.designation }}</p>
+              <p>{{ member.contact }}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="event-links">
-        <a :href="event.link" class="registration">Registration</a>
-        <a :href="event.link" class="more">Registration</a>
+        <a :href="event.link" target="_blank" class="registration"
+          >Registration</a
+        >
+        <a :href="event.link" arget="_blank" class="more">Registration</a>
       </div>
     </div>
   </div>
@@ -53,11 +40,15 @@
 
 <script>
 const eventData = require("./eventsData");
+import back from "@/components/backButton.vue";
 export default {
   data() {
     return {
       event: null,
     };
+  },
+  components: {
+    back,
   },
   created() {
     const eventIndex = this.$route.params.eventIndex;
@@ -87,11 +78,18 @@ li {
   border-radius: 5px;
   width: 100%;
   margin-bottom: 2rem;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #061d3f00, #111111);
+  }
   > img {
     border-radius: 5px;
     width: 100%;
     height: 420px;
     object-fit: cover;
+    object-position: center;
   }
   h1 {
     position: absolute;
@@ -141,7 +139,7 @@ li {
           flex-wrap: wrap;
           margin: 2rem 0;
           .member {
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             margin-right: 2rem;
             img {
               height: 80px;

@@ -125,7 +125,7 @@ export default {
     }
     transition: all 0.5s ease;
     margin-bottom: 1rem;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: bolder;
     list-style: none;
   }

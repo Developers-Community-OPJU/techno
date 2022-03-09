@@ -1,6 +1,7 @@
 <template>
   <!-- code start here -->
   <preLoader v-if="loading" />
+
   <!-- code end here -->
   <appNavbar></appNavbar>
   <div v-if="!loading" class="home">

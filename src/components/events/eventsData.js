@@ -66,7 +66,7 @@ const eventsData = [
       "* First and Second prize for the best papers will be given department wise and School wise. ",
       "*Judges will be from outside of OPJU.",
       "For this competition participating student must be regular students of OPJU or any Institute/ University..",
-      ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .",
+      ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 ."
     ],
     timeline: "",
     team: [
@@ -112,17 +112,17 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Where we need to upload the photos for Photorollix ?",
+        answer: "Attached Google form is used to upload your photograph.",
       },
       {
-        question: "",
-        answer: "",
+        question: "How to bring likes on for my photograph post on Instagram?",
+        answer: "You need to share your tagged post and earn max likes you can.",
       },
     ],
     rules: [
       "All the entries must be submitted in google form rather than sending privately. ",
-      "You strictly have to mention the Messageand Locationof your clicked snap in Google form.",
+      "You strictly have to mention the Message and Location of your clicked snap in Google form.",
       "Register only once in google form. Twice registering will be subjected to disqualification also. Do mention all your details correctly.",
       "The points will be given in 2 parts 50% will be given by our judge and rest 50% will be on basis of like comments and social engagements.",
       "If participants have their Instagramid then they have to follow our page before sending their entries.",
@@ -130,7 +130,7 @@ const eventsData = [
       "The prizes and certificates will be directly given from college on the Prize Distribution Day.",
       "For further details contact: Event Managers & Faculty Coordinator.",
     ],
-    timeline: "",
+    timeline: "25th March , In front oF Mechenical Workshop ",
     team: [
       {
         name: "Nikhil Nivedan Vatsa \n (Meta, 8th Sem) ",
@@ -155,12 +155,12 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
+        answer: "Transparent Thin Glass Slab will be provided.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Will the paints will be provided in the event ?",
+        answer: "No, you have to bring your own paint.",
       },
     ],
     rules: [
@@ -172,12 +172,13 @@ const eventsData = [
       "You can either use fabric paint or glass paint.",
       "The time duration of the event is 1hr 30mins.",
     ],
-    timeline: "",
+    timeline: "30th and 31st March , Central Library",
     team: [
-      {
-        name: "Simrella Agrawal \n (CSE, 6th Sem) ",
-        contact: "7489211170",
-        designation: "Event Manager",
+      
+       {
+        name: "Dharashree Patnaik \n (EE, 6th Sem) ",
+        contact: "8305374964",
+        designation: "Event Managers",
       },
     ],
   },
@@ -187,12 +188,8 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "Will the paints will be provided in the event ?",
+        answer: "No, you have to bring your own paint.",
       },
     ],
     rules: [
@@ -205,7 +202,7 @@ const eventsData = [
       "Registration for event is only valid through google forms.",
       "The time duration of the event is 1hr.",
     ],
-    timeline: "",
+    timeline: "30th and 31st March , Central Library",
     team: [
       {
         name: "Simrella Agrawal \n (CSE, 6th Sem) ",
@@ -220,12 +217,8 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "How will we get the material used in the Decoration Event?",
+        answer: "You have to bring your own Material and the funds will be provided by the university.",
       },
     ],
     rules: [
@@ -236,12 +229,12 @@ const eventsData = [
       "Decoration must be done in groups (minimum: 3 and maximum: 5).",
       "You can decorate the location of your ideas or themes",
     ],
-    timeline: "",
+    timeline: "Before 30th March, We will allocate you the areas.",
     team: [
       {
-        name: "Dharashree Patnaik \n (EE, 6th Sem) ",
-        contact: "8305374964",
-        designation: "Event Managers",
+        name: "Simrella Agrawal \n (CSE, 6th Sem) ",
+        contact: "7489211170",
+        designation: "Event Manager",
       },
     ],
   },
@@ -251,12 +244,8 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "Do we have to bring our own colours for Rangoli ?",
+        answer: "No, you'll be provided with the Rangoli Colours",
       },
     ],
     rules: [
@@ -264,7 +253,7 @@ const eventsData = [
       "Rangoli must be done in groups (minimum: 3 and maximum: 5).",
       "You can use mobile phone to draw the rangoli.",
     ],
-    timeline: "",
+    timeline: "30th and 31st March , In front of Mechanical Workshop",
     team: [
       {
         name: "Rubi Choudhary \n (CSE, 6th Sem)",
@@ -284,12 +273,8 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "Will the paints will be provided in the event ?",
+        answer: "No, you have to bring your own paint.",
       },
     ],
     rules: [
@@ -299,7 +284,7 @@ const eventsData = [
       "Use of electronics devices is prohibited like mobiles, phone and laptops.",
       "All entries must be submitted through google form.",
     ],
-    timeline: "",
+    timeline: "30th and 31st March , Central Library ",
     team: [
       {
         name: "Rubi Choudhary \n (CSE, 6th Sem)",
@@ -319,12 +304,8 @@ const eventsData = [
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "what will be the theme of this event?",
+        answer: "Theme will be related to University.",
       },
     ],
     rules: [
@@ -335,7 +316,7 @@ const eventsData = [
       "You need to draw both flag and logo.",
       "According to both design, we will decide the winner",
     ],
-    timeline: "",
+    timeline: "30th and 31st March, Central Library",
     team: [
       {
         name: "Ajay Sajikumar \n (CSE, 6th Sem) ",
@@ -384,7 +365,7 @@ premises where participants need to come and take quiz. The final round will occ
       "Participation Certificates will be given to all those who will be taking part in quiz.",
       "Top winners will be awarded with surprise gifts.",
     ],
-    timeline: "",
+    timeline: "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
     team: [
       {
         name: "Ashwini Sahu \n 8th Sem, CSE",
@@ -457,11 +438,11 @@ premises where participants need to come and take quiz. The final round will occ
       "Each team must contain 3 - 4 members.",
       "Each duel will be a knockout and wll be replayed in several stages as game progresses.",
       "Each team will be given the topics prior to the rounds.",
-      "5.	Each team will be given 3 minutes to speak their topic and 2 minutes will be given for a contradiction or argument of the opposition team.",
+      "Each team will be given 3 minutes to speak their topic and 2 minutes will be given for a contradiction or argument of the opposition team.",
       "Language could be Hindi/English.",
     ],
 
-    timeline: "",
+    timeline: "30th and 31st of March , MP Hall",
     team: [
       {
         name: "Ayush Pandey",
@@ -516,9 +497,9 @@ premises where participants need to come and take quiz. The final round will occ
     ],
   },
   {
-    name: "Lan Gaming",
+    name: "Lan Gaming -BATTLEGROUNDS MOBILE: INDIA ",
     desc: ``,
-    link: "",
+    link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
         question: "",
@@ -529,13 +510,271 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "",
       },
     ],
-    rules: ["Rule 1 ", "rule 2"],
-    timeline: "",
+    rules: ["3 matches will be conducted in qualifiers round and 3 matches in Finals ", 
+            "1 player from each team of finals will be allowed to play 1vs1 tdm battle",
+            "No one will be allowed to play from their place; they should be available on campus during the mathes"
+            ,"No Ipad/emulator players allowed.","Strict actions will be taken against hacking and teaming.",
+            "Players are requested to bring their own devices."],
+    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Semi Final at SB-08","Day 3: 1st April ,Finals at MP HALL"],
     team: [
       {
-        name: "",
+        name: "Prof. Asimkiran Dandapat",
+        contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Parikshit",
         contact: "",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Ajaz Khan",
+        contact: "6263448824",
         designation: "",
+      },
+      
+      {
+        name: "Bindeshwer Dash",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Shalu Sharma",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aiman Ashraf",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Vikrant dubey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Shivani pandey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Nafiza bano",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Sachin kumar",
+        contact: "",
+        designation: "Coordinator",
+      },
+    ],
+  },
+  {
+    name: "Lan Gaming - VALORANT",
+    desc: ``,
+    link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: ["Matches will be decided according to the number of teams registered."
+            , "All members of a roster must have their Riot account in good standing. This includes not being banned, chat banned, or restricted in any way due to toxicity, breaking game rules, or not complying with Riot’s code of conduct",
+            "The captain of each team must check in for their match 15 minutes before their scheduled match time. Failure to do so could result in losing “in-game pause time” or disqualification.",
+            "Any team that checks in on time but fails to join the lobby more than 10 minutes after the scheduled start time, will be disqualified."
+            ," If any unforeseen situations occur, judgment by tournament staff is final. Rules may be altered between phases of a tournament in the best interests of the event. (Example: A game-breaking glitch is discovered on a map mid-tournament that could be exploited. The map may need to be removed from legal play for the remainder of the event.)"
+            ,"No one will be allowed to play from their place; they should be available on campus during the mathes"
+            ,"Players are requested to bring their own laptop or devices."
+            ,`Lobby Rules:
+                – Mode: Standard
+                – Allow Cheats: Off
+                – Tournament Mode: On
+                – Overtime: Win by Two: On`],
+    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Semi Final at SB-08","Day 3: 1st April ,Finals at MP HALL"],
+    team: [
+     {
+        name: "Prof. Asimkiran Dandapat",
+        contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Parikshit",
+        contact: "",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Bindeshwer Dash",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Shalu Sharma",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aiman Ashraf",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Vikrant dubey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Shivani pandey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Nafiza bano",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Sachin kumar",
+        contact: "",
+        designation: "Coordinator",
+      },
+    ],
+  },
+  {
+    name: "Lan Gaming - CLASH ROYALS",
+    desc: ``,
+    link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: ["Knockout matches will be conducted (1vs1)",
+            "Every player are required to join the same clan for the tournament The invite link will be provided before the tournament"
+            ,"No one will be allowed to play from their place; they should be available on campus during the mathes"
+            ,"Players are requested to bring their own devices."],
+    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Final at SB-08"],
+    team: [
+     {
+        name: "Prof. Asimkiran Dandapat",
+        contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Parikshit",
+        contact: "",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Bindeshwer Dash",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Shalu Sharma",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aiman Ashraf",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Vikrant dubey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Shivani pandey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Nafiza bano",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Sachin kumar",
+        contact: "",
+        designation: "Coordinator",
+      },
+    ],
+  },
+  {
+    name: "Lan Gaming - TEKKEN",
+    desc: ``,
+    link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: [" Knockout matches will be conducted (1vs1)",
+            "No one will be allowed to play from their place; they should be available on campus during the mathes.",
+            "Players are requested to bring their own laptops"],
+    timeline:[ "Day 1: 30th March at SB-08","Day 2: 31st March , Final at SB-08"],
+    team: [
+     {
+        name: "Prof. Asimkiran Dandapat",
+        contact: "asimkiran.dandapat@opju.ac.in \n 9589103149",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Parikshit",
+        contact: "",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Bindeshwer Dash",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Shalu Sharma",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aiman Ashraf",
+        contact: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Vikrant dubey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Shivani pandey",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Nafiza bano",
+        contact: "",
+        designation: "Coordinator",
+      },
+      {
+        name: "Sachin kumar",
+        contact: "",
+        designation: "Coordinator",
       },
     ],
   },

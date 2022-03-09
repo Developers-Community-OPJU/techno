@@ -534,4 +534,51 @@ premises where participants need to come and take quiz. The final round will occ
   },
 ];
 
+ {
+    name: "Treasure-hunt",
+    desc: `1.In this game teams search for the hidden objects by following a trail of clue.
+
+2.There will be 5 rounds in the 2022 treasure hunt.
+
+3.Teams other than OPJU needs to register by paying the registration fees of 100 INR.
+
+4.Maximum registrations will for first 50 teams including outside university teams.
+
+5.Team limit : Minimum = 4 members.
+Maximum = 6 members.
+
+Date of event 30th March 2022.
+Total prize money = Rs 5000.. `,
+    Image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: ["1.	Participants cannot use their mobile phone during game. ", 
+            "2.	Do not misbehave with coordinator and co-ordinator.",
+            "3.	Participants can't take any help or aid other than team member",
+            "4.	Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
+            "5. All participants must be present at the venue on time.",
+            "6. In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
+            "7. In case of any dispute, organising committee's decision will be final."
+            
+
+           ],
+    timeline: "",
+    team: [
+      {
+        name: "",
+        contact: "",
+        designation: "",
+      },
+    ],
+  },
+
 export default eventsData;

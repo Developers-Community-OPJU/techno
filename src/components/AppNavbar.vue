@@ -89,7 +89,6 @@ export default {
   z-index: 5;
   width: 100%;
   height: 100vh;
-  background: #000;
 }
 .nav-list {
   margin-bottom: 3rem;

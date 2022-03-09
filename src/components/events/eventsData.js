@@ -1,8 +1,8 @@
 const eventsData = [
   {
     name: "Tech lab",
-    desc: `Tech lab team feels proud to announce that your models are going to be examine by
-    our HONOURABLE GUEST: EXECUTIVE DIRECTORATE OF NATIONAL THERMAL POWER CORPORATION, LARA(NTPC). `,
+    desc: `Tech lab is one of the most prestigious events of Technorollix, which is the biggest tech festival in central India. The events shows the creativity and potential of bright minds from different universities through their self-developed model.
+    `,
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
@@ -16,13 +16,46 @@ const eventsData = [
         answer: "",
       },
     ],
-    rules: ["Rule 1 ", "rule 2"],
-    timeline: "",
+    rules: [
+      " All the exhibits must reach the venue one hour prior to the prescribed time to install all the necessary components for their model",
+      "Maximum of 5 participants are allowed per group.",
+      "The exhibit should be a creation of the student, which either illustrates or demonstrates a novel idea or device in an original manner.The ontributions made by others must be acknowledged on the exhibit or in the report.",
+      "Exhibits must be confined to an area. Tables and Electricity will be provided.",
+      "No exhibits are to be dismantled or removed before the end of the Fair ",
+      "Highly flammable and toxic substances are not allowed, if so required then take permission first. ",
+      "Every participant must maintain the decorum of the event.",
+    ],
+    timeline: "Till 25th March",
     team: [
       {
         name: "",
-        contact: "",
-        designation: "",
+        contact: "7000662948",
+        designation: "pandeyshivam1012@gmail.com",
+      },
+      {
+        name: "Vivek Kumar ",
+        contact: "7869180268",
+        designation: "vivek307111@gmail.com",
+      },
+      {
+        name: "Bharti Patel-",
+        contact: "6268002629",
+        designation: "bp2080007@gmail.com",
+      },
+      {
+        name: "Adit Kumar-",
+        contact: "8839459292",
+        designation: " adit.ug19mme02@gmail.com",
+      },
+      {
+        name: "Sangeeta Gupta-",
+        contact: "6266520680",
+        designation: "sang.gupta6060@gmail.com",
+      },
+      {
+        name: "Astha Gupta",
+        contact: "6267138484",
+        designation: "aashugupta363@gmail.com",
       },
     ],
   },
@@ -848,47 +881,6 @@ premises where participants need to come and take quiz. The final round will occ
       "5.All participants must be present at the venue on time.",
       "6.In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
       "7.In case of any dispute, organising committee's decision will be final.",
-    ],
-    timeline: "",
-    team: [
-      {
-        name: "",
-        contact: "",
-        designation: "",
-      },
-    ],
-  },
-  {
-    name: "Treasure-hunt",
-    desc: `1.In this game teams search for the hidden objects by following a trail of clue.
-          2.There will be 5 rounds in the 2022 treasure hunt.
-3.Teams other than OPJU needs to register by paying the registration fees of 100 INR.
-4.Maximum registrations will for first 50 teams including outside university teams.
-5.Team limit : Minimum = 4 members.
-Maximum = 6 members.
-Date of event 30th March 2022.
-Total prize money = Rs 5000.. `,
-    Image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    rules: [
-      "1.	Participants cannot use their mobile phone during game. ",
-      "2.	Do not misbehave with coordinator and co-ordinator.",
-      "3.	Participants can't take any help or aid other than team member",
-      "4.	Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
-      "5. All participants must be present at the venue on time.",
-      "6. In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
-      "7. In case of any dispute, organising committee's decision will be final.",
     ],
     timeline: "",
     team: [

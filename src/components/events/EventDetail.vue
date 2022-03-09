@@ -6,9 +6,11 @@
       <div class="event-description">
         <div class="event-header">
           <div class="overlay"></div>
-          <img :src="event.Image" alt="" />
+          <img :src="event.Image" :alt="event.name" />
           <h1>{{ event.name }}</h1>
         </div>
+        <h4>About</h4>
+        <br />
         <p>
           {{ event.desc }}
         </p>
@@ -26,13 +28,14 @@
               <p>{{ member.contact }}</p>
             </div>
           </div>
+          <h4 class="title">Registrations</h4>
+          <div class="event-links">
+            <a :href="event.link" target="_blank" class="registration"
+              >Registration</a
+            >
+            <!-- <a :href="event.link" target="_blank" class="more">Registration</a> -->
+          </div>
         </div>
-      </div>
-      <div class="event-links">
-        <a :href="event.link" target="_blank" class="registration"
-          >Registration</a
-        >
-        <a :href="event.link" arget="_blank" class="more">Registration</a>
       </div>
     </div>
   </div>
@@ -62,10 +65,6 @@ h1,
 h4,
 h5 {
   color: #fff;
-}
-
-h1 {
-  font-size: 4rem;
 }
 
 li {
@@ -165,9 +164,7 @@ li {
 
 .event-links {
   display: block;
-  margin: 0 auto;
-  // display: flex;
-  // flex-direction: row;
+  margin: 3rem auto;
   & a {
     width: 50%;
     margin: 0.45rem 0;

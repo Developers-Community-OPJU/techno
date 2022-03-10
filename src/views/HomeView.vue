@@ -1,7 +1,6 @@
 <template>
   <!-- code start here -->
   <preLoader v-if="loading" />
-
   <!-- code end here -->
   <appNavbar></appNavbar>
   <div v-if="!loading" class="home">
@@ -9,7 +8,7 @@
       <h5 class="tagline1" data-aos="fade-right">Welcome to</h5>
       <h5 class="tagline2" data-aos="fade-right" data-aos-delay="300">
         central india's biggest <br />
-        technial and cultural fest
+        technical and cultural fest
       </h5>
       <h1 class="headline" data-aos="fade-right" data-aos-delay="500">
         Technorollix<span>'22</span>
@@ -109,7 +108,7 @@ export default {
     position: absolute;
     top: 20%;
     left: 45%;
-    animation: animate-spiral 30s ease infinite;
+    animation: animate-spiral 50s ease infinite;
   }
 }
 
@@ -134,11 +133,8 @@ export default {
   0% {
     transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(180deg);
-  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
@@ -173,7 +169,6 @@ export default {
       position: absolute;
       top: 20%;
       left: 45%;
-      animation: animate-spiral 30s ease infinite;
     }
   }
 }

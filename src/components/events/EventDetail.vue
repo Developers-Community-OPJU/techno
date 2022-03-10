@@ -37,11 +37,14 @@
           </div>
         </div>
       </div>
-      <p class="note">
-        <span>NOTE:</span><br />Free
-        <strong style="color: #a8eb12">Accomodation</strong> will be provided
-        for the outside participant.
-      </p>     
+      <div class="note">
+        <h4><span>NOTE</span></h4>
+        <p>
+          Free
+          <strong style="color: #a8eb12">Accomodation</strong> will be provided
+          for the outside participant.
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -167,9 +170,13 @@ li {
   }
 }
 .note {
+  border: 1px solid #fff;
   text-align: center;
-  padding: 1.5rem 2rem 3rem 2rem;
+  padding: 1.5rem 2rem 2rem 2rem;
   font-size: 1.1rem;
+  h4 {
+    margin-bottom: 1rem;
+  }
 }
 
 .event-links {

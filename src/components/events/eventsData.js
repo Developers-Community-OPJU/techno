@@ -130,40 +130,42 @@ const eventsData = [
         answer: "Yes ",
       },
     ],
-    rules: ["	The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b x h).", 
-            "	The robot may be wired or wireless.",
-            "	Motor rpm specification: 150 rpm to 300 rpm.",
-            "	Maximum weight must not exceed 4 kg.",
-            "	The participants should have to provide a power supply onboard (no additional power supply is accepted).",
-            "	The machine must not be made from Lego parts, or any ready-made kit, if we find such a machine it will be disqualified.",
-            "	The length of the wire (for wired bots) should be long enough to cover the whole track and the wire should remain slack during the complete run.",
-            "	The machine must be powered electrically only. Use of IC engine is not allowed.",
-            "	Batteries must be sealed, immobilized electrolyte type (gel cell, lithium, NiCad, or dry cells)",
-            "	The electric voltage anywhere in the machine should not be more than 12V DC at any point in time",
-            "	The robot should be as per the given specifications. ",
-            "	Each team can have a maximum of four members. Students from different institutes can form a team.",
-            "	Each member of the team must contain the identity card of his/her respected institute.",
-            "	The robot should not damage the arena",
-            "	No test practice will be allowed in the arena.",
-            "	The robot must not leave behind any of its parts during the run; else it will result in disqualification.",
-            "	Unethical behavior could lead to disqualification. ",
-            "	Faculty coordinators have all the rights to take final decisions for any matter during the event.",
-            "	The judge’s decision will be considered final.",
-            "	Certificates of Participation will be given to all the teams that will participate in the event but not to the teams which get disqualified due to disobeying any of the competition rules. ",
-            "	The coordination committee reserves the right to add or update any rule.",
-            "	The track surface and course line may have unevenness.",
-            "	There will be certain obstacles in the racetrack that will try to slow down the robot.",
-            "	The design and size of the track will be shown at the event.",
-            "	The competition is based on a time trial system. There will be a qualifying round for each team.",
-            "	The top team from the qualifying round makes it to the final round on basis of time trials.",
-           "	If any of the robots start off before the start-up call, the counter would be restarted, and the team will get a second chance. If repeated again then the team will be disqualified.",
-           "	The robot team must be ready when a call is made for your team.",
-           "	Team members will be allowed only three times to touch or reset their robot’s position during the run. However, this will lead to a time penalty and the timer will not stop during this course of action.",
-           "	The robot will be judged on basis of (in priority):- a. Time to complete the track. b. The number of checkpoints cleared.",
-           "	The bot must not contain any readymade kits, pneumatic & hydraulic systems, IC engines.",
-           "	The decision about the robot will be taken by the organizers.",
-           "No team will get a second chance after completing the track with a poor score.",
-           "The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run."],
+    rules: [
+      "	The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b x h).",
+      "	The robot may be wired or wireless.",
+      "	Motor rpm specification: 150 rpm to 300 rpm.",
+      "	Maximum weight must not exceed 4 kg.",
+      "	The participants should have to provide a power supply onboard (no additional power supply is accepted).",
+      "	The machine must not be made from Lego parts, or any ready-made kit, if we find such a machine it will be disqualified.",
+      "	The length of the wire (for wired bots) should be long enough to cover the whole track and the wire should remain slack during the complete run.",
+      "	The machine must be powered electrically only. Use of IC engine is not allowed.",
+      "	Batteries must be sealed, immobilized electrolyte type (gel cell, lithium, NiCad, or dry cells)",
+      "	The electric voltage anywhere in the machine should not be more than 12V DC at any point in time",
+      "	The robot should be as per the given specifications. ",
+      "	Each team can have a maximum of four members. Students from different institutes can form a team.",
+      "	Each member of the team must contain the identity card of his/her respected institute.",
+      "	The robot should not damage the arena",
+      "	No test practice will be allowed in the arena.",
+      "	The robot must not leave behind any of its parts during the run; else it will result in disqualification.",
+      "	Unethical behavior could lead to disqualification. ",
+      "	Faculty coordinators have all the rights to take final decisions for any matter during the event.",
+      "	The judge’s decision will be considered final.",
+      "	Certificates of Participation will be given to all the teams that will participate in the event but not to the teams which get disqualified due to disobeying any of the competition rules. ",
+      "	The coordination committee reserves the right to add or update any rule.",
+      "	The track surface and course line may have unevenness.",
+      "	There will be certain obstacles in the racetrack that will try to slow down the robot.",
+      "	The design and size of the track will be shown at the event.",
+      "	The competition is based on a time trial system. There will be a qualifying round for each team.",
+      "	The top team from the qualifying round makes it to the final round on basis of time trials.",
+      "	If any of the robots start off before the start-up call, the counter would be restarted, and the team will get a second chance. If repeated again then the team will be disqualified.",
+      "	The robot team must be ready when a call is made for your team.",
+      "	Team members will be allowed only three times to touch or reset their robot’s position during the run. However, this will lead to a time penalty and the timer will not stop during this course of action.",
+      "	The robot will be judged on basis of (in priority):- a. Time to complete the track. b. The number of checkpoints cleared.",
+      "	The bot must not contain any readymade kits, pneumatic & hydraulic systems, IC engines.",
+      "	The decision about the robot will be taken by the organizers.",
+      "No team will get a second chance after completing the track with a poor score.",
+      "The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run.",
+    ],
     timeline: "Between 30th March to 02nd April 2022 , Volleyball Court ",
     team: [
       {
@@ -776,7 +778,7 @@ premises where participants need to come and take quiz. The final round will occ
     Image: "https://images7.alphacoders.com/856/thumb-1920-856231.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
-     {
+      {
         question: "What is the Registration fee? ",
         answer: ` For outsiders
         School Students – 50/ per person
@@ -854,7 +856,7 @@ premises where participants need to come and take quiz. The final round will occ
     desc: ``,
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
-        {
+      {
         question: "What is the Registration fee? ",
         answer: ` For outsiders
         School Students – 50/ per person
@@ -926,7 +928,6 @@ premises where participants need to come and take quiz. The final round will occ
       },
     ],
   },
-
   {
     name: "Treasure Hunt",
     desc: `1.In this game teams search for the hidden objects by following a trail of clue.
@@ -974,8 +975,7 @@ premises where participants need to come and take quiz. The final round will occ
   {
     name: "Exhibition and Expo - Exhibition",
     desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
-    Image:
-      "",
+    Image: "",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -983,9 +983,11 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "No ",
       },
     ],
-    rules: ["Participants need to bring their collection and showcase them in the central library "
-            , "Registration for event is only valid through google forms.",
-            "Bring your collection before 29th march."],
+    rules: [
+      "Participants need to bring their collection and showcase them in the central library ",
+      "Registration for event is only valid through google forms.",
+      "Bring your collection before 29th march.",
+    ],
     timeline: "29th March , Central Library",
     team: [
       {
@@ -993,7 +995,7 @@ premises where participants need to come and take quiz. The final round will occ
         contact: "8305374964",
         designation: "Event Manager",
       },
-       {
+      {
         name: "Himanshi Singh Chandel",
         contact: "",
         designation: "Coordintor",
@@ -1036,7 +1038,7 @@ ROBOT SPECIFICATIONS:
       "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     link: "https://forms.gle/SjBCga4GXdi4RcHf8",
     faqs: [
-     {
+      {
         question: "How to register for Robovation?",
         answer: "Through registration link",
       },
@@ -1061,19 +1063,21 @@ ROBOT SPECIFICATIONS:
         answer: "Yes ",
       },
     ],
-    rules: ["Team can have a maximum number of four members."
-            ,"Only one participant should control the robot and one for holding the wire. No player can be exchanged in the middle of the match.",
-            "A robot can push or hit the ball. It cannot withhold or grab the ball.",
-            "Motor should be 150 rpm to 300 rpm.",
-            "Human interference (e.g., touching the robot) during the game is not allowed.",
-            "If there is any technical issue with the robot a technical time out will be given for 2 minutes.",
-            "Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. ",
-            "The event coordinator is the match referee. He takes all the decisions and participants have to abide by them.",
-            "No more AC/DC power supply will be provided at the sight of play.",
-            "Coordinators reserve the right to ask for an explanation of the robot. The coordinator can change the rules of the game depending on the situation.",
-            "Rules & Regulations may change without prior notice, by the Event organizers.",
-            "Positions of balls will be decided by the organizers during the match.",
-            "The length of the wire (for wired bots) should be long enough and you cannot drag the wire during hitting the ball, the wire should remain slack during the event."],
+    rules: [
+      "Team can have a maximum number of four members.",
+      "Only one participant should control the robot and one for holding the wire. No player can be exchanged in the middle of the match.",
+      "A robot can push or hit the ball. It cannot withhold or grab the ball.",
+      "Motor should be 150 rpm to 300 rpm.",
+      "Human interference (e.g., touching the robot) during the game is not allowed.",
+      "If there is any technical issue with the robot a technical time out will be given for 2 minutes.",
+      "Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. ",
+      "The event coordinator is the match referee. He takes all the decisions and participants have to abide by them.",
+      "No more AC/DC power supply will be provided at the sight of play.",
+      "Coordinators reserve the right to ask for an explanation of the robot. The coordinator can change the rules of the game depending on the situation.",
+      "Rules & Regulations may change without prior notice, by the Event organizers.",
+      "Positions of balls will be decided by the organizers during the match.",
+      "The length of the wire (for wired bots) should be long enough and you cannot drag the wire during hitting the ball, the wire should remain slack during the event.",
+    ],
     timeline: "Between 30th March to 02nd April 2022 ,Badminton Court",
     team: [
       {
@@ -1085,8 +1089,10 @@ ROBOT SPECIFICATIONS:
         name: "Kamal Pandey ",
         contact: "9752764369",
         designation: "Event Manager",
-=======
-  
+      },
+    ],
+  },
+
   {
     name: "STARTUP BUSINESS PLAN ",
     desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
@@ -1097,18 +1103,19 @@ Project idea topic must be related to any growing research area of management an
     faqs: [
       {
         question: "1) What is Startup Business Plan?",
-        answer: "This quiz covers various topics of business, companies, and related things.",
+        answer:
+          "This quiz covers various topics of business, companies, and related things.",
       },
       {
         question: "2) Who can participate in Startup Business Plan?",
-        answer: "Anyone can participate in this event after their registration on the website",
+        answer:
+          "Anyone can participate in this event after their registration on the website",
       },
     ],
     rules: [
       "1.	The minimum number of students in team would be 2 and maximum could be 5.. ",
       "2.	Each team will be allotted with 15 minutes where 10 minutes is for presentation and 5 minutes for questionnaires round with audience and judges..",
       "3.Students must carry and are responsible for their pen drives and laptops.",
-     
     ],
     timeline: "31st March 2:30pm (EEE Seminar hall)",
     team: [
@@ -1117,35 +1124,35 @@ Project idea topic must be related to any growing research area of management an
         contact: "8445457996",
         designation: "Faculty Co-ordinator",
       },
-      
-       {
+
+      {
         name: "Dr. Sukanta Sahoo",
         contact: "9937646042",
         designation: "Faculty Co-ordinator",
       },
-       {
+      {
         name: "Pawan Gupta",
         contact: "89815567023",
         designation: "Event Manager",
       },
-       {
+      {
         name: "Suryaranjan Satapathy",
         contact: "7869199650",
         designation: "Co-ordinator",
       },
-       {
+      {
         name: "Prakash Nishad",
         contact: "7617346510",
         designation: "Co-ordinator",
       },
-       {
+      {
         name: "Omkar Das Sharma",
         contact: "6267963520",
         designation: "Co-ordinator",
       },
     ],
   },
-  
+
   {
     name: "MASTER-CHEF",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
@@ -1177,7 +1184,6 @@ Project idea topic must be related to any growing research area of management an
       "No arguments will be accepted regarding results & elimination if found the team will be disqualified.",
       "Only fair play.",
       "There will be time limit for each round, if any team would be found exciding the limit will be disqualified.",
-   
     ],
     timeline: "",
     team: [
@@ -1203,7 +1209,7 @@ Project idea topic must be related to any growing research area of management an
       },
     ],
   },
-  
+
   {
     name: "THE ETHNIC FASHION SHOW",
     desc: `“You can have anything you want in life if you dress for it”
@@ -1215,17 +1221,20 @@ There will 3 Rounds in “THE ETHNIC FASHION SHOW”
 ●	2nd Round will be Semi Finale
 ●	3rd Round will be GRAND FINALE
 `,
-    Image:"https://images.unsplash.com/flagged/photo-1568988041298-26931e97a28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-      
+    Image:
+      "https://images.unsplash.com/flagged/photo-1568988041298-26931e97a28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+
     link: "https://forms.gle/3QQAAnUtEEiK9h578",
     faqs: [
       {
         question: "Will college provides dresses for all the rounds?",
-        answer: "No, Clg will only help you in Grand Finale . For other rounds you have to arrange the dresses and accessories.",
+        answer:
+          "No, Clg will only help you in Grand Finale . For other rounds you have to arrange the dresses and accessories.",
       },
       {
         question: "Venue of Events?",
-        answer: "For 1st round venue will be in front of Chemistry Lab. For 2nd Round venue will be TB-01 and Finale will be ON STAGE.",
+        answer:
+          "For 1st round venue will be in front of Chemistry Lab. For 2nd Round venue will be TB-01 and Finale will be ON STAGE.",
       },
     ],
     rules: [
@@ -1236,59 +1245,59 @@ There will 3 Rounds in “THE ETHNIC FASHION SHOW”
       "Time Limit for every participant on the ramp and activities involved will be 3-5 minutes.",
       "Responsibility of the given dresses and accessories given by us will be of participants. If in case the dress and accessories gets spoiled then that particular participant will have to pay.",
       "Participants should respect the task given by judges and should also cooperate with everyone.",
-     
     ],
-    timeline: "Before 21st for College students "
-              "Before 27th for Outside students",
+    timeline: [
+      "Before 21st for College students ",
+      "Before 27th for Outside students",
+    ],
     team: [
       {
         name: "Prof. Pushpanjali S Hota",
         contact: "9109977047 ",
         designation: "Faculty Coordinators",
       },
-  
-   {
+
+      {
         name: "Prof. Tulika Gupta ",
         contact: "9109977055",
         designation: "Faculty Coordinators",
       },
-  
-   {
+
+      {
         name: "Prof. Rupesh Patel ",
         contact: "9109909248",
         designation: "Faculty Coordinators",
       },
-  
-   {
+
+      {
         name: "Amul Raj ",
         contact: "9575179658",
         designation: "Event Managers",
       },
-  
-   {
+
+      {
         name: "Mitali Mohanty ",
         contact: "9264234602 ",
         designation: "Event Managers",
       },
-   {
+      {
         name: "Sushant Mishra",
         contact: "7067718336 ",
         designation: "Event Managers",
       },
-   {
+      {
         name: "Muskan Singh",
         contact: "7389038197",
         designation: "Event Managers",
       },
-  
-   {
+
+      {
         name: "7389038197",
         contact: "9131215762",
         designation: "Event Managers",
       },
     ],
   },
-  
 ];
 
 export default eventsData;

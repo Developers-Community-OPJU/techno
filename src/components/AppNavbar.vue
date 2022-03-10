@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper">
     <div class="navbar">
-      <h2 class="nav-brand">Technorillix'22</h2>
+      <h2 class="nav-brand">Technorollix'22</h2>
       <img
         v-if="!toggle"
         @click="toggleMenu()"
@@ -88,6 +88,7 @@ export default {
   z-index: 5;
   width: 100%;
   height: 100vh;
+  background: #000;
 }
 .nav-list {
   margin-bottom: 3rem;

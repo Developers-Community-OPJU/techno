@@ -2,13 +2,15 @@
   <div class="event-detail">
     <!-- your content here -->
     <div class="event-box">
+      <back />
       <div class="event-description">
         <div class="event-header">
-          <img
-            src="https://images.unsplash.com/photo-1543941869-11da6518d88f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-          />
+          <div class="overlay"></div>
+          <img :src="event.Image" :alt="event.name" />
           <h1>{{ event.name }}</h1>
         </div>
+        <h4>About</h4>
+        <br />
         <p>
           {{ event.desc }}
         </p>
@@ -18,28 +20,20 @@
             <li v-for="rule in event.rules" :key="rule">{{ rule }}</li>
           </ul>
           <h4 class="title">Team</h4>
-          {{ event.team }}
           <div class="team">
-            <div class="member">
+            <div v-for="member in event.team" :key="member" class="member">
               <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
+              <h5 class="">{{ member.name }}</h5>
+              <p>{{ member.designation }}</p>
+              <p>{{ member.contact }}</p>
             </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
-            <div class="member">
-              <img src="@/assets/gamer.png" alt="" />
-              <h5 class="">Aman Vishwakarma</h5>
-              <p>B.tech CSE 8</p>
-            </div>
+          </div>
+          <h4 class="title">Registrations</h4>
+          <div class="event-links">
+            <a :href="event.link" target="_blank" class="registration"
+              >Registration</a
+            >
+            <!-- <a :href="event.link" target="_blank" class="more">Registration</a> -->
           </div>
         </div>
       </div>
@@ -47,22 +41,22 @@
         <span>NOTE:</span><br />Free
         <strong style="color: #a8eb12">Accomodation</strong> will be provided
         for the outside participant.
-      </p>
-      <div class="event-links">
-        <a :href="event.link" class="registration">Registration</a>
-        <a :href="event.link" class="more">Registration</a>
-      </div>
+      </p>     
     </div>
   </div>
 </template>
 
 <script>
 const eventData = require("./eventsData");
+import back from "@/components/backButton.vue";
 export default {
   data() {
     return {
       event: null,
     };
+  },
+  components: {
+    back,
   },
   created() {
     const eventIndex = this.$route.params.eventIndex;
@@ -78,10 +72,6 @@ h5 {
   color: #fff;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
 li {
   padding: 0;
 }
@@ -92,11 +82,18 @@ li {
   border-radius: 5px;
   width: 100%;
   margin-bottom: 2rem;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #061d3f00, #111111);
+  }
   > img {
     border-radius: 5px;
     width: 100%;
     height: 420px;
     object-fit: cover;
+    object-position: center;
   }
   h1 {
     position: absolute;
@@ -146,7 +143,7 @@ li {
           flex-wrap: wrap;
           margin: 2rem 0;
           .member {
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             margin-right: 2rem;
             img {
               height: 80px;
@@ -177,9 +174,7 @@ li {
 
 .event-links {
   display: block;
-  margin: 0 auto;
-  // display: flex;
-  // flex-direction: row;
+  margin: 3rem auto;
   & a {
     width: 50%;
     margin: 0.45rem 0;

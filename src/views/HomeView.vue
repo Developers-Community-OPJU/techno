@@ -1,6 +1,7 @@
 <template>
   <!-- code start here -->
   <preLoader v-if="loading" />
+
   <!-- code end here -->
   <appNavbar></appNavbar>
   <div v-if="!loading" class="home">
@@ -16,7 +17,12 @@
       <h6 class="date" data-aos="fade-down" data-aos-delay="700">
         30th march - 2nd april
       </h6>
-      <router-link to="/events" class="registerBtn" href="/events"
+      <router-link
+        data-aos="fade-right"
+        data-aos-delay="900"
+        to="/events"
+        class="registerBtn"
+        href="/events"
         >Register</router-link
       >
     </div>
@@ -126,10 +132,13 @@ export default {
 
 @keyframes animate-spiral {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(0deg) scale(1);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.5);
   }
 }
 

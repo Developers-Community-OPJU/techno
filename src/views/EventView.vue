@@ -1,4 +1,5 @@
 <template>
+  <back />
   <div class="wrapper">
     <h1 class="section-title" data-aos="fade-right">Events</h1>
     <p v-if="loading" class="loading-text">
@@ -13,6 +14,7 @@
         :data-aos-delay="100 * index * 0.5"
       >
         <div class="overlay"></div>
+        <img :src="event.Image" alt="" />
         <div class="card-details">
           <h3 class="card-title">{{ event.name }}</h3>
           <p class="card-text">
@@ -29,12 +31,16 @@
 </template>
 
 <script>
+import back from "@/components/backButton.vue";
 export default {
   data() {
     return {
       events: [],
       loading: false,
     };
+  },
+  components: {
+    back,
   },
   created() {
     this.loading = true;
@@ -89,31 +95,36 @@ export default {
     background-position: center;
     transition: all 0.5s ease;
     background-size: 150%;
-    text-overflow: ellipsis;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.767)
-      ),
-      url(https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
     height: 480px;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(32, 62, 197, 0.199),
+        rgb(12, 12, 12)
+      );
+    }
     img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       object-position: center;
+      transition: 0.25s ease-in-out;
     }
-    &:hover {
-      background-size: 100%;
-      animation: bg-animate 5s infinite;
-      background-image: linear-gradient(
-          to bottom,
-          rgba(32, 62, 197, 0.678),
-          rgb(12, 12, 12)
-        ),
-        url(https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    &:hover .overlay {
+      background: linear-gradient(
+        to bottom,
+        rgba(12, 29, 104, 0.692),
+        rgb(12, 12, 12)
+      );
     }
     &:hover > .card-details .card-text {
       opacity: 1;
-      max-height: 500px;
+      max-height: 320px;
     }
     &:hover > .card-details .registerBtn,
     &:hover > .card-details .viewBtn {
@@ -134,6 +145,7 @@ export default {
         transition: all 0.2s ease-out;
       }
       .card-text {
+        text-overflow: ellipsis;
         margin-top: 1rem;
         max-height: 0;
         opacity: 0;

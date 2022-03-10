@@ -89,7 +89,6 @@ export default {
   z-index: 5;
   width: 100%;
   height: 100vh;
-  background: #000;
 }
 .nav-list {
   margin-bottom: 3rem;
@@ -125,7 +124,7 @@ export default {
     }
     transition: all 0.5s ease;
     margin-bottom: 1rem;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: bolder;
     list-style: none;
   }

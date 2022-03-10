@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EventView from "../views/EventView.vue";
-import NotFound from "../views/NotFound.vue";
+import ScheduleView from "../views/ScheduleView.vue";
 import EventDetail from "../components/events/EventDetail.vue";
 
 const routes = [
@@ -30,15 +30,19 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: "/:catchAll(.*)",
-    name: "404Page",
-    component: NotFound,
+    path: "/schedule",
+    name: "schedule",
+    component: ScheduleView,
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+
+router.beforeEach(() => {
+  window.scrollTo(0, 0);
 });
 
 export default router;

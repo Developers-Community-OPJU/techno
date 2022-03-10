@@ -891,6 +891,209 @@ premises where participants need to come and take quiz. The final round will occ
       },
     ],
   },
+  
+  {
+    name: "STARTUP BUSINESS PLAN ",
+    desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
+Project idea topic must be related to any growing research area of management and economics field.`,
+    Image:
+      "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+    link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
+    faqs: [
+      {
+        question: "1) What is Startup Business Plan?",
+        answer: "This quiz covers various topics of business, companies, and related things.",
+      },
+      {
+        question: "2) Who can participate in Startup Business Plan?",
+        answer: "Anyone can participate in this event after their registration on the website",
+      },
+    ],
+    rules: [
+      "1.	The minimum number of students in team would be 2 and maximum could be 5.. ",
+      "2.	Each team will be allotted with 15 minutes where 10 minutes is for presentation and 5 minutes for questionnaires round with audience and judges..",
+      "3.Students must carry and are responsible for their pen drives and laptops.",
+     
+    ],
+    timeline: "31st March 2:30pm (EEE Seminar hall)",
+    team: [
+      {
+        name: "Dr. Adil Khan",
+        contact: "8445457996",
+        designation: "Faculty Co-ordinator",
+      },
+      
+       {
+        name: "Dr. Sukanta Sahoo",
+        contact: "9937646042",
+        designation: "Faculty Co-ordinator",
+      },
+       {
+        name: "Pawan Gupta",
+        contact: "89815567023",
+        designation: "Event Manager",
+      },
+       {
+        name: "Suryaranjan Satapathy",
+        contact: "7869199650",
+        designation: "Co-ordinator",
+      },
+       {
+        name: "Prakash Nishad",
+        contact: "7617346510",
+        designation: "Co-ordinator",
+      },
+       {
+        name: "Omkar Das Sharma",
+        contact: "6267963520",
+        designation: "Co-ordinator",
+      },
+    ],
+  },
+  
+  {
+    name: "MASTER-CHEF",
+    desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
+           Structure of the Event:
+            There will be three rounds:
+            1.	Selection Round: There will be a non burner round for the selection, after this top 15 teams will be selected.
+            2.	Team-up Round: The selected 15 team will be divided in 3 groups and have to perform the task given to them . In this only best dishes will be selected.(Minimum-3, Maximaum-5)
+            3.	Final Round : The final round will be einteresting as the dishes to be prepared will be given on the spot.
+`,
+    Image:
+      "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: [
+      "Age limit 16-30 years. ",
+      "There will be 3 rounds.",
+      "No partilally prepared food is allowed (e.g., boiled potato etc.)",
+      "All the things will be provided by the masterchef team.",
+      "The outsider participants have to pay the registration fees for the enrollment i.e., 250 per entry.",
+      "No arguments will be accepted regarding results & elimination if found the team will be disqualified.",
+      "Only fair play.",
+      "There will be time limit for each round, if any team would be found exciding the limit will be disqualified.",
+   
+    ],
+    timeline: "",
+    team: [
+      {
+        name: "Uma Yadav",
+        contact: "7898806603",
+        designation: "Event Manager",
+      },
+      {
+        name: "Parul Singh",
+        contact: "8349429528",
+        designation: "Event Manager",
+      },
+      {
+        name: "Parul Singh Thakur",
+        contact: "8889055521",
+        designation: "Head Coordinator",
+      },
+      {
+        name: "Vaibhav Gupta",
+        contact: "8827902201",
+        designation: "Head Coordinator",
+      },
+    ],
+  },
+  
+  {
+    name: "THE ETHNIC FASHION SHOW",
+    desc: `“You can have anything you want in life if you dress for it”
+A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing and accessories. Our university is organising this event from consecutive 10 years where we get participations from all over India. Faishon show is all about Walking through a collaborative efforts between candidates.
+“Style is a way to say WHO YOU ARE without having to speak"
+Structure of Event
+There will 3 Rounds in “THE ETHNIC FASHION SHOW”
+●	1st Round will be Audition Round
+●	2nd Round will be Semi Finale
+●	3rd Round will be GRAND FINALE
+`,
+    Image:"https://images.unsplash.com/flagged/photo-1568988041298-26931e97a28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      
+    link: "https://forms.gle/3QQAAnUtEEiK9h578",
+    faqs: [
+      {
+        question: "Will college provides dresses for all the rounds?",
+        answer: "No, Clg will only help you in Grand Finale . For other rounds you have to arrange the dresses and accessories.",
+      },
+      {
+        question: "Venue of Events?",
+        answer: "For 1st round venue will be in front of Chemistry Lab. For 2nd Round venue will be TB-01 and Finale will be ON STAGE.",
+      },
+    ],
+    rules: [
+      "Vulgarity is strictly prohibited. ",
+      "Any Form Of Obscenity will lead to debarring the team from the contest.",
+      "Participants Will be Judged on costumes,themes,walking stance and attitude.",
+      "Decision of the Judges will be Final and binding",
+      "Time Limit for every participant on the ramp and activities involved will be 3-5 minutes.",
+      "Responsibility of the given dresses and accessories given by us will be of participants. If in case the dress and accessories gets spoiled then that particular participant will have to pay.",
+      "Participants should respect the task given by judges and should also cooperate with everyone.",
+     
+    ],
+    timeline: "Before 21st for College students "
+              "Before 27th for Outside students",
+    team: [
+      {
+        name: "Prof. Pushpanjali S Hota",
+        contact: "9109977047 ",
+        designation: "Faculty Coordinators",
+      },
+  
+   {
+        name: "Prof. Tulika Gupta ",
+        contact: "9109977055",
+        designation: "Faculty Coordinators",
+      },
+  
+   {
+        name: "Prof. Rupesh Patel ",
+        contact: "9109909248",
+        designation: "Faculty Coordinators",
+      },
+  
+   {
+        name: "Amul Raj ",
+        contact: "9575179658",
+        designation: "Event Managers",
+      },
+  
+   {
+        name: "Mitali Mohanty ",
+        contact: "9264234602 ",
+        designation: "Event Managers",
+      },
+   {
+        name: "Sushant Mishra",
+        contact: "7067718336 ",
+        designation: "Event Managers",
+      },
+   {
+        name: "Muskan Singh",
+        contact: "7389038197",
+        designation: "Event Managers",
+      },
+  
+   {
+        name: "7389038197",
+        contact: "9131215762",
+        designation: "Event Managers",
+      },
+    ],
+  },
+  
 ];
 
 export default eventsData;

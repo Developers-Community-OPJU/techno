@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <img src="../assets/about_logo.png" />
     <h1 class="section-title" data-aos="fade-right">
       About OP Jindal University
     </h1>
@@ -96,5 +97,9 @@ p {
 }
 span {
   color: #fc466b;
+}
+img {
+  padding: 20px 10vh 20px 10vh;
+  height: 100px;
 }
 </style>

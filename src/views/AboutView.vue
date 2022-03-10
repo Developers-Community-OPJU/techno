@@ -1,6 +1,8 @@
 <template>
   <div class="about">
     <back />
+    <img src="../assets/about_logo.png" />
+    <img src="../assets/opju_logo.png" />
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
     </h1>
@@ -127,5 +129,11 @@ p {
 }
 span {
   color: #fc466b;
+}
+img {
+  padding: 20px;
+  pointer-events: none;
+  height: 100px;
+  width: auto;
 }
 </style>

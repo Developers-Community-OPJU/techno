@@ -2,6 +2,7 @@
   <div class="about">
     <back />
     <img src="../assets/about_logo.png" />
+    <img src="../assets/opju_logo.png" />
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
     </h1>

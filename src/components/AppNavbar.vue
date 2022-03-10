@@ -62,7 +62,6 @@ export default {
   position: fixed;
   min-width: 100%;
   z-index: 9;
-  background: #000;
   margin-top: 2rem;
 }
 .nav-brand {

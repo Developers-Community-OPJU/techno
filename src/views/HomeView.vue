@@ -132,25 +132,26 @@ export default {
 
 @keyframes animate-spiral {
   0% {
-    transform: rotate(0deg) scale(1);
+    transform: rotate(0deg);
   }
   50% {
-    transform: rotate(0deg) scale(1);
+    transform: rotate(180deg);
   }
   100% {
-    transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg);
   }
 }
 
 @media (max-width: 576px) {
   .home {
     .content {
-      padding: 3rem;
+      padding: 2rem;
       padding-top: 15rem;
       width: 100%;
       color: #fff;
       .tagline2 {
         font-size: 1rem;
+        width: 95%;
       }
       .headline {
         margin: 1rem 0 1rem 0;

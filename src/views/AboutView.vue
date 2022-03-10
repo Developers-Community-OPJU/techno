@@ -1,8 +1,10 @@
 <template>
   <div class="about">
     <back />
-    <img src="../assets/about_logo.png" />
-    <img src="../assets/opju_logo.png" />
+    <div class="logo">
+      <img class="techno-logo" src="../assets/about_logo.png" />
+      <img class="opju-logo" src="../assets/opju_logo.png" />
+    </div>
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
     </h1>
@@ -96,6 +98,21 @@ export default {
   margin: 0 auto;
   padding: 5rem 0;
 }
+.opju-logo {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0;
+  margin-left: auto;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  pointer-events: none;
+  img {
+    height: 100px;
+    width: auto;
+  }
+}
 .section-title {
   background: #fc466b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -130,10 +147,9 @@ p {
 span {
   color: #fc466b;
 }
-img {
-  padding: 20px;
-  pointer-events: none;
-  height: 100px;
-  width: auto;
+@media (max-width: 652px) {
+  .about {
+    width: auto;
+  }
 }
 </style>

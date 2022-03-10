@@ -101,5 +101,6 @@ span {
 img {
   padding: 20px 10vh 20px 10vh;
   height: 100px;
+  pointer-events: none;
 }
 </style>

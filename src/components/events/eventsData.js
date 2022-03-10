@@ -97,33 +97,89 @@ const eventsData = [
     ],
   },
   {
-    name: "Robovation",
-    desc: `Construct Your Machine to have the maximum speed to beat other machines on the given track to reach the final destination in minimum time. You have to build a manually controlled robot capable of traversing over different terrain and hurdles. There will be separate points for overcoming the obstacles as well as the other parameter being within time. Thus, the bot with the most cumulative points will win. The aim of the event is to check the robustness of the vehicle and its competence with the opponent on the same track. `,
+    name: "Robovation - Robo Race",
+    desc: `In this competition, the contestant or team of contestants should design a robot either wired or wireless within the specified dimensions that can be operated manually. The robot that will complete the specified task in the least time will be the winner.
+    The robot must run on the given racetrack. There will be certain obstacles in the racetrack that will try to slow down the robot. The robot has to travel over different terrain and hurdles without going outside the track. The robot that will complete the specified task in the least time will 
+    be the winner.`,
     Image:
-      "https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80",
-    link: "",
+      "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://forms.gle/SjBCga4GXdi4RcHf8",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "How to register for Robovation?",
+        answer: "Through registration link",
       },
       {
-        question: "",
-        answer: "",
+        question: "Is it free to register for Robovation?",
+        answer: ` For OP Jindal University , it is free
+                  For outsiders:
+                  Solo: Rs. 100
+                  Group of 5: Rs. 300
+                  Group of more than 5: Rs. 500`,
+      },
+      {
+        question: "How many people can be there in one team?",
+        answer: "A team can have a maximum 4 members in it.",
+      },
+      {
+        question: "Can a team have members from different colleges?",
+        answer: "Yes",
+      },
+      {
+        question: "Can I register for more than one event?",
+        answer: "Yes ",
       },
     ],
-    rules: ["Rule 1 ", "rule 2"],
-    timeline: "",
+    rules: ["	The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b x h).", 
+            "	The robot may be wired or wireless.",
+            "	Motor rpm specification: 150 rpm to 300 rpm.",
+            "	Maximum weight must not exceed 4 kg.",
+            "	The participants should have to provide a power supply onboard (no additional power supply is accepted).",
+            "	The machine must not be made from Lego parts, or any ready-made kit, if we find such a machine it will be disqualified.",
+            "	The length of the wire (for wired bots) should be long enough to cover the whole track and the wire should remain slack during the complete run.",
+            "	The machine must be powered electrically only. Use of IC engine is not allowed.",
+            "	Batteries must be sealed, immobilized electrolyte type (gel cell, lithium, NiCad, or dry cells)",
+            "	The electric voltage anywhere in the machine should not be more than 12V DC at any point in time",
+            "	The robot should be as per the given specifications. ",
+            "	Each team can have a maximum of four members. Students from different institutes can form a team.",
+            "	Each member of the team must contain the identity card of his/her respected institute.",
+            "	The robot should not damage the arena",
+            "	No test practice will be allowed in the arena.",
+            "	The robot must not leave behind any of its parts during the run; else it will result in disqualification.",
+            "	Unethical behavior could lead to disqualification. ",
+            "	Faculty coordinators have all the rights to take final decisions for any matter during the event.",
+            "	The judge’s decision will be considered final.",
+            "	Certificates of Participation will be given to all the teams that will participate in the event but not to the teams which get disqualified due to disobeying any of the competition rules. ",
+            "	The coordination committee reserves the right to add or update any rule.",
+            "	The track surface and course line may have unevenness.",
+            "	There will be certain obstacles in the racetrack that will try to slow down the robot.",
+            "	The design and size of the track will be shown at the event.",
+            "	The competition is based on a time trial system. There will be a qualifying round for each team.",
+            "	The top team from the qualifying round makes it to the final round on basis of time trials.",
+           "	If any of the robots start off before the start-up call, the counter would be restarted, and the team will get a second chance. If repeated again then the team will be disqualified.",
+           "	The robot team must be ready when a call is made for your team.",
+           "	Team members will be allowed only three times to touch or reset their robot’s position during the run. However, this will lead to a time penalty and the timer will not stop during this course of action.",
+           "	The robot will be judged on basis of (in priority):- a. Time to complete the track. b. The number of checkpoints cleared.",
+           "	The bot must not contain any readymade kits, pneumatic & hydraulic systems, IC engines.",
+           "	The decision about the robot will be taken by the organizers.",
+           "No team will get a second chance after completing the track with a poor score.",
+           "The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run."],
+    timeline: "Between 30th March to 02nd April 2022 , Volleyball Court ",
     team: [
       {
-        name: "",
-        contact: "",
-        designation: "",
+        name: "Kamal Pandey ",
+        contact: "7024390695 , kamalpandey477@gmail.com",
+        designation: "Event Manager",
+      },
+      {
+        name: "Shashi Kumar Singh ",
+        contact: "9853774373 , Shashisingh1403@gmail.com",
+        designation: "Event Manager",
       },
     ],
   },
   {
-    name: "Exhibiton and Expo - Photorollix",
+    name: "Exhibition and Expo - Photorollix",
     desc: `In this event participants need to click a selfie of their own based on our themes and judges will evaluate according to set criteria. 
     The themes will be divided into various parts depicting  rounds:
      The themes will be decided later on.
@@ -148,7 +204,7 @@ const eventsData = [
       "You strictly have to mention the Message and Location of your clicked snap in Google form.",
       "Register only once in google form. Twice registering will be subjected to disqualification also. Do mention all your details correctly.",
       "The points will be given in 2 parts 50% will be given by our judge and rest 50% will be on basis of like comments and social engagements.",
-      "If participants have their Instagramid then they have to follow our page before sending their entries.",
+      "If participants have their Instagram id then they have to follow our page before sending their entries.",
       "If your entry is selected then we will personally mail you for the next round.",
       "The prizes and certificates will be directly given from college on the Prize Distribution Day.",
       "For further details contact: Event Managers & Faculty Coordinator.",
@@ -168,12 +224,12 @@ const eventsData = [
       {
         name: "Vedaj Patel",
         contact: "",
-        designation: "Coordinater",
+        designation: "Coordinator",
       },
     ],
   },
   {
-    name: "Exhibiton and Expo - Glass Painting",
+    name: "Exhibition and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass and this event contain only single round.This event is a theme based event and the theme is Festivals`,
     Image:
       "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
@@ -208,7 +264,7 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibiton and Expo - Face Painting",
+    name: "Exhibition and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
     Image:
       "https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -234,12 +290,12 @@ const eventsData = [
       {
         name: "Simrella Agrawal \n (CSE, 6th Sem) ",
         contact: "7489211170",
-        designation: "Event Managers",
+        designation: "Event Manager",
       },
     ],
   },
   {
-    name: "Exhitbiton and Expo - Decoration",
+    name: "Exhibition and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
     Image:
       "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -269,7 +325,7 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibiton and Expo - Rangoli",
+    name: "Exhibition and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
     Image:
       "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
@@ -300,7 +356,7 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibiton and Expo - Colour Painting",
+    name: "Exhibition and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
     Image:
       "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
@@ -333,7 +389,7 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibiton and Expo - OPJU Alumni logo and Flag Design",
+    name: "Exhibition and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
     Image:
       "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -545,12 +601,18 @@ premises where participants need to come and take quiz. The final round will occ
 
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "What is the Registration fee? ",
+        answer: ` For outsiders
+        School Students – 50/ per person
+         College Students- 150/ per person`,
       },
       {
-        question: "",
-        answer: "",
+        question: "In how many game one can participate? ",
+        answer: "Maximum 2 games",
+      },
+      {
+        question: "Who can participate? ",
+        answer: "No age restrictions",
       },
     ],
     rules: [
@@ -627,12 +689,18 @@ premises where participants need to come and take quiz. The final round will occ
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "What is the Registration fee? ",
+        answer: ` For outsiders
+        School Students – 50/ per person
+         College Students- 150/ per person`,
       },
       {
-        question: "",
-        answer: "",
+        question: "In how many game one can participate? ",
+        answer: "Maximum 2 games",
+      },
+      {
+        question: "Who can participate? ",
+        answer: "No age restrictions",
       },
     ],
     rules: [
@@ -708,13 +776,19 @@ premises where participants need to come and take quiz. The final round will occ
     Image: "https://images7.alphacoders.com/856/thumb-1920-856231.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
-      {
-        question: "",
-        answer: "",
+     {
+        question: "What is the Registration fee? ",
+        answer: ` For outsiders
+        School Students – 50/ per person
+         College Students- 150/ per person`,
       },
       {
-        question: "",
-        answer: "",
+        question: "In how many game one can participate? ",
+        answer: "Maximum 2 games",
+      },
+      {
+        question: "Who can participate? ",
+        answer: "No age restrictions",
       },
     ],
     rules: [
@@ -780,13 +854,19 @@ premises where participants need to come and take quiz. The final round will occ
     desc: ``,
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
-      {
-        question: "",
-        answer: "",
+        {
+        question: "What is the Registration fee? ",
+        answer: ` For outsiders
+        School Students – 50/ per person
+         College Students- 150/ per person`,
       },
       {
-        question: "",
-        answer: "",
+        question: "In how many game one can participate? ",
+        answer: "Maximum 2 games",
+      },
+      {
+        question: "Who can participate? ",
+        answer: "No age restrictions",
       },
     ],
     rules: [
@@ -858,7 +938,7 @@ premises where participants need to come and take quiz. The final round will occ
 4.Maximum registrations will for first 50 teams including outside university teams.
 5.Team limit : Minimum = 4 members.
   Maximum = 6 members.
-  Date of event 30th March 2022.
+  
   Total prize money = Rs 5000.`,
     Image:
       "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
@@ -874,15 +954,15 @@ premises where participants need to come and take quiz. The final round will occ
       },
     ],
     rules: [
-      "1.	Participants cannot use their mobile phone during game. ",
-      "2.	Do not misbehave with coordinator and co-ordinator.",
-      "3.	Participants can't take any help or aid other than team member.",
-      "4. Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
-      "5.All participants must be present at the venue on time.",
-      "6.In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
-      "7.In case of any dispute, organising committee's decision will be final.",
+      "Participants cannot use their mobile phone during game. ",
+      "Do not misbehave with coordinator and co-ordinator.",
+      "Participants can't take any help or aid other than team member.",
+      "Teams may disqualify if any team found notice following things:Interfering with other teams,Damaging of the University properties,Violation of rules",
+      "All participants must be present at the venue on time.",
+      "In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
+      "In case of any dispute, organising committee's decision will be final.",
     ],
-    timeline: "",
+    timeline: "30th March 2022 , ",
     team: [
       {
         name: "",
@@ -891,6 +971,124 @@ premises where participants need to come and take quiz. The final round will occ
       },
     ],
   },
+  {
+    name: "Exhibition and Expo - Exhibition",
+    desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
+    Image:
+      "",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
+    faqs: [
+      {
+        question: "Is this a group event",
+        answer: "No ",
+      },
+    ],
+    rules: ["Participants need to bring their collection and showcase them in the central library "
+            , "Registration for event is only valid through google forms.",
+            "Bring your collection before 29th march."],
+    timeline: "29th March , Central Library",
+    team: [
+      {
+        name: "Dharashree Patnaik \n  (EE, 6th Sem)",
+        contact: "8305374964",
+        designation: "Event Manager",
+      },
+       {
+        name: "Himanshi Singh Chandel",
+        contact: "",
+        designation: "Coordintor",
+      },
+    ],
+  },
+  {
+    name: "Robovation - Robosoccer",
+    desc: `It’s football time and no one plays soccer better than the engineers, in their own sophisticated way we hail this event ROBO SOCCER. All you soccer fans hold your breath, as we present to you soccer with an entirely new dimension. So, if you are up for the challenge get your manual soccer-playing bots ready in order to compete on the biggest stage and bring out the hidden RONALDO, MESSI in you…its time you stop watching soccer on screens. Participate and have lots of fun it’s going to be thrilling for sure…...enjoy the event!!!
+Organized by OP Jindal University under the banner of ‘Technorollix 2022 “Robovation”
+
+The objective is to design a manual robot that can compete in an arena specially designed for a robotic soccer match. The event is aimed at testing the Flipping, Kicking, maneuvering skills, and the control of the robot. The event mainly consists of ROUNDS 1 and 2.
+ROUND 1 (Elimination):
+•	5 balls are placed at specified locations on the arena.
+•	Time limit is 3 minutes.
+•	Participants can drive, push or hit the ball into any of the goalposts.
+•	Points = number of goals.
+•	If the ball is hit out of the arena, then it will not be placed back.
+
+ROUND 2:
+•	Only one ball will be placed at the center, robots are initially placed at their respective goalposts.
+•	Time limit is 5 minutes.
+•	1 no. of goals = 5 points.
+•	Participants should hit the ball into the opponent’s goal to score points.
+•	Each participant can make as many goals as possible in a limited time.
+•	Robot gets negative points (2 points) each time if it intentionally hits the opponent robot.
+•	If the ball gets hit out of the arena, then a penalty shot will be given to the opponent team (The opponent team will hit the ball from the centerline of the track without the opponent robot.
+
+ROBOT SPECIFICATIONS:
+•	The robot should fit inside a box of 30cm*30cm*20cm.
+•	Robot should not exceed 4 kg.
+•	The robot can be wired, wireless or autonomous.
+•	The robot should be self-powered with a supply not exceeding 12V (on board power supply ).
+•	Power supply (only DC) is allowed. Participants cannot draw power from outside main (220V) power supply. 
+•	Only one participant should control the robot and one for holding the wire. No player can be exchanged in the match.
+
+
+`,
+    Image:
+      "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    link: "https://forms.gle/SjBCga4GXdi4RcHf8",
+    faqs: [
+     {
+        question: "How to register for Robovation?",
+        answer: "Through registration link",
+      },
+      {
+        question: "Is it free to register for Robovation?",
+        answer: ` For OP Jindal University , it is free
+                  For outsiders:
+                  Solo: Rs. 100
+                  Group of 5: Rs. 300
+                  Group of more than 5: Rs. 500`,
+      },
+      {
+        question: "How many people can be there in one team?",
+        answer: "A team can have a maximum 4 members in it.",
+      },
+      {
+        question: "Can a team have members from different colleges?",
+        answer: "Yes",
+      },
+      {
+        question: "Can I register for more than one event?",
+        answer: "Yes ",
+      },
+    ],
+    rules: ["Team can have a maximum number of four members."
+            ,"Only one participant should control the robot and one for holding the wire. No player can be exchanged in the middle of the match.",
+            "A robot can push or hit the ball. It cannot withhold or grab the ball.",
+            "Motor should be 150 rpm to 300 rpm.",
+            "Human interference (e.g., touching the robot) during the game is not allowed.",
+            "If there is any technical issue with the robot a technical time out will be given for 2 minutes.",
+            "Decision of the Judges and Event Organizers shall be treated as final and binding on all and cannot be contested. ",
+            "The event coordinator is the match referee. He takes all the decisions and participants have to abide by them.",
+            "No more AC/DC power supply will be provided at the sight of play.",
+            "Coordinators reserve the right to ask for an explanation of the robot. The coordinator can change the rules of the game depending on the situation.",
+            "Rules & Regulations may change without prior notice, by the Event organizers.",
+            "Positions of balls will be decided by the organizers during the match.",
+            "The length of the wire (for wired bots) should be long enough and you cannot drag the wire during hitting the ball, the wire should remain slack during the event."],
+    timeline: "Between 30th March to 02nd April 2022 ,Badminton Court",
+    team: [
+      {
+        name: "Shashi Kumar Singh ",
+        contact: "9853774373, shashisingh1403@gmail.com	",
+        designation: "Event Manager",
+      },
+      {
+        name: "Kamal Pandey ",
+        contact: "9752764369",
+        designation: "Event Manager",
+      },
+    ],
+  },
+  
 ];
 
 export default eventsData;

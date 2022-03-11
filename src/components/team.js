@@ -17,7 +17,7 @@ const teams = [
         designation: "Team Lead",
       },
       {
-        name: "Subhrat Jena",
+        name: "Subrat Jena",
         image: require("@/assets/subhrat.png"),
         designation: "Developer",
       },

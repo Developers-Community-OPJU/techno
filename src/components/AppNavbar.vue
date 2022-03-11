@@ -32,6 +32,9 @@
           <router-link to="/team">Team <span>.</span></router-link>
         </li>
         <li>
+          <router-link to="/gallery">Gallery <span>.</span></router-link>
+        </li>
+        <li>
           <router-link to="/about">About US <span>.</span></router-link>
         </li>
       </ul>

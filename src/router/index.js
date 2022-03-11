@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EventView from "../views/EventView.vue";
 import TeamView from "../views/TeamView.vue";
+import GalleryView from "../views/GalleryView.vue";
 import ScheduleView from "../views/ScheduleView.vue";
 import EventDetail from "../components/events/EventDetail.vue";
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/team",
     name: "team",
     component: TeamView,
+  },
+  {
+    path: "/gallery",
+    name: "gallery",
+    component: GalleryView,
   },
 ];
 

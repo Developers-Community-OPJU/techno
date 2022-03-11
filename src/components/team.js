@@ -28,7 +28,7 @@ const teams = [
       },
       {
         name: "Utkarsh Dixit",
-        image: require("@/assets/utkarsh.png"),
+        image: require("@/assets/utkarsh1.png"),
         designation: "Developer",
       },
       {

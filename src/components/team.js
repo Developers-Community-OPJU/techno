@@ -27,18 +27,18 @@ const teams = [
         designation: "Developer",
       },
       {
-        name: "Utkarsh Singh",
+        name: "Utkarsh Dixit",
         image: require("@/assets/utkarsh.png"),
+        designation: "Developer",
+      },
+      {
+        name: "Akshita Soni",
+        image: require("@/assets/akshita.png"),
         designation: "Developer",
       },
       {
         name: "Swati Mishra",
         image: require("@/assets/swati.png"),
-        designation: "Developer",
-      },
-      {
-        name: "Akshita Singh",
-        image: require("@/assets/akshita.png"),
         designation: "Developer",
       },
       {

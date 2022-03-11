@@ -22,13 +22,13 @@ const teams = [
         designation: "Developer",
       },
       {
-        name: "Simeral Agrawal",
+        name: "Simrella Agrawal",
         image: require("@/assets/simrella.png"),
         designation: "Developer",
       },
       {
         name: "Utkarsh Dixit",
-        image: require("@/assets/utkarsh.png"),
+        image: require("@/assets/utkarsh1.png"),
         designation: "Developer",
       },
       {

@@ -131,6 +131,7 @@ export default {
   .teams {
     width: 100%;
     margin: 5rem auto;
+    padding-bottom: 5px;
     .heading {
       font-size: 3rem;
       text-align: center;
@@ -142,7 +143,7 @@ export default {
 }
 
 .team-section {
-  margin: 2rem 0 10rem 0;
+  margin: 1rem 0 8rem 0;
   &-heading {
     margin-bottom: 3rem;
     font-size: 1.5rem;

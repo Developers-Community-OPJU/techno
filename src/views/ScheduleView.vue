@@ -64,7 +64,7 @@ export default {
 
         width: 5px;
         height: 16%;
-        animation: animate 550ms ease-in-out forwards infinite alternate;
+        animation: animate 2.8s ease-in-out forwards infinite alternate;
       }
       @keyframes animate {
         0% {
@@ -72,16 +72,16 @@ export default {
         }
         50% {
           transform: translateY(90px);
-          background: #e53935; /* fallback for old browsers */
+          background: #e44d26; /* fallback for old browsers */
           background: -webkit-linear-gradient(
             to right,
-            #e35d5b,
-            #e53935
+            #f16529,
+            #e44d26
           ); /* Chrome 10-25, Safari 5.1-6 */
           background: linear-gradient(
             to right,
-            #e35d5b,
-            #e53935
+            #f16529,
+            #e44d26
           ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
         100% {

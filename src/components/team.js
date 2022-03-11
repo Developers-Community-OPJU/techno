@@ -48,8 +48,8 @@ const teams = [
       },
     ],
   },
-  
-   {
+
+  {
     name: "Organizing Team",
     team: [
       {
@@ -57,42 +57,42 @@ const teams = [
         image: "",
         designation: "Mentors",
       },
-        {
+      {
         name: "Dr. Sanjay Singh",
         image: "",
         designation: "Mentors",
       },
-        {
+      {
         name: "Dr. Swati Verma",
         image: "",
         designation: "Convener",
       },
-        {
+      {
         name: "Dr. Trinath Talapaneni",
         image: "",
         designation: "Convener",
       },
-        {
+      {
         name: "Dr. Nitesh Bhardwaj",
         image: "",
         designation: "Co-Convener",
       },
-        {
+      {
         name: "Dr. Imran Quadri",
         image: "",
         designation: "Co-Convener",
       },
-        {
+      {
         name: "Prof. Tulika Gupta",
         image: "",
         designation: "Co-Convener",
       },
-       {
+      {
         name: "Prof. Pushpanjali",
         image: "",
         designation: "Co-Convener",
       },
-       {
+      {
         name: "Dr. Rekha Sharma",
         image: "",
         designation: "Co-Convener",

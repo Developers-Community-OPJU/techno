@@ -1,11 +1,11 @@
 const eventsData = [
   {
     name: "Tech lab",
-    desc: `Tech lab is one of the most prestigious events of Technorollix, which is the biggest tech festival in central India. The events shows the creativity and potential of bright minds from different universities through their self-developed model.
-    `,
+    desc: `Tech lab is one of the most prestigious events of Technorollix, which is the biggest tech festival in central India.
+    The events shows the creativity and potential of bright minds from different universities through their self-developed model.`,
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
+    link:"https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
         question: "",
@@ -240,7 +240,7 @@ const eventsData = [
       {
         question:
           "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
-        answer: "Transparent Thin Glass Slab will be provided.",
+          answer: "Transparent Thin Glass Slab will be provided.",
       },
       {
         question: "Will the paints will be provided in the event ?",
@@ -359,7 +359,7 @@ const eventsData = [
   },
   {
     name: "Exhibition and Expo - Colour Painting",
-    desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
+    desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media.`,
     Image:
       "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
@@ -549,47 +549,47 @@ premises where participants need to come and take quiz. The final round will occ
       {
         name: "Sanskar Pandey ",
         contact: "7987961784",
-        designation: "Coordinaters",
+        designation: "Coordinator",
       },
       {
         name: "Ujjwal Kesharwani ",
         contact: "7770971760",
-        designation: "Coordinaters",
+        designation: "Coordinator",
       },
       {
         name: "Faizan Ahmad  ",
         contact: "6265325535",
-        designation: "Coordinaters",
+        designation: "Coordinator",
       },
       {
         name: "Ayush Kumar Tiwari ",
         contact: "8085752401",
-        designation: "Coordinaters",
+        designation: "Coordinator",
       },
       {
         name: "Anjali Patel ",
         contact: "",
-        designation: "Co-Coordinaters",
+        designation: "Co-Coordinator",
       },
       {
         name: "Shruti Kashyap",
         contact: "",
-        designation: "Co-Coordinaters",
+        designation: "Co-Coordinator",
       },
       {
         name: "Khushi Patel",
         contact: "",
-        designation: "Co-Coordinaters",
+        designation: "Co-Coordinator",
       },
       {
         name: "Dr. Ankur Rastogi ",
         contact: "",
-        designation: "Faculty Coordinaters",
+        designation: "Faculty Coordinator",
       },
       {
         name: "Dr. Swapnasariti Kar",
         contact: "",
-        designation: "Faculty Coordinaters",
+        designation: "Faculty Coordinator",
       },
     ],
   },
@@ -1094,7 +1094,7 @@ ROBOT SPECIFICATIONS:
   },
 
   {
-    name: "STARTUP BUSINESS PLAN ",
+    name: "Startup Business Plan ",
     desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
 Project idea topic must be related to any growing research area of management and economics field.`,
     Image:
@@ -1154,7 +1154,7 @@ Project idea topic must be related to any growing research area of management an
   },
 
   {
-    name: "MASTER-CHEF",
+    name: "Master Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
            Structure of the Event:
             There will be three rounds:
@@ -1211,15 +1211,15 @@ Project idea topic must be related to any growing research area of management an
   },
 
   {
-    name: "THE ETHNIC FASHION SHOW",
+    name: "AAGHAAZ - The Ethnic Fashion Show",
     desc: `“You can have anything you want in life if you dress for it”
 A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing and accessories. Our university is organising this event from consecutive 10 years where we get participations from all over India. Faishon show is all about Walking through a collaborative efforts between candidates.
 “Style is a way to say WHO YOU ARE without having to speak"
 Structure of Event
-There will 3 Rounds in “THE ETHNIC FASHION SHOW”
-●	1st Round will be Audition Round
-●	2nd Round will be Semi Finale
-●	3rd Round will be GRAND FINALE
+   There will 3 Rounds in “THE ETHNIC FASHION SHOW”
+   ●	1st Round will be Audition Round
+   ●	2nd Round will be Semi Finale
+   ●	3rd Round will be GRAND FINALE
 `,
     Image:
       "https://images.unsplash.com/flagged/photo-1568988041298-26931e97a28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",

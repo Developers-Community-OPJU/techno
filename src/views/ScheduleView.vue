@@ -64,7 +64,7 @@ export default {
 
         width: 5px;
         height: 16%;
-        animation: animate 2.8s ease-in-out forwards infinite alternate;
+        animation: animate 4s ease-in-out forwards infinite alternate;
       }
       @keyframes animate {
         0% {

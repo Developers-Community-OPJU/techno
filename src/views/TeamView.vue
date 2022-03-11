@@ -44,6 +44,7 @@ export default {
   color: #fff;
   width: 60%;
   margin: 10rem auto;
+  padding-bottom: 5px;
   .heading {
     font-size: 3rem;
     text-align: center;

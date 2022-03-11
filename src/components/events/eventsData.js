@@ -5,7 +5,7 @@ const eventsData = [
     The events shows the creativity and potential of bright minds from different universities through their self-developed model.`,
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link:"https://forms.gle/wGuAvFMPtE8wDDAMA",
+    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
         question: "",
@@ -240,7 +240,7 @@ const eventsData = [
       {
         question:
           "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
-          answer: "Transparent Thin Glass Slab will be provided.",
+        answer: "Transparent Thin Glass Slab will be provided.",
       },
       {
         question: "Will the paints will be provided in the event ?",

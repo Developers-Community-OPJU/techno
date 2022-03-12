@@ -1,15 +1,16 @@
 <template>
   <!-- code start here -->
   <preLoader v-if="loading" />
-
   <!-- code end here -->
   <appNavbar></appNavbar>
   <div v-if="!loading" class="home">
+    <img src="@/assets/amrit-mohotsav.png" alt="img" class="banner" />
     <div class="content">
       <h5 class="tagline1" data-aos="fade-right">Welcome to</h5>
       <h5 class="tagline2" data-aos="fade-right" data-aos-delay="300">
         central india's biggest <br />
-        technial and cultural fest
+        technical and cultural fest <br />
+        Presented by <span style="color: orange; font-weight: bold">OPJU</span>
       </h5>
       <h1 class="headline" data-aos="fade-right" data-aos-delay="500">
         Technorollix<span>'22</span>
@@ -64,6 +65,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.banner {
+  width: 120px;
+  position: absolute;
+  left: 15%;
+  top: 2%;
+}
 .home {
   position: relative;
   width: 100%;
@@ -109,7 +116,7 @@ export default {
     position: absolute;
     top: 20%;
     left: 45%;
-    animation: animate-spiral 30s ease infinite;
+    animation: animate-spiral 50s ease infinite;
   }
 }
 
@@ -132,25 +139,35 @@ export default {
 
 @keyframes animate-spiral {
   0% {
-    transform: rotate(0deg) scale(1);
-  }
-  50% {
-    transform: rotate(0deg) scale(1);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) scale(1.5);
+    transform: rotate(720deg);
   }
 }
 
 @media (max-width: 576px) {
+  .banner {
+    width: 116px;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+  }
+  .opju-logo {
+    position: absolute;
+    top: 41%;
+    left: 40%;
+    width: 50px;
+  }
   .home {
     .content {
-      padding: 3rem;
+      padding: 2rem;
       padding-top: 15rem;
       width: 100%;
       color: #fff;
       .tagline2 {
         font-size: 1rem;
+        width: 95%;
       }
       .headline {
         margin: 1rem 0 1rem 0;
@@ -172,7 +189,6 @@ export default {
       position: absolute;
       top: 20%;
       left: 45%;
-      animation: animate-spiral 30s ease infinite;
     }
   }
 }

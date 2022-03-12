@@ -1,21 +1,25 @@
 <template>
   <div class="about">
     <back />
+    <div class="logo">
+      <img class="techno-logo" src="../assets/about_logo.png" />
+      <img class="opju-logo" src="../assets/opju_logo.png" />
+    </div>
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
     </h1>
     <p>
-      Founded by the Jindal Education and Welfare Society, OP Jindal University
-      (OPJU) was set up to bring high quality education to its students based on
-      a world class curriculum, the latest teaching methodology and committed
-      faculty members. The multidisciplinary university aims to develop young
-      professionals and future leaders who will not only power growth and
-      development in the state, but also make a mark globally. At the core of
-      the university's philosophy and approach lies the belief that students
-      learn best when exposed to real world situations and when nurtured through
-      enriching interactions with practitioners and professors. We at OPJU
-      believe that every student has innate potential that can be unlocked
-      through quality teaching and mentorship.
+      Founded by the Jindal Educaticdon and Welfare Society, OP Jindal
+      University (OPJU) was set up to bring high quality education to its
+      students based on a world class curriculum, the latest teaching
+      methodology and committed faculty members. The multidisciplinary
+      university aims to develop young professionals and future leaders who will
+      not only power growth and development in the state, but also make a mark
+      globally. At the core of the university's philosophy and approach lies the
+      belief that students learn best when exposed to real world situations and
+      when nurtured through enriching interactions with practitioners and
+      professors. We at OPJU believe that every student has innate potential
+      that can be unlocked through quality teaching and mentorship.
     </p>
     <h2 class="section-sub-title">Patron's Message</h2>
     <p>
@@ -94,6 +98,21 @@ export default {
   margin: 0 auto;
   padding: 5rem 0;
 }
+.opju-logo {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0;
+  margin-left: auto;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  pointer-events: none;
+  img {
+    height: 100px;
+    width: auto;
+  }
+}
 .section-title {
   background: #fc466b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -127,5 +146,10 @@ p {
 }
 span {
   color: #fc466b;
+}
+@media (max-width: 625px) {
+  .about {
+    width: auto;
+  }
 }
 </style>

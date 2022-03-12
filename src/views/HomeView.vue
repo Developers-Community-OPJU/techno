@@ -4,11 +4,13 @@
   <!-- code end here -->
   <appNavbar></appNavbar>
   <div v-if="!loading" class="home">
+    <img src="@/assets/amrit-mohotsav.png" alt="img" class="banner" />
     <div class="content">
       <h5 class="tagline1" data-aos="fade-right">Welcome to</h5>
       <h5 class="tagline2" data-aos="fade-right" data-aos-delay="300">
         central india's biggest <br />
-        technical and cultural fest
+        technical and cultural fest <br />
+        Presented by <span style="color: orange; font-weight: bold">OPJU</span>
       </h5>
       <h1 class="headline" data-aos="fade-right" data-aos-delay="500">
         Technorollix<span>'22</span>
@@ -63,6 +65,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.banner {
+  width: 120px;
+  position: absolute;
+  left: 15%;
+  top: 2%;
+}
 .home {
   position: relative;
   width: 100%;
@@ -139,6 +147,18 @@ export default {
 }
 
 @media (max-width: 576px) {
+  .banner {
+    width: 116px;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+  }
+  .opju-logo {
+    position: absolute;
+    top: 41%;
+    left: 40%;
+    width: 50px;
+  }
   .home {
     .content {
       padding: 2rem;

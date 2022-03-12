@@ -19,6 +19,13 @@
           <ul v-if="event.rules">
             <li v-for="rule in event.rules" :key="rule">{{ rule }}</li>
           </ul>
+          <h4 class="title">Frequently Asked Questions</h4>
+          <div class="faqs">
+            <div v-for="faq in event.faqs" :key="faq" class="member">
+              <p>{{ faq.question }}</p>
+              <p>{{ faq.answer }}</p>
+            </div>
+          </div>
           <h4 class="title">Team</h4>
           <div class="team">
             <div v-for="member in event.team" :key="member" class="member">
@@ -26,13 +33,6 @@
               <h5 class="">{{ member.name }}</h5>
               <p>{{ member.designation }}</p>
               <p>{{ member.contact }}</p>
-            </div>
-          </div>
-          <h4 class="title">Frequently Asked Questions</h4>
-          <div class="team">
-            <div v-for="faq in event.faqs" :key="faq" class="member">
-              <p>{{ faq.question }}</p>
-              <p>{{ faq.answer }}</p>
             </div>
           </div>
           <h4 class="title">Registrations</h4>

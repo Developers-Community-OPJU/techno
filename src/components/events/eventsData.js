@@ -1604,32 +1604,6 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
       },
     ],
   },
-  {
-    name: "Dj Hunt",
-    desc: ``,
-    Image:
-      "https://images.unsplash.com/photo-1560811514-187c3be176cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
-    link: "",
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    rules: ["", "", ""],
-    timeline: "",
-    team: [
-      {
-        name: "",
-        contact: "",
-        designation: "",
-      },
-    ],
-  },
 ];
 
 export default eventsData;

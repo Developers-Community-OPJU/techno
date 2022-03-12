@@ -19,12 +19,12 @@ const teams = [
       },
       {
         name: "Dr. Trinath Talapaneni",
-        image: require("@/assets/Trinath.png.png"),
+        image: require("@/assets/trinath.png.png"),
         designation: "Convener",
       },
       {
         name: "Dr. Nitesh Bhardwaj",
-        image: require("@/assets/Nitesh.png.png"),
+        image: require("@/assets/nitesh.png.png"),
         designation: "Co-Convener",
       },
       {

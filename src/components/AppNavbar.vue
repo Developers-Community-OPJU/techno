@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper">
     <div class="navbar">
-      <h2 class="nav-brand">Technorillix'22</h2>
+      <h2 class="nav-brand">Technorollix'22</h2>
       <img
         v-if="!toggle"
         @click="toggleMenu()"
@@ -30,6 +30,9 @@
         </li>
         <li>
           <router-link to="/team">Team <span>.</span></router-link>
+        </li>
+        <li>
+          <router-link to="/gallery">Gallery <span>.</span></router-link>
         </li>
         <li>
           <router-link to="/about">About US <span>.</span></router-link>
@@ -62,7 +65,6 @@ export default {
   position: fixed;
   min-width: 100%;
   z-index: 9;
-  background: #000;
   margin-top: 2rem;
 }
 .nav-brand {
@@ -89,6 +91,7 @@ export default {
   z-index: 5;
   width: 100%;
   height: 100vh;
+  background: #000;
 }
 .nav-list {
   margin-bottom: 3rem;

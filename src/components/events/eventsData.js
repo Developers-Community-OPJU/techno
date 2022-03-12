@@ -2,7 +2,7 @@ const eventsData = [
   {
     name: "Tech lab",
     desc: `Tech lab is one of the most prestigious events of Technorollix, which is the biggest tech festival in central India.
-    The events shows the creativity and potential of bright minds from different universities through their self-developed model.`,
+    The event shows the creativity and potential of bright minds from different universities through their self-developed model.`,
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
@@ -19,16 +19,16 @@ const eventsData = [
     rules: [
       " All the exhibits must reach the venue one hour prior to the prescribed time to install all the necessary components for their model",
       "Maximum of 5 participants are allowed per group.",
-      "The exhibit should be a creation of the student, which either illustrates or demonstrates a novel idea or device in an original manner.The ontributions made by others must be acknowledged on the exhibit or in the report.",
+      "The exhibit should be a creation of the student, which either illustrates or demonstrates a novel idea or device in an original manner. The contributions made by others must be acknowledged on the exhibit or in the report.",
       "Exhibits must be confined to an area. Tables and Electricity will be provided.",
       "No exhibits are to be dismantled or removed before the end of the Fair ",
       "Highly flammable and toxic substances are not allowed, if so required then take permission first. ",
       "Every participant must maintain the decorum of the event.",
     ],
-    timeline: "Till 25th March",
+    timeline: "Till 25th March, Babuji Chowk",
     team: [
       {
-        name: "",
+        name: "Shivam Pandey",
         contact: "7000662948",
         designation: "pandeyshivam1012@gmail.com",
       },
@@ -232,7 +232,7 @@ const eventsData = [
   },
   {
     name: "Exhibition and Expo - Glass Painting",
-    desc: `Glass Painting is a type of art where we need to paint over the glass and this event contain only single round.This event is a theme based event and the theme is Festivals`,
+    desc: `Glass Painting is a type of art where we need to paint over the glass bottles This event is a theme based event and the theme is Doodle Art`,
     Image:
       "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
@@ -240,11 +240,11 @@ const eventsData = [
       {
         question:
           "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
-        answer: "Transparent Thin Glass Slab will be provided.",
+          answer: "Bottles will be provided.",
       },
       {
         question: "Will the paints will be provided in the event ?",
-        answer: "No, you have to bring your own paint.",
+        answer: "No.",
       },
     ],
     rules: [
@@ -858,6 +858,7 @@ premises where participants need to come and take quiz. The final round will occ
     Image:
       "https://digistatement.com/wp-content/uploads/2020/04/image_1587501879931.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
+    
     faqs: [
       {
         question: "What is the Registration fee? ",
@@ -949,12 +950,23 @@ premises where participants need to come and take quiz. The final round will occ
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "I am an outsider, can I participate?",
+        answer: "Yes",
+      },
+       {
+        question: "What is the venue of event?",
+        answer: "Garden in front of CDC",
+      },
+       {
+        question: "What will be the time and date of event?",
+        answer: "30 March 2022 , 2:00pm onwards",
+      }, {
+        question: "Is there any accommodation facility for students from other university?",
+        answer: "Yes, but kindly contact prior to the event.",
       },
       {
-        question: "",
-        answer: "",
+        question: "Can we make a team with members from different departments?",
+        answer: "Yes, but specify the department of team members during registration.",
       },
     ],
     rules: [
@@ -966,19 +978,34 @@ premises where participants need to come and take quiz. The final round will occ
       "In case any difficulty, participants are supposed to contact only to co-ordinator and co-coordinator.",
       "In case of any dispute, organising committee's decision will be final.",
     ],
-    timeline: "30th March 2022 , ",
+    timeline: "30th March 2022 , Garden in front of CDC ",
     team: [
       {
-        name: "",
-        contact: "",
-        designation: "",
+        name: "Shubhangi Bohidar",
+        contact: "6260662614",
+        designation: "Event Manager",
+       },
+        {
+        name: "Mayank Kumar Patel",
+        contact: "9301411913",
+        designation: "Event Manager",
+       },
+        {
+        name: "Ritika Saini",
+        contact: "6264824855",
+        designation: "Event Manager",
+        },
+        {
+        name: "Vivek Gupta",
+        contact: "8770733618",
+        designation: "E",
       },
     ],
   },
   {
     name: "Exhibition and Expo - Exhibition",
     desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
-    Image: "",
+    Image: "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -1167,15 +1194,11 @@ Project idea topic must be related to any growing research area of management an
 `,
     Image:
       "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link",
+    link: ["https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link","https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"],
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "Who can participate?",
+        answer: " 16-30 years old",
       },
     ],
     rules: [
@@ -1188,7 +1211,7 @@ Project idea topic must be related to any growing research area of management an
       "Only fair play.",
       "There will be time limit for each round, if any team would be found exciding the limit will be disqualified.",
     ],
-    timeline: "",
+    timeline: "31st March - 1st April, Opju Cafeteria",
     team: [
       {
         name: "Uma Yadav",
@@ -1216,7 +1239,7 @@ Project idea topic must be related to any growing research area of management an
   {
     name: "AAGHAAZ - The Ethnic Fashion Show",
     desc: `“You can have anything you want in life if you dress for it”
-A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing and accessories. Our university is organising this event from consecutive 10 years where we get participations from all over India. Faishon show is all about Walking through a collaborative efforts between candidates.
+A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing and accessories. Our university is organising this event from consecutive 10 years where we get participations from all over India. Fashion show is all about Walking through a collaborative efforts between candidates.
 “Style is a way to say WHO YOU ARE without having to speak"
 Structure of Event
    There will 3 Rounds in “THE ETHNIC FASHION SHOW”
@@ -1298,6 +1321,216 @@ Structure of Event
         name: "7389038197",
         contact: "9131215762",
         designation: "Event Managers",
+      },
+    ],
+  },
+   {
+    name: "Roadies",
+    desc: `Roadies is a youth based event it’s an thriller, suspense, sportive based event where
+contestant perform various task.
+`,
+    Image:
+      "https://images.pexels.com/photos/564098/pexels-photo-564098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link: "https://forms.gle/iyaHSaCpSFP65WFz8",
+    faqs: [
+      {
+        question: "Who can participate?",
+        answer: " for all the students either insider or outsider who are willing to participate can be part of roadies.",
+      },
+      {
+        question: "Are the event paid?",
+        answer: "Free for OPJU students , and 100rs for outsiders",
+      },
+      {
+        question: "What are the selection criteria?",
+        answer: " It’s a task based event after compilation of each task will take you the final round",
+      },
+      {
+        question: "What are the prizes?",
+        answer: "Its a surprise baby",
+      },
+    ],
+    rules: [
+      "All the respective teams should reach venue before 30 min of starting",
+      "Each round will be an elimination round including audition round.",
+      "If anyone will found guilty during the event, team will be disqualified instantly",
+      "Coordinators decision is last decision, members are not allowed to argue with coordinators during the game",
+      "The judges decision is final, any argument with judges and coordinators will result in expulsion from roadies",
+      "Roadies is not for the weak hearted, if you suffer from any known or unknown physical condition then we suggest you to backoff",
+      "The task and proceeding in roadies have been setup in a way so as to challenge the participants mentally, physically and emotionally. So don’t be a cry baby and start whining if you end up getting abused by anyone.",
+      "Report immediately to ground-zero if you are selected for further round, at the given time. We will not hesitate to give your spot to the next valid candidate",
+      "Task do involve water and it may get messy, be prepared with clothes that will allow you to perform properly." ],
+    timeline: "27th March, ",
+    team: [
+      {
+        name: "Akash Pandey",
+        contact: "7828419250",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Yash Raj ",
+        contact: "6205369646",
+        designation: "Event Manager",
+      },
+      {
+        name: "Manish Singh",
+        contact: "7000431988",
+        designation: "Event Manager",
+      },
+    ],
+  },
+  {
+    name: "Grand-E-Rollix",
+    desc: `Grand-E-Rollix is one of the most cynosures & eye-catching events under Technorollix. It
+covers all the cultural and entertaining events like Singing, Dancing, Mimicry, Musical 
+instrument playing, Scripts, Stage performances, rapping, mimes, etc. The aim is to lay down
+a stage where student fraternity can showcase their talent in the mentioned areas through a 
+healthy competition atmosphere.`,
+    Image:
+      "https://images.unsplash.com/photo-1621976360623-004223992275?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1128&q=80",
+    link: "https://forms.gle/UqRzu7YyYPrYLvnx5",
+    faqs: [
+      {
+        question: "How to register for the event?",
+        answer: "Through the link provided by the University.",
+      },
+      {
+        question: "What will be the selection process for the event?",
+        answer: "Resister participants need to go through the audition round compulsorily, after then evaluation of the audition round final list of performances will be displayed.",
+      },
+      {
+        question: "How will be the final list will be communicated?",
+        answer: " It will be displayed internally however the outside participants will be informed telephonically or by mail through by the coordinators.
+",
+      },
+      {
+        question: "What will be the reporting time for outsiders?",
+        answer: " Preferably one day before the scheduled event.",
+      },
+      {
+        question: "Is there any entry fees for outsider participants?",
+        answer: "Yes, 100/- per person,500/- per group as a registration fee.",
+      },
+      {
+        question: "Is there any charges for accommodation and fooding for outsiders?",
+        answer: " Accommodation will be free for the registered students. Fooding will be charged as per university rules.",
+      },
+    ],
+    rules: [
+      "Students have to register themselves only through the link provided by the University.",
+      "Student can participate in maximum 3 numbers of events in Grand-E-Rollix.",
+      " Final participation will be enlisted only after clearing the audition round.",
+      "Decision taken by the juries/Faculty coordinators will be final",
+      " Participants should cooperate with the event managing team for bringing any changes as and when taken.",
+      "Professional Participants will be most welcome to participate but will not be a part of the competition."
+    ],
+    timeline:[ "Audition Starts from 14th March","Final Round of audition: 23th March","Date of Event: 30th March & 31th March"],
+    team: [
+      {
+        name: "Gaurav Sahu",
+        contact: "9981319289",
+        designation: "Event Manager",
+      },
+      {
+        name: "Neelanchal Patel",
+        contact: "6261803136",
+        designation: "Event Manager",
+      },
+      {
+        name: "V Ujjawala",
+        contact: "8982992201",
+        designation: "Event Manager",
+      },
+      {
+        name: " Anand Patel",
+        contact: "6266819393",
+        designation: "Event Manager",
+      },
+    ],
+  },
+   {
+    name: "DJ Hunt",
+    desc: `Participant need to prepare their own soundtrack in which they show their jockey/mixing skills along with their jockey’s name added in the distrack. 
+The competition is divided into 3 parts 
+1- Screening round 
+2- Selection round 
+3- Final round
+
+
+Competition layout
+1st level - SCREENING ROUND
+
+The participants will have to send a demo of their work along with their Dj name.
+
+The Time Limit for 1st round i.e. Screening round is 2 minutes.
+
+2nd level -PERFORMANCE ROUND
+
+Selected participants from the first round will have to perform in front of the audience , participants have to play their prepared distracts .
+
+Time limit for 2nd round i.e. Performance round is 5 minutes
+
+3rd level - Final round
+
+Selected participants from the second round will have to perform in front of the audience , Genre of the songs will be provided to participants by the coordinators during the event.(sufficient time will be provided for the preparation of distracts)
+
+Time limit for 3rd round i.e., Final round is 7-10 minutes
+
+IMPORTANT NOTE – DJ name should be based on the participant’s name. and your DJ name should be mentioned in your track which you will show to us in all the rounds.
+For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be in your track.
+
+`,
+    Image:
+      "https://images.pexels.com/photos/9005428/pexels-photo-9005428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link:"https://forms.gle/nbSqHSSzFD9trRFc9",
+    faqs: [
+      {
+        question: "DJ software is provided??",
+        answer: "No, Participants have to bring their own laptops and DJ software/console if possible.",
+      },
+      {
+        question: "What software we use for mixing??",
+        answer: "Virtual DJ ",
+      },
+      {
+        question: "Console is Provided??",
+        answer: "No, participant bring their own console with then otherwise they use virtual dj software.",
+      },
+      {
+        question: "Student who don’t know how to use virtual dj software.",
+        answer: "We arrange a workshop for those students.",
+      },
+      {
+        question: "For more information??",
+        answer: "Contact to event managers. Before 25th February ",
+      },
+      
+    ],
+    rules: [
+      " All the exhibits must reach the venue one hour prior to the prescribed time to install all the necessary components for their model",
+      "Maximum of 5 participants are allowed per group.",
+      "The exhibit should be a creation of the student, which either illustrates or demonstrates a novel idea or device in an original manner. The contributions made by others must be acknowledged on the exhibit or in the report.",
+      "Exhibits must be confined to an area. Tables and Electricity will be provided.",
+      "No exhibits are to be dismantled or removed before the end of the Fair ",
+      "Highly flammable and toxic substances are not allowed, if so required then take permission first. ",
+      "Every participant must maintain the decorum of the event.",
+    ],
+    timeline: "30th March",
+    team: [
+      {
+        name: "Vaibhav Kumar Mahilane",
+        contact: "9644122505",
+        designation: "Event Manager",
+      },
+      {
+        name: "Rons",
+        contact: "6238632645",
+        designation: "Event Manager",
+      },
+      {
+        name: "Nazma Nisha",
+        contact: "7489942081",
+        designation: "Event Manager",
       },
     ],
   },

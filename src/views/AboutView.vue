@@ -5,6 +5,7 @@
       <img class="techno-logo" src="../assets/about_logo.png" />
       <img class="opju-logo" src="../assets/opju_logo.png" />
     </div>
+    <img class="poster" src="../assets/about_poster.jpg" />
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
     </h1>
@@ -113,6 +114,12 @@ export default {
     width: auto;
   }
 }
+.poster {
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .section-title {
   background: #fc466b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -150,6 +157,28 @@ span {
 @media (max-width: 652px) {
   .about {
     width: auto;
+  }
+  .opju-logo {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: auto;
+    height: 30%;
+  }
+  .logo {
+    display: flex;
+    width: auto;
+    pointer-events: none;
+    img {
+      height: 50px;
+      width: auto;
+    }
+  }
+  .poster {
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 </style>

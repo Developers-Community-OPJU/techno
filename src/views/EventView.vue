@@ -17,9 +17,7 @@
         <img :src="event.Image" alt="" />
         <div class="card-details">
           <h3 class="card-title">{{ event.name }}</h3>
-          <p class="card-text">
-            {{ event.desc }}
-          </p>
+          <p class="card-text">{{ event.desc.substring(0, 150) }}...</p>
           <router-link :to="'/events/' + index" class="viewBtn"
             >View More</router-link
           >

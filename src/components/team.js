@@ -22,7 +22,7 @@ const teams = [
         designation: "Developer",
       },
       {
-        name: "Simeral Agrawal",
+        name: "Simrella Agrawal",
         image: require("@/assets/simrella.png"),
         designation: "Developer",
       },
@@ -45,6 +45,57 @@ const teams = [
         name: "Sourabh Singh",
         image: require("@/assets/sourabh.png"),
         designation: "Designer",
+      },
+    ],
+  },
+
+  {
+    name: "Organizing Team",
+    team: [
+      {
+        name: "Dr. Mahesh Bhiwapurkar",
+        image: "",
+        designation: "Mentors",
+      },
+      {
+        name: "Dr. Sanjay Singh",
+        image: "",
+        designation: "Mentors",
+      },
+      {
+        name: "Dr. Swati Verma",
+        image: "",
+        designation: "Convener",
+      },
+      {
+        name: "Dr. Trinath Talapaneni",
+        image: "",
+        designation: "Convener",
+      },
+      {
+        name: "Dr. Nitesh Bhardwaj",
+        image: "",
+        designation: "Co-Convener",
+      },
+      {
+        name: "Dr. Imran Quadri",
+        image: "",
+        designation: "Co-Convener",
+      },
+      {
+        name: "Prof. Tulika Gupta",
+        image: "",
+        designation: "Co-Convener",
+      },
+      {
+        name: "Prof. Pushpanjali",
+        image: "",
+        designation: "Co-Convener",
+      },
+      {
+        name: "Dr. Rekha Sharma",
+        image: "",
+        designation: "Co-Convener",
       },
     ],
   },

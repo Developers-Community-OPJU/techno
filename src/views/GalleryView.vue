@@ -1,12 +1,12 @@
 <template>
   <back />
-  <div class="teams">
-    <h1 class="heading">Team</h1>
-    <div v-for="team in teams" :key="team" class="team-section">
-      <div class="team">
-        <h4 class="team-section-heading">{{ team.name }}</h4>
-        <div class="team-cards">
-          <div v-for="member in team.team" :key="member" class="card">
+  <div class="gallery">
+    <h1 class="heading">Gallery</h1>
+    <div v-for="gallery in gallery" :key="gallery" class="gallery-section">
+      <div class="gallery">
+        <h4 class="gallery-section-heading">{{ gallery.name }}</h4>
+        <div class="gallery-cards">
+          <div v-for="member in gallery.gallery" :key="member" class="card">
             <img :src="member.image" :alt="member.name" />
             <span v-if="member.designation">{{ member.designation }}</span>
             <div class="name">{{ member.name }}</div>
@@ -16,42 +16,41 @@
     </div>
   </div>
 </template>
-
 <script>
-// const teams = require("@/components/team");
-import teams from "@/components/team";
+// const gallery = require("@/components/gallery");
+import gallery from "@/components/gallery";
 import back from "@/components/backButton.vue";
 export default {
   data() {
     return {
-      teams: [],
+      gallery: [],
     };
   },
   components: {
     back,
   },
   async created() {
-    this.teams = await teams;
-    console.log(this.teams);
+    this.gallery = await gallery;
+    console.log(this.gallery);
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.teams {
+.gallery {
   min-height: 100vh;
   height: 100%;
   color: #fff;
-  width: 60%;
+  width: 90%;
+  padding-bottom: 10px;
   margin: 10rem auto;
-  padding-bottom: 5px;
   .heading {
     font-size: 3rem;
     text-align: center;
   }
 }
 
-.team-section {
+.gallery-section {
   margin: 2rem 0 10rem 0;
   &-heading {
     margin-bottom: 5rem;
@@ -59,9 +58,9 @@ export default {
   }
 }
 
-.team-cards {
+.gallery-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   .card {
     overflow: hidden;
@@ -117,6 +116,11 @@ export default {
       background: #fff;
       color: rgb(48, 11, 11);
     }
+    &:hover img {
+      background: #fff;
+      color: rgb(48, 11, 11);
+      filter: grayscale(0%) drop-shadow(1rem 1rem 3rem rgba(44, 44, 44, 0.5));
+    }
     text-align: center;
     > img {
       object-fit: cover;
@@ -129,22 +133,21 @@ export default {
 }
 
 @media (max-width: 576px) {
-  .teams {
+  .gallery {
     width: 100%;
     margin: 5rem auto;
-    padding-bottom: 5px;
     .heading {
       font-size: 3rem;
       text-align: center;
     }
   }
-  .team-cards {
+  .gallery-cards {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.team-section {
-  margin: 1rem 0 8rem 0;
+.gallery-section {
+  margin: 2rem 0 10rem 0;
   &-heading {
     margin-bottom: 3rem;
     font-size: 1.5rem;

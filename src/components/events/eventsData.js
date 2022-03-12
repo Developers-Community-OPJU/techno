@@ -5,7 +5,7 @@ const eventsData = [
     The event shows the creativity and potential of bright minds from different universities through their self-developed model.`,
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link:"https://forms.gle/wGuAvFMPtE8wDDAMA",
+    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
         question: "",
@@ -595,7 +595,7 @@ premises where participants need to come and take quiz. The final round will occ
   },
   {
     name: "Lan Gaming -BATTLEGROUNDS MOBILE: INDIA ",
-    desc: ``,
+    desc: `BATTLEGROUNDS MOBILE INDIA is a new battle royale game where multiple players employ strategies to fight and be the last man standing on the battlegrounds. A free to play, multiplayer experience, in BATTLEGROUNDS MOBILE INDIA.`,
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
 
     Image:
@@ -686,8 +686,9 @@ premises where participants need to come and take quiz. The final round will occ
   },
   {
     name: "Lan Gaming - VALORANT",
-    desc: ``,
-    Image: "https://wallpaperaccess.com/full/7877482.jpg",
+    desc: `VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.`,
+    Image:
+      "https://www.riotgames.com/darkroom/1000/d0807e131a84f2e42c7a303bda672789:5f9cc29dd5d2a50bb1a8ea2efbc97abb/valorant-offwhitelaunch-keyart.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
@@ -774,8 +775,8 @@ premises where participants need to come and take quiz. The final round will occ
   },
   {
     name: "Lan Gaming - CLASH ROYALS",
-    desc: ``,
-    Image: "https://images7.alphacoders.com/856/thumb-1920-856231.jpg",
+    desc: `Clash Royale is a real-time multiplayer game starring the Royales, your favourite Clash characters and much, much more. Collect and upgrade dozens of cards featuring the Clash of Clans troops, spells and defenses you know and love, as well as the Royales: Princes, Knights, Baby Dragons and more.`,
+    Image: "https://pbs.twimg.com/media/ESLYB5pXUAIRiEl.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     faqs: [
       {
@@ -853,8 +854,9 @@ premises where participants need to come and take quiz. The final round will occ
   },
   {
     name: "Lan Gaming - TEKKEN",
-    desc: ``,
-    Image:"https://images.pexels.com/photos/7780079/pexels-photo-7780079.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    desc: `Discover the epic conclusion of the Mishima clan and unravel the reasons behind each step of their ceaseless fight.Values are what define us and make us human, regardless of our strengths and weaknesses. There are no wrong motivations, just the path we choose to take.`,
+    Image:
+      "https://digistatement.com/wp-content/uploads/2020/04/image_1587501879931.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
     
     faqs: [

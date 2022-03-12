@@ -98,6 +98,190 @@ const teams = [
       },
     ],
   },
+   {
+    name: "Convenor",
+    team: [
+     {
+  "name": "Sushant Mukherjee",
+  "branch": "Mech",
+  "semester": "8th Sem",
+  "contact": 6260239880
+ },
+ {
+  "name": "Anoushka Sharma",
+  "branch": "BBA",
+  "semester": "6th sem",
+  "contact": 8349239114
+ },
+ {
+  "name": "Nikhil Nivedam Vatsa",
+  "branch": "Meta",
+  "semester": "8th Sem",
+  "contact": 8298071805
+ },
+ {
+  "name": "Suman Sahu",
+  "branch": "BBA",
+  "semester": "6th Sem",
+  "contact": 7024518638
+ },
+ {
+  "name": "Soumya Singh",
+  "branch": "BBA",
+  "semester": "6th Sem",
+  "contact": 7224085085
+ },
+ {
+  "name": "Vipul Kumar",
+  "branch": "MBA",
+  "semester": "2th Sem",
+  "contact": 7224898002
+ },
+ {
+  "name": "Suryaranjan Satapathy",
+  "branch": "BBA",
+  "semester": "6th Sem",
+  "contact": 7869199650
+ },
+ {
+  "name": "Suraj Yadav",
+  "branch": "Mtech Mech",
+  "semester": "2th Sem",
+  "contact": 7879032082
+ },
+ {
+  "name": "Khyati Singh Chandel",
+  "branch": "BBA",
+  "semester": "6th Sem",
+  "contact": 8349658484
+ },
+ {
+  "name": "Prakash Kumar Nishad",
+  "branch": "BBA",
+  "semester": "6th Sem",
+  "contact": 7617346510
+ },
+ {
+  "name": "Ranjit Kumar Sharma",
+  "branch": "MBA",
+  "semester": "4th Sem",
+  "contact": 8719943229
+ },
+ {
+  "name": "Ritesh Kumar Dansena",
+  "branch": "Mech",
+  "semester": "6th Sem",
+  "contact": 9109948117
+ },
+ {
+  "name": "JayveerSingh",
+  "branch": "Mtech Mech",
+  "semester": "2th Sem",
+  "contact": 9554287278
+ },
+ {
+  "name": "Sakshi Agrawal",
+  "branch": "Mtech Civil",
+  "semester": "1st Sem",
+  "contact": 9993599619
+ },
+],
+},
+      {
+    name: "Co-convenor",
+    team: [
+       {
+  "name": "Ritisha Agrawal",
+  "branch": "EE",
+  "semester": "6th Sem",
+  "contact": 7587230147
+ },
+ {
+  "name": "Ashish Kumar Sharma",
+  "branch": "EE",
+  "semester": "6th Sem",
+  "contact": 6207808604
+ },
+ {
+  "name": "V.Ujjwala",
+  "branch": "EE",
+  "semester": "6th Sem",
+  "contact": 7879911820
+ },
+ {
+  "name": "Abhinav Sharma ",
+  "branch": "Civil",
+  "semester": "6th Sem",
+  "contact": 7477028878
+ },
+ {
+  "name": "Aditya Shekhar",
+  "branch": "Mech",
+  "semester": "6th Sem",
+  "contact": 8529768326
+ },
+ {
+  "name": "Chirag Mishra",
+  "branch": "Mech",
+  "semester": "6th Sem",
+  "contact": 8871724185
+ },
+ {
+  "name": "Dindayal Prajapati",
+  "branch": "Meta",
+  "semester": "6th Sem",
+  "contact": 7489559277
+ },
+ {
+  "name": "Shubham Kumar Addi",
+  "branch": "Meta",
+  "semester": "6th Sem",
+  "contact": 9142716619
+ },
+ {
+  "name": "Akhilesh",
+  "branch": "Meta",
+  "semester": "6th Sem",
+  "contact": 8789916216
+ },
+ {
+  "name": "Gaurav Sahu",
+  "branch": "Civil",
+  "semester": "6th Sem",
+  "contact": 9981319289
+ },
+ {
+  "name": "Shushant Mishra",
+  "branch": "CSE",
+  "semester": "6th Sem",
+  "contact": 7067718336
+ },
+ {
+  "name": "Mllika Sharma",
+  "branch": "Civil",
+  "semester": "6th Sem",
+  "contact": 8085450445
+ },
+ {
+  "name": "Gurjot Singh",
+  "branch": "Mech",
+  "semester": "6th Sem",
+  "contact": 8720030973
+ },
+ {
+  "name": "Sakshi Dwivedi",
+  "branch": "CSE",
+  "semester": "6th Sem",
+  "contact": 8827798674
+ },
+ {
+  "name": "Yogesh Kumar",
+  "branch": "CSE",
+  "semester": "6th Sem",
+  "contact": 7225963099
+ }
+       ],
+  },
 ];
 
 export default teams;

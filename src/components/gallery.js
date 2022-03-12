@@ -3,33 +3,33 @@ const gallery = [
     name: "2020",
     gallery: [
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        name: "Jubin Nautiyal",
+        image: require("@/assets/gallery2020_1.png"),
         designation: "2020",
       },
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery2.png"),
+        name: "DJ Olly Esse",
+        image: require("@/assets/gallery2020_2.png"),
         designation: "2020",
       },
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        name: "Solar Car and Cycle",
+        image: require("@/assets/gallery2020_3.png"),
         designation: "2020",
       },
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery2.png"),
+        name: "Rangoli",
+        image: require("@/assets/gallery2020_4.png"),
         designation: "2020",
       },
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        name: "Scholarship Event",
+        image: require("@/assets/gallery2020_5.png"),
         designation: "2020",
       },
       {
-        name: "Not Provided",
-        image: require("@/assets/gallery2.png"),
+        name: "VC Speech",
+        image: require("@/assets/gallery2020_6.png"),
         designation: "2020",
       },
     ],
@@ -39,32 +39,32 @@ const gallery = [
     gallery: [
       {
         name: "Not provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
       {
         name: "Not provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
       {
         name: "Not provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
       {
         name: "Not provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
       {
         name: "Not provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2019",
       },
     ],
@@ -74,32 +74,32 @@ const gallery = [
     gallery: [
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2018",
       },
     ],
@@ -109,32 +109,32 @@ const gallery = [
     gallery: [
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
       {
         name: "Not Provided",
-        image: require("@/assets/gallery1.png"),
+        image: "",
         designation: "2017",
       },
     ],

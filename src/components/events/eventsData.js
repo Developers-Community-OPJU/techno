@@ -61,7 +61,7 @@ const eventsData = [
     ],
   },
   {
-    name: "Tech Doc",
+    name: "Tech Docx",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
     Image:
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -99,7 +99,7 @@ const eventsData = [
       "For this competition participating student must be regular students of OPJU or any Institute/ University..",
       ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .",
     ],
-    timeline: "10 AM Onwards(EEE seminar hall)",
+    timeline: "10 AM Onwards, EEE seminar hall",
     team: [
       {
         name: "Amit Kumar Saini ",
@@ -302,6 +302,8 @@ const eventsData = [
     rules: [
       "You need to bring all the material you need except glass.",
       "No plagiarism, otherwise you will be disqualified.",
+      "Only colourfull doodle art will be accepted",
+      "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Use of Mobile phones or any other electronic devices are prohibited during this event.",
       "Only 10 mins will be given to arrange your materials.",
       "Registration is only valid through google forms.",
@@ -333,6 +335,7 @@ const eventsData = [
       "No materials will be provided from us. You need to bring all the material you need.",
       "You need to bring the cleanser to clean your face after the event.",
       "You can use make up or paint on your face",
+      "Work should be done accoding to the theme , otherwise you will be disqualified",
       "No plagiarism, otherwise you will be disqualified",
       "Use of Mobile phones or any other electronic devices is prohibited during the event",
       "Only 10 mins will be given to arrange your materials.",
@@ -364,6 +367,7 @@ const eventsData = [
     rules: [
       "You need to bring all the material you need. We will provide the funds for the materials",
       "Registration are only valid through google forms.",
+      "You need to share your ideas with us before decorating the areas",
       "Don’t stick cello tapes on walls, otherwise you will be disqualified.",
       "You will be fined if you misuse the fund or did not decorate the location allotted to you.",
       "Decoration must be done in groups (minimum: 3 and maximum: 5).",
@@ -392,6 +396,7 @@ const eventsData = [
     ],
     rules: [
       "Registrations are only valid through google forms.",
+      "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Rangoli must be done in groups (minimum: 3 and maximum: 5).",
       "You can use mobile phone to draw the rangoli.",
     ],
@@ -425,6 +430,7 @@ const eventsData = [
       "You need to bring your materials except drawing sheet.",
       "First ten minutes will be given to assemble your things",
       "Your painting should not be plagiarized.",
+      "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Use of electronics devices is prohibited like mobiles, phone and laptops.",
       "All entries must be submitted through google form.",
     ],
@@ -1184,7 +1190,7 @@ ROBOT SPECIFICATIONS:
     desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
 Project idea topic must be related to any growing research area of management and economics field.`,
     Image:
-      "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+      "https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
     faqs: [
       {

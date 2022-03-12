@@ -8,12 +8,13 @@ const eventsData = [
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
+        question: "Reasons why you should participate?",
+        answer: "Exiting prizing for the winners.Certificate will be given to all the participants."
+        "Special category wise winning prizes. Time to get new age experience and innovation."
+        " Up to 80% money back based upon presentation. "
+        "Student participating in Tech-lab can skip their classes for project purpose only after their lunch ,the attendance will be managed."
+        "Participant student can be able to use workshop and lab any time."
+        "40% to 60% money will be reimbursed to the best selected projects.",
       },
     ],
     rules: [
@@ -30,49 +31,57 @@ const eventsData = [
       {
         name: "Shivam Pandey",
         contact: "7000662948",
-        designation: "pandeyshivam1012@gmail.com",
+        designation: "Event Manager",
       },
       {
         name: "Vivek Kumar ",
         contact: "7869180268",
-        designation: "vivek307111@gmail.com",
+        designation: "Event Manager",
       },
       {
         name: "Bharti Patel-",
         contact: "6268002629",
-        designation: "bp2080007@gmail.com",
+        designation: "Event Manager",
       },
       {
         name: "Adit Kumar-",
         contact: "8839459292",
-        designation: " adit.ug19mme02@gmail.com",
+        designation: "Event Manager",
       },
       {
         name: "Sangeeta Gupta-",
         contact: "6266520680",
-        designation: "sang.gupta6060@gmail.com",
+        designation: "Event Manager",
       },
       {
         name: "Astha Gupta",
         contact: "6267138484",
-        designation: "aashugupta363@gmail.com",
+        designation: "Event Manager",
       },
     ],
   },
   {
-    name: "Tech Docx",
+    name: "Tech Doc",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
     Image:
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "What is an Abstract?",
+        answer: "An Abstract is a Brief summary of a research article, thesis, review, or any   in-depth analysis of a particular subject and is often used to help the reader quickly ascertain the paper’s purpose.",
       },
       {
-        question: "",
-        answer: "",
+        question: "What is the Word limit of writing an abstract?",
+        answer: "The Authors can write their Abstract in 250 Words maximum.",
+      },
+      {
+        question: "What is a Technical Paper Presentation?",
+        answer: "The purpose of this technical paper presentation is to judge efficaciously how  skilled we are in our own fields.TASK. Students have to select any one topic from the given list, prepare PPT and make a presentation",
+      },
+      {
+        question: "Why is technical presentation important?",
+        answer: "The main goal of any technical presentation is typically to convey a specific topic that is either technical in nature or has a technical component to it that needs to be addressed or understood. However, that doesn't mean the presentation should be overly technical or didactic",
       },
     ],
     rules: [
@@ -87,12 +96,52 @@ const eventsData = [
       "For this competition participating student must be regular students of OPJU or any Institute/ University..",
       ". For this competition Students must registered for in the Technorollix 2022 as well as Techdoc 2022 .",
     ],
-    timeline: "",
+    timeline: "10 AM Onwards(EEE seminar hall)",
     team: [
       {
-        name: "",
+        name: "Amit Kumar Saini ",
+        contact: "7999062106",
+        designation: "Event Manager",
+      },
+      {
+        name: "Yogesh Patel",
+        contact: "9098813386",
+        designation: "Event Manager",
+      },
+      {
+        name: "Mimansa Kashyap",
+        contact: "9399175434",
+        designation: "Event Manager",
+      },
+      {
+        name: "Rohit Kumar",
         contact: "",
-        designation: "",
+        designation: "Event Manager",
+      },
+      {
+        name: "Sneha Singh",
+        contact: "7389676653",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aastha Singh",
+        contact: "7987232110",
+        designation: "Event Manager",
+      },
+      {
+        name: "Aparna Raha",
+        contact: "9755536829",
+        designation: "Event Manager",
+      },
+      {
+        name: "Sachin Patel",
+        contact: "7987878524",
+        designation: "Event Manager",
+      },
+      {
+        name: "Harsh Patel",
+        contact: "9302968447",
+        designation: "Event Manager",
       },
     ],
   },
@@ -197,8 +246,7 @@ const eventsData = [
       },
       {
         question: "How to bring likes on for my photograph post on Instagram?",
-        answer:
-          "You need to share your tagged post and earn max likes you can.",
+        answer:"You need to share your tagged post and earn max likes you can.",
       },
     ],
     rules: [
@@ -268,8 +316,7 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
-    Image:
-      "https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    Image:"https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -299,8 +346,7 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
-    Image:
-      "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image:"https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -329,8 +375,7 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
-    Image:
-      "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    Image: "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -358,10 +403,9 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibition and Expo - Colour Painting",
-    desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media.`,
-    Image:
-      "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+    name: "Exhibiton and Expo - Colour Painting",
+    desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
+    Image: "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -393,8 +437,7 @@ const eventsData = [
   {
     name: "Exhibition and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
-    Image:
-      "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image: "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -433,8 +476,7 @@ Current Affairs etc. will be given in each level.
 Participants will take part in the conducted platform. The final round will be conducted in the college 
 premises where participants need to come and take quiz. The final round will occur on 30th March 
 2022.`,
-    Image:
-      "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    Image: "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
     faqs: [
       {
@@ -443,8 +485,7 @@ premises where participants need to come and take quiz. The final round will occ
       },
       {
         question: "2. How will teh results be announced?",
-        answer:
-          "Results will be announced on the platform itself as soon as you'll complete your quiz",
+        answer: "Results will be announced on the platform itself as soon as you'll complete your quiz",
       },
     ],
     rules: [
@@ -460,8 +501,7 @@ premises where participants need to come and take quiz. The final round will occ
       "Participation Certificates will be given to all those who will be taking part in quiz.",
       "Top winners will be awarded with surprise gifts.",
     ],
-    timeline:
-      "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
+    timeline: "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
     team: [
       {
         name: "Ashwini Sahu \n 8th Sem, CSE",
@@ -506,8 +546,7 @@ premises where participants need to come and take quiz. The final round will occ
       },
       {
         question: "Is it free to register for yuva sabha ?",
-        answer:
-          "If you are from OPJU it’s free. But if you are from outside it’s not.",
+        answer: "If you are from OPJU it’s free. But if you are from outside it’s not.",
       },
       {
         question: "How many people will be in one team ?",
@@ -522,8 +561,8 @@ premises where participants need to come and take quiz. The final round will occ
         answer: "Yes you can.",
       },
       {
-        question: `Can I join in more than one event ?`,
-        answer: `Yes`,
+        question: "Can I join in more than one event ?",
+        answer: "Yes",
       },
     ],
     rules: [
@@ -598,8 +637,7 @@ premises where participants need to come and take quiz. The final round will occ
     desc: `BATTLEGROUNDS MOBILE INDIA is a new battle royale game where multiple players employ strategies to fight and be the last man standing on the battlegrounds. A free to play, multiplayer experience, in BATTLEGROUNDS MOBILE INDIA.`,
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
 
-    Image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/05/977398-974293-973307-950215-pubg-india-launch.jpg",
+    Image:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/05/977398-974293-973307-950215-pubg-india-launch.jpg",
 
     faqs: [
       {
@@ -1534,6 +1572,35 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
       },
     ],
   },
+  {
+    name: "Dj Hunt",
+    desc: ``,
+    Image:"https://images.unsplash.com/photo-1560811514-187c3be176cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    link:"",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: [
+      "",
+      "",
+      "",
+    ],
+    timeline: "",
+    team: [
+      {
+        name: "",
+        contact: "",
+        designation: "",
+      },
+    ],
+  }
 ];
 
 export default eventsData;

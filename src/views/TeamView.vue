@@ -1,7 +1,7 @@
 <template>
   <back />
   <div class="teams">
-    <h1 class="heading">Team</h1>
+    <h1 class="heading">Technorollix'22 Team</h1>
     <div v-for="team in teams" :key="team" class="team-section">
       <div class="team">
         <h4 class="team-section-heading">{{ team.name }}</h4>
@@ -48,6 +48,7 @@ export default {
   .heading {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 3rem;
   }
 }
 

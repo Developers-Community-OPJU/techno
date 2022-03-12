@@ -1,6 +1,31 @@
 const teams = [
   {
-    name: "Organizing Team",
+    name: "Patron",
+    team: [
+      {
+        name: "Shalu Jindal",
+        image: require("@/assets/mahesh.png.png"),
+        designation: "Chancellor",
+      },
+    ],
+  },
+  {
+    name: "Leadership Team",
+    team: [
+      {
+        name: "Dr. R.D Patidar",
+        image: require("@/assets/mahesh.png.png"),
+        designation: "Mentors",
+      },
+      {
+        name: "Mr. Anurag Vijaywargya",
+        image: require("@/assets/sanjay.png.png"),
+        designation: "Mentors",
+      },
+    ],
+  },
+  {
+    name: "Faculty Organizing Team",
     team: [
       {
         name: "Dr. Mahesh Bhiwapurkar",

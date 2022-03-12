@@ -48,7 +48,6 @@ const teams = [
       },
     ],
   },
-
   {
     name: "Organizing Team",
     team: [

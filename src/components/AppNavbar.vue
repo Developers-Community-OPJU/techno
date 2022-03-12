@@ -20,9 +20,6 @@
     <div v-if="toggle" class="nav-items-wrapper">
       <ul class="nav-list">
         <li>
-          <router-link to="/">Home <span>.</span></router-link>
-        </li>
-        <li>
           <router-link to="/events">Events <span>.</span></router-link>
         </li>
         <li>

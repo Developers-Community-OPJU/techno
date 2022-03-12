@@ -240,7 +240,7 @@ const eventsData = [
       {
         question:
           "Which type of Glass we need to use for painting in 'Glass Painting Event' ?",
-          answer: "Bottles will be provided.",
+        answer: "Bottles will be provided.",
       },
       {
         question: "Will the paints will be provided in the event ?",
@@ -858,7 +858,7 @@ premises where participants need to come and take quiz. The final round will occ
     Image:
       "https://digistatement.com/wp-content/uploads/2020/04/image_1587501879931.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
-    
+
     faqs: [
       {
         question: "What is the Registration fee? ",
@@ -953,20 +953,23 @@ premises where participants need to come and take quiz. The final round will occ
         question: "I am an outsider, can I participate?",
         answer: "Yes",
       },
-       {
+      {
         question: "What is the venue of event?",
         answer: "Garden in front of CDC",
       },
-       {
+      {
         question: "What will be the time and date of event?",
         answer: "30 March 2022 , 2:00pm onwards",
-      }, {
-        question: "Is there any accommodation facility for students from other university?",
+      },
+      {
+        question:
+          "Is there any accommodation facility for students from other university?",
         answer: "Yes, but kindly contact prior to the event.",
       },
       {
         question: "Can we make a team with members from different departments?",
-        answer: "Yes, but specify the department of team members during registration.",
+        answer:
+          "Yes, but specify the department of team members during registration.",
       },
     ],
     rules: [
@@ -984,18 +987,18 @@ premises where participants need to come and take quiz. The final round will occ
         name: "Shubhangi Bohidar",
         contact: "6260662614",
         designation: "Event Manager",
-       },
-        {
+      },
+      {
         name: "Mayank Kumar Patel",
         contact: "9301411913",
         designation: "Event Manager",
-       },
-        {
+      },
+      {
         name: "Ritika Saini",
         contact: "6264824855",
         designation: "Event Manager",
-        },
-        {
+      },
+      {
         name: "Vivek Gupta",
         contact: "8770733618",
         designation: "E",
@@ -1005,7 +1008,8 @@ premises where participants need to come and take quiz. The final round will occ
   {
     name: "Exhibition and Expo - Exhibition",
     desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
-    Image: "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    Image:
+      "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -1194,7 +1198,10 @@ Project idea topic must be related to any growing research area of management an
 `,
     Image:
       "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    link: ["https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link","https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"],
+    link: [
+      "https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link",
+      "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    ],
     faqs: [
       {
         question: "Who can participate?",
@@ -1324,7 +1331,7 @@ Structure of Event
       },
     ],
   },
-   {
+  {
     name: "Roadies",
     desc: `Roadies is a youth based event it’s an thriller, suspense, sportive based event where
 contestant perform various task.
@@ -1335,7 +1342,8 @@ contestant perform various task.
     faqs: [
       {
         question: "Who can participate?",
-        answer: " for all the students either insider or outsider who are willing to participate can be part of roadies.",
+        answer:
+          " for all the students either insider or outsider who are willing to participate can be part of roadies.",
       },
       {
         question: "Are the event paid?",
@@ -1343,7 +1351,8 @@ contestant perform various task.
       },
       {
         question: "What are the selection criteria?",
-        answer: " It’s a task based event after compilation of each task will take you the final round",
+        answer:
+          " It’s a task based event after compilation of each task will take you the final round",
       },
       {
         question: "What are the prizes?",
@@ -1359,7 +1368,8 @@ contestant perform various task.
       "Roadies is not for the weak hearted, if you suffer from any known or unknown physical condition then we suggest you to backoff",
       "The task and proceeding in roadies have been setup in a way so as to challenge the participants mentally, physically and emotionally. So don’t be a cry baby and start whining if you end up getting abused by anyone.",
       "Report immediately to ground-zero if you are selected for further round, at the given time. We will not hesitate to give your spot to the next valid candidate",
-      "Task do involve water and it may get messy, be prepared with clothes that will allow you to perform properly." ],
+      "Task do involve water and it may get messy, be prepared with clothes that will allow you to perform properly.",
+    ],
     timeline: "27th March, ",
     team: [
       {
@@ -1396,12 +1406,13 @@ healthy competition atmosphere.`,
       },
       {
         question: "What will be the selection process for the event?",
-        answer: "Resister participants need to go through the audition round compulsorily, after then evaluation of the audition round final list of performances will be displayed.",
+        answer:
+          "Resister participants need to go through the audition round compulsorily, after then evaluation of the audition round final list of performances will be displayed.",
       },
       {
         question: "How will be the final list will be communicated?",
-        answer: " It will be displayed internally however the outside participants will be informed telephonically or by mail through by the coordinators.
-",
+        answer:
+          " It will be displayed internally however the outside participants will be informed telephonically or by mail through by the coordinators.",
       },
       {
         question: "What will be the reporting time for outsiders?",
@@ -1412,8 +1423,10 @@ healthy competition atmosphere.`,
         answer: "Yes, 100/- per person,500/- per group as a registration fee.",
       },
       {
-        question: "Is there any charges for accommodation and fooding for outsiders?",
-        answer: " Accommodation will be free for the registered students. Fooding will be charged as per university rules.",
+        question:
+          "Is there any charges for accommodation and fooding for outsiders?",
+        answer:
+          " Accommodation will be free for the registered students. Fooding will be charged as per university rules.",
       },
     ],
     rules: [
@@ -1422,9 +1435,13 @@ healthy competition atmosphere.`,
       " Final participation will be enlisted only after clearing the audition round.",
       "Decision taken by the juries/Faculty coordinators will be final",
       " Participants should cooperate with the event managing team for bringing any changes as and when taken.",
-      "Professional Participants will be most welcome to participate but will not be a part of the competition."
+      "Professional Participants will be most welcome to participate but will not be a part of the competition.",
     ],
-    timeline:[ "Audition Starts from 14th March","Final Round of audition: 23th March","Date of Event: 30th March & 31th March"],
+    timeline: [
+      "Audition Starts from 14th March",
+      "Final Round of audition: 23th March",
+      "Date of Event: 30th March & 31th March",
+    ],
     team: [
       {
         name: "Gaurav Sahu",
@@ -1448,7 +1465,7 @@ healthy competition atmosphere.`,
       },
     ],
   },
-   {
+  {
     name: "DJ Hunt",
     desc: `Participant need to prepare their own soundtrack in which they show their jockey/mixing skills along with their jockey’s name added in the distrack. 
 The competition is divided into 3 parts 
@@ -1482,11 +1499,12 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
 `,
     Image:
       "https://images.pexels.com/photos/9005428/pexels-photo-9005428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    link:"https://forms.gle/nbSqHSSzFD9trRFc9",
+    link: "https://forms.gle/nbSqHSSzFD9trRFc9",
     faqs: [
       {
         question: "DJ software is provided??",
-        answer: "No, Participants have to bring their own laptops and DJ software/console if possible.",
+        answer:
+          "No, Participants have to bring their own laptops and DJ software/console if possible.",
       },
       {
         question: "What software we use for mixing??",
@@ -1494,7 +1512,8 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
       },
       {
         question: "Console is Provided??",
-        answer: "No, participant bring their own console with then otherwise they use virtual dj software.",
+        answer:
+          "No, participant bring their own console with then otherwise they use virtual dj software.",
       },
       {
         question: "Student who don’t know how to use virtual dj software.",
@@ -1504,7 +1523,6 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
         question: "For more information??",
         answer: "Contact to event managers. Before 25th February ",
       },
-      
     ],
     rules: [
       " All the exhibits must reach the venue one hour prior to the prescribed time to install all the necessary components for their model",

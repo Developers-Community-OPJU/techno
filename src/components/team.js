@@ -14,32 +14,32 @@ const teams = [
       },
       {
         name: "Dr. Swati Verma",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/swati.png.png"),
         designation: "Convener",
       },
       {
         name: "Dr. Trinath Talapaneni",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/Trinath.png.png"),
         designation: "Convener",
       },
       {
         name: "Dr. Nitesh Bhardwaj",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/Nitesh.png.png"),
         designation: "Co-Convener",
       },
       {
         name: "Dr. Imran Quadri",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/imran.png.png"),
         designation: "Co-Convener",
       },
       {
         name: "Prof. Tulika Gupta",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/tullika.png.png"),
         designation: "Co-Convener",
       },
       {
         name: "Prof. Pushpanjali",
-        image: require("@/assets/aman.png"),
+        image: require("@/assets/puspa.png.png"),
         designation: "Co-Convener",
       },
       {

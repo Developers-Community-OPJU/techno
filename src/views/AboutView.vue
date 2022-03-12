@@ -166,6 +166,7 @@ span {
     height: 30%;
   }
   .logo {
+    padding: 0 1rem;
     display: flex;
     width: auto;
     pointer-events: none;

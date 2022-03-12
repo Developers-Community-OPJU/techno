@@ -3,8 +3,8 @@ const teams = [
     name: "Patron",
     team: [
       {
-        name: "Shalu Jindal",
-        image: require("@/assets/mahesh.png.png"),
+        name: "Ms. Shallu Jindal",
+        image: require("@/assets/shallu.png"),
         designation: "Chancellor",
       },
     ],
@@ -14,13 +14,13 @@ const teams = [
     team: [
       {
         name: "Dr. R.D Patidar",
-        image: require("@/assets/mahesh.png.png"),
-        designation: "Mentors",
+        image: require("@/assets/RD.png"),
+        designation: "Vice Chancellor, OPJU",
       },
       {
         name: "Mr. Anurag Vijaywargya",
-        image: require("@/assets/sanjay.png.png"),
-        designation: "Mentors",
+        image: require("@/assets/vijay.png"),
+        designation: "Registrar, OPJU",
       },
     ],
   },

@@ -22,8 +22,12 @@
           <h4 class="title">Frequently Asked Questions</h4>
           <div class="faqs">
             <div v-for="faq in event.faqs" :key="faq" class="member">
-              <p>{{ faq.question }}</p>
-              <p>{{ faq.answer }}</p>
+              <ul>
+                <li>
+                  <p class="question">{{ faq.question }}</p>
+                  <p class="answer">{{ faq.answer }}</p>
+                </li>
+              </ul>
             </div>
           </div>
           <h4 class="title">Team</h4>
@@ -84,6 +88,11 @@ h5 {
 
 li {
   padding: 0;
+}
+
+.question {
+  color: #a8eb12;
+  margin-bottom: 0.5rem;
 }
 
 .event-header {

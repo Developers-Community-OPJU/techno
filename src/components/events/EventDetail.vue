@@ -28,6 +28,13 @@
               <p>{{ member.contact }}</p>
             </div>
           </div>
+          <h4 class="title">Frequently Asked Questions</h4>
+          <div class="team">
+            <div v-for="faq in event.faqs" :key="faq" class="member">
+              <p>{{ faq.question }}</p>
+              <p>{{ faq.answer }}</p>
+            </div>
+          </div>
           <h4 class="title">Registrations</h4>
           <div class="event-links">
             <a :href="event.link" target="_blank" class="registration"

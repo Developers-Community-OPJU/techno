@@ -22,13 +22,13 @@ const teams = [
       },
       {
         name: "Dr. Trinath Talapaneni",
-        image: require("@/assets/Trinath.png.png"),
+        image: require("@/assets/trinath.png.png"),
         designation: "Convener",
         contact:87633 33171,
       },
       {
         name: "Dr. Nitesh Bhardwaj",
-        image: require("@/assets/Nitesh.png.png"),
+        image: require("@/assets/nitesh.png.png"),
         designation: "Co-Convener",
         contact: 9109909256,
       },

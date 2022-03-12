@@ -9,9 +9,9 @@
       <h5 class="tagline1" data-aos="fade-right">Welcome to</h5>
       <h5 class="tagline2" data-aos="fade-right" data-aos-delay="300">
         central india's biggest <br />
-        technical and cultural fest
+        technical and cultural fest <br />
+        Presented by <span style="color: orange; font-weight: bold">OPJU</span>
       </h5>
-      <img src="@/assets/opju_logo.png" alt="img" class="opju-logo" />
       <h1 class="headline" data-aos="fade-right" data-aos-delay="500">
         Technorollix<span>'22</span>
       </h1>
@@ -70,12 +70,6 @@ export default {
   position: absolute;
   left: 15%;
   top: 2%;
-}
-.opju-logo {
-  position: absolute;
-  top: 27%;
-  left: 18%;
-  width: 50px;
 }
 .home {
   position: relative;

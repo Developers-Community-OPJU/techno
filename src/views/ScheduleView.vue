@@ -1,5 +1,6 @@
 <template>
   <div class="schedule-box">
+    <back />
     <div class="event-schedule">
       <h1 class="_day">DAY 1</h1>
       <ul class="event-list">
@@ -12,8 +13,12 @@
 </template>
 
 <script>
+import back from "@/components/backButton.vue";
 export default {
   name: "ScheduleView",
+  components: {
+    back,
+  },
 };
 </script>
 
@@ -21,7 +26,7 @@ export default {
 .schedule-box {
   height: 100vh;
   .event-schedule {
-    padding-top: 5rem;
+    padding-top: 9rem;
     width: 80%;
     // border: 1px solid red;
     margin: 0 auto;

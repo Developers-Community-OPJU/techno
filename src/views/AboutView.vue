@@ -147,7 +147,7 @@ p {
 span {
   color: #fc466b;
 }
-@media (max-width: 625px) {
+@media (max-width: 652px) {
   .about {
     width: auto;
   }

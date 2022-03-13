@@ -301,10 +301,8 @@ const eventsData = [
     ],
     rules: [
       "You need to bring all the material you need except glass.",
-      "No plagiarism, otherwise you will be disqualified.",
       "Only colourfull doodle art will be accepted",
       "Work should be done accoding to the theme , otherwise you will be disqualified",
-      "Use of Mobile phones or any other electronic devices are prohibited during this event.",
       "Only 10 mins will be given to arrange your materials.",
       "Registration is only valid through google forms.",
       "You can either use fabric paint or glass paint.",
@@ -1005,7 +1003,7 @@ premises where participants need to come and take quiz. The final round will occ
   Total prize money = Rs 5000.`,
     Image:
       "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
-    link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
+    link: "https://forms.gle/MSn1EZrKAkrRBLXZ9",
     faqs: [
       {
         question: "I am an outsider, can I participate?",

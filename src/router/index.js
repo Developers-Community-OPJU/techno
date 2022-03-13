@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EventView from "../views/EventView.vue";
-import NotFound from "../views/NotFound.vue";
+import TeamView from "../views/TeamView.vue";
+import GalleryView from "../views/GalleryView.vue";
+import ScheduleView from "../views/ScheduleView.vue";
 import EventDetail from "../components/events/EventDetail.vue";
 
 const routes = [
@@ -16,7 +18,7 @@ const routes = [
     component: EventView,
   },
   {
-    path: "/events/:eventName",
+    path: "/events/:eventIndex",
     name: "eventDetail",
     component: EventDetail,
   },
@@ -30,15 +32,29 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: "/:catchAll(.*)",
-    name: "404Page",
-    component: NotFound,
+    path: "/schedule",
+    name: "schedule",
+    component: ScheduleView,
+  },
+  {
+    path: "/team",
+    name: "team",
+    component: TeamView,
+  },
+  {
+    path: "/gallery",
+    name: "gallery",
+    component: GalleryView,
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+
+router.beforeEach(() => {
+  window.scrollTo(0, 0);
 });
 
 export default router;

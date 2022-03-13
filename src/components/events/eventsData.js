@@ -63,8 +63,10 @@ const eventsData = [
   {
     name: "Tech Docx",
     desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
+
     Image:
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
     faqs: [
       {
@@ -238,9 +240,11 @@ const eventsData = [
     The themes will be divided into various parts depicting  rounds:
      The themes will be decided later on.
      •	Based on ourthemes, all entries will judged and after that the best 50% entries will move to the next round.
+
      •	And best 3 will be awarded, also 2 consolation prices. `,
     Image:
       "https://images.pexels.com/photos/105254/pexels-photo-105254.jpeg?auto=compress&cs=tinysrgb&",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -261,7 +265,7 @@ const eventsData = [
       "If participants have their Instagram id then they have to follow our page before sending their entries.",
       "If your entry is selected then we will personally mail you for the next round.",
       "The prizes and certificates will be directly given from college on the Prize Distribution Day.",
-      "For further details contact: Event Managers & Faculty Coordinator.",
+      "For further details contact: Event Managers & Faculty Coordinator."
     ],
     timeline: "25th March , In front oF Mechenical Workshop ",
     team: [
@@ -282,11 +286,11 @@ const eventsData = [
       },
     ],
   },
-  {
-    name: "Exhibition and Expo - Glass Painting",
+  { "Exhibition and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass bottles This event is a theme based event and the theme is Doodle Art`,
     Image:
       "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -306,12 +310,12 @@ const eventsData = [
       "Only 10 mins will be given to arrange your materials.",
       "Registration is only valid through google forms.",
       "You can either use fabric paint or glass paint.",
-      "The time duration of the event is 1hr 30mins.",
+      "The time duration of the event is 1hr 30mins."
     ],
     timeline: "30th and 31st March , Central Library",
     team: [
       {
-        name: "Dharashree Patnaik \n (EE, 6th Sem) ",
+        name: "Dharashree Patnaik (EE, 6th Sem) ",
         contact: "8305374964",
         designation: "Event Managers",
       },
@@ -320,8 +324,10 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Face Painting",
     desc: `Face Painting is a type of art where we need to paint over the face and this event contain only single round.This event is a theme based event and the theme are Hallowen and Robotics `,
+
     Image:
       "https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -338,7 +344,7 @@ const eventsData = [
       "Use of Mobile phones or any other electronic devices is prohibited during the event",
       "Only 10 mins will be given to arrange your materials.",
       "Registration for event is only valid through google forms.",
-      "The time duration of the event is 1hr.",
+      "The time duration of the event is 1hr."
     ],
     timeline: "30th and 31st March , Central Library",
     team: [
@@ -352,8 +358,10 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Decoration",
     desc: `In this event, the team need to decorate a allocated area inside the campus and area need to be decorated before 30th March`,
+
     Image:
       "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -369,7 +377,7 @@ const eventsData = [
       "Don’t stick cello tapes on walls, otherwise you will be disqualified.",
       "You will be fined if you misuse the fund or did not decorate the location allotted to you.",
       "Decoration must be done in groups (minimum: 3 and maximum: 5).",
-      "You can decorate the location of your ideas or themes",
+      "You can decorate the location of your ideas or themes"
     ],
     timeline: "Before 30th March, We will allocate you the areas.",
     team: [
@@ -383,8 +391,10 @@ const eventsData = [
   {
     name: "Exhibition and Expo - Rangoli",
     desc: `Participants need to create rangoli on the given theme and the themes are Corona and Meme Templates `,
+
     Image:
       "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -396,7 +406,7 @@ const eventsData = [
       "Registrations are only valid through google forms.",
       "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Rangoli must be done in groups (minimum: 3 and maximum: 5).",
-      "You can use mobile phone to draw the rangoli.",
+      "You can use mobile phone to draw the rangoli."
     ],
     timeline: "30th and 31st March , In front of Mechanical Workshop",
     team: [
@@ -415,8 +425,10 @@ const eventsData = [
   {
     name: "Exhibiton and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
+
     Image:
       "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -430,7 +442,7 @@ const eventsData = [
       "Your painting should not be plagiarized.",
       "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Use of electronics devices is prohibited like mobiles, phone and laptops.",
-      "All entries must be submitted through google form.",
+      "All entries must be submitted through google form."
     ],
     timeline: "30th and 31st March , Central Library ",
     team: [
@@ -449,8 +461,10 @@ const eventsData = [
   {
     name: "Exhibition and Expo - OPJU Alumni logo and Flag Design",
     desc: `In this event you need to design logo and flag related to OP Jindal University`,
+
     Image:
       "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
@@ -464,7 +478,7 @@ const eventsData = [
       "Duration of this event is 45min",
       "Registration for event is only valid through google forms.",
       "You need to draw both flag and logo.",
-      "According to both design, we will decide the winner",
+      "According to both design, we will decide the winner"
     ],
     timeline: "30th and 31st March, Central Library",
     team: [
@@ -488,9 +502,11 @@ difficulty levels, moving from easy to tough. Questions from various backgrounds
 Current Affairs etc. will be given in each level. 
 Participants will take part in the conducted platform. The final round will be conducted in the college 
 premises where participants need to come and take quiz. The final round will occur on 30th March 
+
 2022.`,
     Image:
       "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
     faqs: [
       {
@@ -515,6 +531,7 @@ premises where participants need to come and take quiz. The final round will occ
       "There would be (approx) 50 questions and will be defined as per the levels.",
       "Participation Certificates will be given to all those who will be taking part in quiz.",
       "Top winners will be awarded with surprise gifts.",
+
     ],
     timeline:
       "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
@@ -1244,7 +1261,8 @@ Project idea topic must be related to any growing research area of management an
   },
 
   {
-    name: "Master Chef",
+    name: "
+    Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
            Structure of the Event:
             There will be three rounds:
@@ -1605,6 +1623,55 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
         name: "Nazma Nisha",
         contact: "7489942081",
         designation: "Event Manager",
+      },
+      {
+        name: "Anjali Patel ",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Shruti Kashyap",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Khushi Patel",
+        contact: "",
+        designation: "Co-Coordinaters",
+      },
+      {
+        name: "Dr. Ankur Rastogi ",
+        contact: "",
+        designation: "Faculty Coordinaters",
+      },
+      {
+        name: "Dr. Swapnasariti Kar",
+        contact: "",
+        designation: "Faculty Coordinaters",
+      },
+    ],
+  },
+     {
+    name: "Lan Gaming",
+    desc: ``,
+    link: "",
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    rules: ["Rule 1 ", "rule 2"],
+    timeline: "",
+    team: [
+      {
+        name: "",
+        contact: "",
+        designation: "",
       },
     ],
   },

@@ -14,6 +14,9 @@
         <p>
           {{ event.desc }}
         </p>
+        <h4 class="timeline">
+          Timeline : <span class="highlight">{{ event.timeline }}</span>
+        </h4>
         <div class="event-rules">
           <h4>Rules</h4>
           <ul v-if="event.rules">
@@ -88,6 +91,13 @@ h5 {
 
 li {
   padding: 0;
+}
+
+.timeline {
+  margin-top: 1rem;
+  .highlight {
+    color: #a8eb12;
+  }
 }
 
 .question {

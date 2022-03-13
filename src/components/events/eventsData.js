@@ -265,7 +265,7 @@ const eventsData = [
       "If participants have their Instagram id then they have to follow our page before sending their entries.",
       "If your entry is selected then we will personally mail you for the next round.",
       "The prizes and certificates will be directly given from college on the Prize Distribution Day.",
-      "For further details contact: Event Managers & Faculty Coordinator."
+      "For further details contact: Event Managers & Faculty Coordinator.",
     ],
     timeline: "25th March , In front oF Mechenical Workshop ",
     team: [
@@ -286,7 +286,8 @@ const eventsData = [
       },
     ],
   },
-  { "Exhibition and Expo - Glass Painting",
+  {
+    name: "Exhibition and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass bottles This event is a theme based event and the theme is Doodle Art`,
     Image:
       "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
@@ -310,7 +311,7 @@ const eventsData = [
       "Only 10 mins will be given to arrange your materials.",
       "Registration is only valid through google forms.",
       "You can either use fabric paint or glass paint.",
-      "The time duration of the event is 1hr 30mins."
+      "The time duration of the event is 1hr 30mins.",
     ],
     timeline: "30th and 31st March , Central Library",
     team: [
@@ -344,7 +345,7 @@ const eventsData = [
       "Use of Mobile phones or any other electronic devices is prohibited during the event",
       "Only 10 mins will be given to arrange your materials.",
       "Registration for event is only valid through google forms.",
-      "The time duration of the event is 1hr."
+      "The time duration of the event is 1hr.",
     ],
     timeline: "30th and 31st March , Central Library",
     team: [
@@ -377,7 +378,7 @@ const eventsData = [
       "Don’t stick cello tapes on walls, otherwise you will be disqualified.",
       "You will be fined if you misuse the fund or did not decorate the location allotted to you.",
       "Decoration must be done in groups (minimum: 3 and maximum: 5).",
-      "You can decorate the location of your ideas or themes"
+      "You can decorate the location of your ideas or themes",
     ],
     timeline: "Before 30th March, We will allocate you the areas.",
     team: [
@@ -406,7 +407,7 @@ const eventsData = [
       "Registrations are only valid through google forms.",
       "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Rangoli must be done in groups (minimum: 3 and maximum: 5).",
-      "You can use mobile phone to draw the rangoli."
+      "You can use mobile phone to draw the rangoli.",
     ],
     timeline: "30th and 31st March , In front of Mechanical Workshop",
     team: [
@@ -442,7 +443,7 @@ const eventsData = [
       "Your painting should not be plagiarized.",
       "Work should be done accoding to the theme , otherwise you will be disqualified",
       "Use of electronics devices is prohibited like mobiles, phone and laptops.",
-      "All entries must be submitted through google form."
+      "All entries must be submitted through google form.",
     ],
     timeline: "30th and 31st March , Central Library ",
     team: [
@@ -478,7 +479,7 @@ const eventsData = [
       "Duration of this event is 45min",
       "Registration for event is only valid through google forms.",
       "You need to draw both flag and logo.",
-      "According to both design, we will decide the winner"
+      "According to both design, we will decide the winner",
     ],
     timeline: "30th and 31st March, Central Library",
     team: [
@@ -531,7 +532,6 @@ premises where participants need to come and take quiz. The final round will occ
       "There would be (approx) 50 questions and will be defined as per the levels.",
       "Participation Certificates will be given to all those who will be taking part in quiz.",
       "Top winners will be awarded with surprise gifts.",
-
     ],
     timeline:
       "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
@@ -1261,15 +1261,13 @@ Project idea topic must be related to any growing research area of management an
   },
 
   {
-    name: "
-    Chef",
+    name: "Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
            Structure of the Event:
             There will be three rounds:
             1.	Selection Round: There will be a non burner round for the selection, after this top 15 teams will be selected.
             2.	Team-up Round: The selected 15 team will be divided in 3 groups and have to perform the task given to them . In this only best dishes will be selected.(Minimum-3, Maximaum-5)
-            3.	Final Round : The final round will be einteresting as the dishes to be prepared will be given on the spot.
-`,
+            3.	Final Round : The final round will be einteresting as the dishes to be prepared will be given on the spot.`,
     Image:
       "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: [
@@ -1651,7 +1649,7 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
       },
     ],
   },
-     {
+  {
     name: "Lan Gaming",
     desc: ``,
     link: "",

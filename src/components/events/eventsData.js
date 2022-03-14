@@ -1205,7 +1205,7 @@ ROBOT SPECIFICATIONS:
     desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
 Project idea topic must be related to any growing research area of management and economics field.`,
     Image:
-      "https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/10607624/pexels-photo-10607624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
     faqs: [
       {

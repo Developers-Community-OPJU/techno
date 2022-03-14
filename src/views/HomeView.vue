@@ -35,6 +35,33 @@
     </div>
     <img class="spiral" src="@/assets/spiral.png" alt="spiral image" />
   </div>
+  <div class="junoon">
+    <div class="header">
+      <h1 data-aos="fade-right" data-aos-delay="500" class="featuring">
+        Featuring
+      </h1>
+      <h1 data-aos="fade-right" data-aos-delay="700" class="name">
+        Darshan Rawal
+      </h1>
+      <a
+        href="https://junoon.opjufest.in/"
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        class="action-btn"
+      >
+        Grab Tickets &#8594;
+      </a>
+    </div>
+    <img
+      data-aos="fade-right"
+      data-aos-delay="500"
+      data-aos-duration="1000"
+      class="darshan"
+      src="@/assets/darshan.jpg"
+      alt="darshan rawal"
+    />
+  </div>
 </template>
 
 <script>
@@ -71,6 +98,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@font-face {
+  font-family: signature;
+  src: url(../assets/BrittanySignature.ttf);
+}
 .banner {
   width: 120px;
   position: absolute;
@@ -205,6 +236,58 @@ export default {
       top: 20%;
       left: 45%;
     }
+  }
+}
+
+// junoon
+.junoon {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+
+  .darshan {
+    margin-left: auto;
+    width: 720px;
+    height: auto;
+  }
+  .header {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    .featuring {
+      font-size: 3rem;
+      font-weight: 200;
+      font-family: signature;
+      color: rgb(183, 255, 14);
+    }
+    .name {
+      text-align: center;
+      letter-spacing: 0.3rem;
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: "Josefin Sans", sans-serif;
+    }
+    .action-btn {
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 1rem 3rem;
+      margin-top: 3rem;
+      text-align: center;
+      background: rgba(51, 51, 51, 0.925);
+      color: rgb(255, 255, 255);
+      border: 1px solid #fff;
+      text-decoration: none;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+      }
+    }
+  }
+  h1 {
+    color: #fff;
   }
 }
 </style>

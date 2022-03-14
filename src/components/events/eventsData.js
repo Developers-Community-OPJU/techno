@@ -151,89 +151,123 @@ const eventsData = [
     ],
   },
   {
-    name: "Robovation - Robo Race",
-    desc: `In this competition, the contestant or team of contestants should design a robot either wired or wireless within the specified dimensions that can be operated manually. The robot that will complete the specified task in the least time will be the winner.
-    The robot must run on the given racetrack. There will be certain obstacles in the racetrack that will try to slow down the robot. The robot has to travel over different terrain and hurdles without going outside the track. The robot that will complete the specified task in the least time will 
-    be the winner.`,
+    name: "TechQuiz ",
+    desc: `Technorollix 2k22 presents you a tech cum exciting event "TechQuiz". TechQuiz basically deals with a 
+quiz type competition with different levels having different score marks. Each level will have its own 
+difficulty levels, moving from easy to tough. Questions from various backgrounds like tech, GK, GS, 
+Current Affairs etc. will be given in each level. 
+Participants will take part in the conducted platform. The final round will be conducted in the college 
+premises where participants need to come and take quiz. The final round will occur on 30th March 
+
+2022.`,
     Image:
-      "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://forms.gle/SjBCga4GXdi4RcHf8",
+      "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+
+    link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
     faqs: [
       {
-        question: "How to register for Robovation?",
-        answer: "Through registration link",
-      },
-      {
-        question: "Is it free to register for Robovation?",
-        answer: ` For OP Jindal University , it is free
-                  For outsiders:
-                  Solo: Rs. 100
-                  Group of 5: Rs. 300
-                  Group of more than 5: Rs. 500`,
-      },
-      {
-        question: "How many people can be there in one team?",
-        answer: "A team can have a maximum 4 members in it.",
-      },
-      {
-        question: "Can a team have members from different colleges?",
+        question: "1. Can participants take part from their homes?",
         answer: "Yes",
       },
       {
-        question: "Can I register for more than one event?",
-        answer: "Yes ",
+        question: "2. How will teh results be announced?",
+        answer:
+          "Results will be announced on the platform itself as soon as you'll complete your quiz",
       },
     ],
     rules: [
-      "	The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b x h).",
-      "	The robot may be wired or wireless.",
-      "	Motor rpm specification: 150 rpm to 300 rpm.",
-      "	Maximum weight must not exceed 4 kg.",
-      "	The participants should have to provide a power supply onboard (no additional power supply is accepted).",
-      "	The machine must not be made from Lego parts, or any ready-made kit, if we find such a machine it will be disqualified.",
-      "	The length of the wire (for wired bots) should be long enough to cover the whole track and the wire should remain slack during the complete run.",
-      "	The machine must be powered electrically only. Use of IC engine is not allowed.",
-      "	Batteries must be sealed, immobilized electrolyte type (gel cell, lithium, NiCad, or dry cells)",
-      "	The electric voltage anywhere in the machine should not be more than 12V DC at any point in time",
-      "	The robot should be as per the given specifications. ",
-      "	Each team can have a maximum of four members. Students from different institutes can form a team.",
-      "	Each member of the team must contain the identity card of his/her respected institute.",
-      "	The robot should not damage the arena",
-      "	No test practice will be allowed in the arena.",
-      "	The robot must not leave behind any of its parts during the run; else it will result in disqualification.",
-      "	Unethical behavior could lead to disqualification. ",
-      "	Faculty coordinators have all the rights to take final decisions for any matter during the event.",
-      "	The judge’s decision will be considered final.",
-      "	Certificates of Participation will be given to all the teams that will participate in the event but not to the teams which get disqualified due to disobeying any of the competition rules. ",
-      "	The coordination committee reserves the right to add or update any rule.",
-      "	The track surface and course line may have unevenness.",
-      "	There will be certain obstacles in the racetrack that will try to slow down the robot.",
-      "	The design and size of the track will be shown at the event.",
-      "	The competition is based on a time trial system. There will be a qualifying round for each team.",
-      "	The top team from the qualifying round makes it to the final round on basis of time trials.",
-      "	If any of the robots start off before the start-up call, the counter would be restarted, and the team will get a second chance. If repeated again then the team will be disqualified.",
-      "	The robot team must be ready when a call is made for your team.",
-      "	Team members will be allowed only three times to touch or reset their robot’s position during the run. However, this will lead to a time penalty and the timer will not stop during this course of action.",
-      "	The robot will be judged on basis of (in priority):- a. Time to complete the track. b. The number of checkpoints cleared.",
-      "	The bot must not contain any readymade kits, pneumatic & hydraulic systems, IC engines.",
-      "	The decision about the robot will be taken by the organizers.",
-      "No team will get a second chance after completing the track with a poor score.",
-      "The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run.",
+      `The quiz will be conducted on may one of the following arenas:
+      • Surveymonkey.com
+      • Typeform.com
+      • Google form(last option)`,
+      "The quiz will be conducted on 2 levels, Qualifiers and Finale",
+      "The results (for every level) will be decided on the basis of their performance in the quiz.• Topics will be based on Technology, GK, Current Affairs, GS etc.",
+      "The event will be conducted online and the results will be displaced as same.",
+      "There will be negative markings (as per the questions).",
+      "There would be (approx) 50 questions and will be defined as per the levels.",
+      "Participation Certificates will be given to all those who will be taking part in quiz.",
+      "Top winners will be awarded with surprise gifts.",
     ],
-    timeline: "Between 30th March to 02nd April 2022 , Volleyball Court ",
+    timeline:
+      "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
     team: [
       {
-        name: "Kamal Pandey ",
-        contact: "7024390695 , kamalpandey477@gmail.com",
+        name: "Ashwini Sahu \n 8th Sem, CSE",
+        contact: "9340497964",
+        designation: "Event Mananger",
+      },
+      {
+        name: "Nikhil Nivedan Vatsa \n 8th Sem, Meta",
+        contact: "8298071805",
         designation: "Event Manager",
       },
       {
-        name: "Shashi Kumar Singh ",
-        contact: "9853774373 , Shashisingh1403@gmail.com",
-        designation: "Event Manager",
+        name: "Prof. R.N.Shukla",
+        contact: "",
+        designation: "Faculty Coordinator",
       },
     ],
   },
+  {
+    name: "Startup Business Plan ",
+    desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
+Project idea topic must be related to any growing research area of management and economics field.`,
+    Image:
+      "https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
+    faqs: [
+      {
+        question: "1) What is Startup Business Plan?",
+        answer:
+          "This quiz covers various topics of business, companies, and related things.",
+      },
+      {
+        question: "2) Who can participate in Startup Business Plan?",
+        answer:
+          "Anyone can participate in this event after their registration on the website",
+      },
+    ],
+    rules: [
+      "1.	The minimum number of students in team would be 2 and maximum could be 5.. ",
+      "2.	Each team will be allotted with 15 minutes where 10 minutes is for presentation and 5 minutes for questionnaires round with audience and judges..",
+      "3.Students must carry and are responsible for their pen drives and laptops.",
+    ],
+    timeline: "31st March 2:30pm (EEE Seminar hall)",
+    team: [
+      {
+        name: "Dr. Adil Khan",
+        contact: "8445457996",
+        designation: "Faculty Co-ordinator",
+      },
+
+      {
+        name: "Dr. Sukanta Sahoo",
+        contact: "9937646042",
+        designation: "Faculty Co-ordinator",
+      },
+      {
+        name: "Pawan Gupta",
+        contact: "89815567023",
+        designation: "Event Manager",
+      },
+      {
+        name: "Suryaranjan Satapathy",
+        contact: "7869199650",
+        designation: "Co-ordinator",
+      },
+      {
+        name: "Prakash Nishad",
+        contact: "7617346510",
+        designation: "Co-ordinator",
+      },
+      {
+        name: "Omkar Das Sharma",
+        contact: "6267963520",
+        designation: "Co-ordinator",
+      },
+    ],
+  },
+
   {
     name: "Exhibition and Expo - Photorollix",
     desc: `In this event participants need to click a selfie of their own based on our themes and judges will evaluate according to set criteria. 
@@ -290,7 +324,7 @@ const eventsData = [
     name: "Exhibition and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass bottles This event is a theme based event and the theme is Doodle Art`,
     Image:
-      "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+      "https://images.pexels.com/photos/186844/pexels-photo-186844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
@@ -424,6 +458,37 @@ const eventsData = [
     ],
   },
   {
+    name: "Exhibition and Expo - Exhibition",
+    desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
+    Image:
+      "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
+    faqs: [
+      {
+        question: "Is this a group event",
+        answer: "No ",
+      },
+    ],
+    rules: [
+      "Participants need to bring their collection and showcase them in the central library ",
+      "Registration for event is only valid through google forms.",
+      "Bring your collection before 29th march.",
+    ],
+    timeline: "29th March , Central Library",
+    team: [
+      {
+        name: "Dharashree Patnaik \n  (EE, 6th Sem)",
+        contact: "8305374964",
+        designation: "Event Manager",
+      },
+      {
+        name: "Himanshi Singh Chandel",
+        contact: "",
+        designation: "Coordintor",
+      },
+    ],
+  },
+  {
     name: "Exhibiton and Expo - Colour Painting",
     desc: `Participants need to paint their painting on the given theme and the themes are Frictional character and Effects of Social Media. `,
 
@@ -460,11 +525,11 @@ const eventsData = [
     ],
   },
   {
-    name: "Exhibition and Expo - OPJU Alumni logo and Flag Design",
-    desc: `In this event you need to design logo and flag related to OP Jindal University`,
+    name: "Exhibition and Expo - OPJU Flag Design",
+    desc: `In this event you need to design flag related to OP Jindal University`,
 
     Image:
-      "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
@@ -475,11 +540,9 @@ const eventsData = [
     ],
     rules: [
       "You need to bring your laptops with you.",
-      "Logo and flag must be related to our university.",
+      "flag must be related to our university.",
       "Duration of this event is 45min",
       "Registration for event is only valid through google forms.",
-      "You need to draw both flag and logo.",
-      "According to both design, we will decide the winner",
     ],
     timeline: "30th and 31st March, Central Library",
     team: [
@@ -496,63 +559,40 @@ const eventsData = [
     ],
   },
   {
-    name: "TechQuiz ",
-    desc: `Technorollix 2k22 presents you a tech cum exciting event "TechQuiz". TechQuiz basically deals with a 
-quiz type competition with different levels having different score marks. Each level will have its own 
-difficulty levels, moving from easy to tough. Questions from various backgrounds like tech, GK, GS, 
-Current Affairs etc. will be given in each level. 
-Participants will take part in the conducted platform. The final round will be conducted in the college 
-premises where participants need to come and take quiz. The final round will occur on 30th March 
+    name: "Exhibition and Expo - OPJU Alumni logo",
+    desc: `In this event you need to design logo related to OP Jindal University`,
 
-2022.`,
     Image:
-      "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
-    link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
+    link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [
       {
-        question: "1. Can participants take part from their homes?",
-        answer: "Yes",
-      },
-      {
-        question: "2. How will teh results be announced?",
-        answer:
-          "Results will be announced on the platform itself as soon as you'll complete your quiz",
+        question: "What will be the theme of this event?",
+        answer: "Theme will be related to University.",
       },
     ],
     rules: [
-      `The quiz will be conducted on may one of the following arenas:
-      • Surveymonkey.com
-      • Typeform.com
-      • Google form(last option)`,
-      "The quiz will be conducted on 2 levels, Qualifiers and Finale",
-      "The results (for every level) will be decided on the basis of their performance in the quiz.• Topics will be based on Technology, GK, Current Affairs, GS etc.",
-      "The event will be conducted online and the results will be displaced as same.",
-      "There will be negative markings (as per the questions).",
-      "There would be (approx) 50 questions and will be defined as per the levels.",
-      "Participation Certificates will be given to all those who will be taking part in quiz.",
-      "Top winners will be awarded with surprise gifts.",
+      "You need to bring your laptops with you.",
+      "Logo must be related to our university.",
+      "Duration of this event is 45min",
+      "Registration for event is only valid through google forms.",
     ],
-    timeline:
-      "14th March - 30th March, Round 1: Online, Round 2: OP Jindal University",
+    timeline: "30th and 31st March, Central Library",
     team: [
       {
-        name: "Ashwini Sahu \n 8th Sem, CSE",
-        contact: "9340497964",
-        designation: "Event Mananger",
-      },
-      {
-        name: "Nikhil Nivedan Vatsa \n 8th Sem, Meta",
-        contact: "8298071805",
+        name: "Ajay Sajikumar \n (CSE, 6th Sem) ",
+        contact: "9109760583",
         designation: "Event Manager",
       },
       {
-        name: "Prof. R.N.Shukla",
-        contact: "",
-        designation: "Faculty Coordinator",
+        name: "Suyash Dansena \n (MECH ,4th Sem) ",
+        contact: "9109760583",
+        designation: "Coordinator",
       },
     ],
   },
+
   {
     name: " Yuva Sabha",
     desc: `The yuva sabha, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students.
@@ -1079,33 +1119,86 @@ premises where participants need to come and take quiz. The final round will occ
     ],
   },
   {
-    name: "Exhibition and Expo - Exhibition",
-    desc: `Exhibition is a public display of works of art or items of interest such as collection of painting, coins, stamps. `,
+    name: "Robovation - Robo Race",
+    desc: `In this competition, the contestant or team of contestants should design a robot either wired or wireless within the specified dimensions that can be operated manually. The robot that will complete the specified task in the least time will be the winner.
+    The robot must run on the given racetrack. There will be certain obstacles in the racetrack that will try to slow down the robot. The robot has to travel over different terrain and hurdles without going outside the track. The robot that will complete the specified task in the least time will 
+    be the winner.`,
     Image:
-      "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    link: "https://forms.gle/cPLYZ26huunbzouP8",
+      "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://forms.gle/SjBCga4GXdi4RcHf8",
     faqs: [
       {
-        question: "Is this a group event",
-        answer: "No ",
+        question: "How to register for Robovation?",
+        answer: "Through registration link",
+      },
+      {
+        question: "Is it free to register for Robovation?",
+        answer: ` For OP Jindal University , it is free
+                  For outsiders:
+                  Solo: Rs. 100
+                  Group of 5: Rs. 300
+                  Group of more than 5: Rs. 500`,
+      },
+      {
+        question: "How many people can be there in one team?",
+        answer: "A team can have a maximum 4 members in it.",
+      },
+      {
+        question: "Can a team have members from different colleges?",
+        answer: "Yes",
+      },
+      {
+        question: "Can I register for more than one event?",
+        answer: "Yes ",
       },
     ],
     rules: [
-      "Participants need to bring their collection and showcase them in the central library ",
-      "Registration for event is only valid through google forms.",
-      "Bring your collection before 29th march.",
+      "	The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b x h).",
+      "	The robot may be wired or wireless.",
+      "	Motor rpm specification: 150 rpm to 300 rpm.",
+      "	Maximum weight must not exceed 4 kg.",
+      "	The participants should have to provide a power supply onboard (no additional power supply is accepted).",
+      "	The machine must not be made from Lego parts, or any ready-made kit, if we find such a machine it will be disqualified.",
+      "	The length of the wire (for wired bots) should be long enough to cover the whole track and the wire should remain slack during the complete run.",
+      "	The machine must be powered electrically only. Use of IC engine is not allowed.",
+      "	Batteries must be sealed, immobilized electrolyte type (gel cell, lithium, NiCad, or dry cells)",
+      "	The electric voltage anywhere in the machine should not be more than 12V DC at any point in time",
+      "	The robot should be as per the given specifications. ",
+      "	Each team can have a maximum of four members. Students from different institutes can form a team.",
+      "	Each member of the team must contain the identity card of his/her respected institute.",
+      "	The robot should not damage the arena",
+      "	No test practice will be allowed in the arena.",
+      "	The robot must not leave behind any of its parts during the run; else it will result in disqualification.",
+      "	Unethical behavior could lead to disqualification. ",
+      "	Faculty coordinators have all the rights to take final decisions for any matter during the event.",
+      "	The judge’s decision will be considered final.",
+      "	Certificates of Participation will be given to all the teams that will participate in the event but not to the teams which get disqualified due to disobeying any of the competition rules. ",
+      "	The coordination committee reserves the right to add or update any rule.",
+      "	The track surface and course line may have unevenness.",
+      "	There will be certain obstacles in the racetrack that will try to slow down the robot.",
+      "	The design and size of the track will be shown at the event.",
+      "	The competition is based on a time trial system. There will be a qualifying round for each team.",
+      "	The top team from the qualifying round makes it to the final round on basis of time trials.",
+      "	If any of the robots start off before the start-up call, the counter would be restarted, and the team will get a second chance. If repeated again then the team will be disqualified.",
+      "	The robot team must be ready when a call is made for your team.",
+      "	Team members will be allowed only three times to touch or reset their robot’s position during the run. However, this will lead to a time penalty and the timer will not stop during this course of action.",
+      "	The robot will be judged on basis of (in priority):- a. Time to complete the track. b. The number of checkpoints cleared.",
+      "	The bot must not contain any readymade kits, pneumatic & hydraulic systems, IC engines.",
+      "	The decision about the robot will be taken by the organizers.",
+      "No team will get a second chance after completing the track with a poor score.",
+      "The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run.",
     ],
-    timeline: "29th March , Central Library",
+    timeline: "Between 30th March to 02nd April 2022 , Volleyball Court ",
     team: [
       {
-        name: "Dharashree Patnaik \n  (EE, 6th Sem)",
-        contact: "8305374964",
+        name: "Kamal Pandey ",
+        contact: "7024390695 , kamalpandey477@gmail.com",
         designation: "Event Manager",
       },
       {
-        name: "Himanshi Singh Chandel",
-        contact: "",
-        designation: "Coordintor",
+        name: "Shashi Kumar Singh ",
+        contact: "9853774373 , Shashisingh1403@gmail.com",
+        designation: "Event Manager",
       },
     ],
   },
@@ -1261,7 +1354,7 @@ Project idea topic must be related to any growing research area of management an
   },
 
   {
-    name: "Chef",
+    name: "Master Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
            Structure of the Event:
             There will be three rounds:
@@ -1315,6 +1408,64 @@ Project idea topic must be related to any growing research area of management an
     ],
   },
 
+  {
+    name: "Roadies",
+    desc: `Roadies is a youth based event it’s an thriller, suspense, sportive based event where
+contestant perform various task.
+`,
+    Image:
+      "https://images.pexels.com/photos/564098/pexels-photo-564098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link: "https://forms.gle/iyaHSaCpSFP65WFz8",
+    faqs: [
+      {
+        question: "Who can participate?",
+        answer:
+          " for all the students either insider or outsider who are willing to participate can be part of roadies.",
+      },
+      {
+        question: "Are the event paid?",
+        answer: "Free for OPJU students , and 100rs for outsiders",
+      },
+      {
+        question: "What are the selection criteria?",
+        answer:
+          " It’s a task based event after compilation of each task will take you the final round",
+      },
+      {
+        question: "What are the prizes?",
+        answer: "Its a surprise baby",
+      },
+    ],
+    rules: [
+      "All the respective teams should reach venue before 30 min of starting",
+      "Each round will be an elimination round including audition round.",
+      "If anyone will found guilty during the event, team will be disqualified instantly",
+      "Coordinators decision is last decision, members are not allowed to argue with coordinators during the game",
+      "The judges decision is final, any argument with judges and coordinators will result in expulsion from roadies",
+      "Roadies is not for the weak hearted, if you suffer from any known or unknown physical condition then we suggest you to backoff",
+      "The task and proceeding in roadies have been setup in a way so as to challenge the participants mentally, physically and emotionally. So don’t be a cry baby and start whining if you end up getting abused by anyone.",
+      "Report immediately to ground-zero if you are selected for further round, at the given time. We will not hesitate to give your spot to the next valid candidate",
+      "Task do involve water and it may get messy, be prepared with clothes that will allow you to perform properly.",
+    ],
+    timeline: "27th March, ",
+    team: [
+      {
+        name: "Akash Pandey",
+        contact: "7828419250",
+        designation: "Faculty Coordinator",
+      },
+      {
+        name: "Yash Raj ",
+        contact: "6205369646",
+        designation: "Event Manager",
+      },
+      {
+        name: "Manish Singh",
+        contact: "7000431988",
+        designation: "Event Manager",
+      },
+    ],
+  },
   {
     name: "AAGHAAZ - The Ethnic Fashion Show",
     desc: `“You can have anything you want in life if you dress for it”
@@ -1400,64 +1551,6 @@ Structure of Event
         name: "7389038197",
         contact: "9131215762",
         designation: "Event Managers",
-      },
-    ],
-  },
-  {
-    name: "Roadies",
-    desc: `Roadies is a youth based event it’s an thriller, suspense, sportive based event where
-contestant perform various task.
-`,
-    Image:
-      "https://images.pexels.com/photos/564098/pexels-photo-564098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    link: "https://forms.gle/iyaHSaCpSFP65WFz8",
-    faqs: [
-      {
-        question: "Who can participate?",
-        answer:
-          " for all the students either insider or outsider who are willing to participate can be part of roadies.",
-      },
-      {
-        question: "Are the event paid?",
-        answer: "Free for OPJU students , and 100rs for outsiders",
-      },
-      {
-        question: "What are the selection criteria?",
-        answer:
-          " It’s a task based event after compilation of each task will take you the final round",
-      },
-      {
-        question: "What are the prizes?",
-        answer: "Its a surprise baby",
-      },
-    ],
-    rules: [
-      "All the respective teams should reach venue before 30 min of starting",
-      "Each round will be an elimination round including audition round.",
-      "If anyone will found guilty during the event, team will be disqualified instantly",
-      "Coordinators decision is last decision, members are not allowed to argue with coordinators during the game",
-      "The judges decision is final, any argument with judges and coordinators will result in expulsion from roadies",
-      "Roadies is not for the weak hearted, if you suffer from any known or unknown physical condition then we suggest you to backoff",
-      "The task and proceeding in roadies have been setup in a way so as to challenge the participants mentally, physically and emotionally. So don’t be a cry baby and start whining if you end up getting abused by anyone.",
-      "Report immediately to ground-zero if you are selected for further round, at the given time. We will not hesitate to give your spot to the next valid candidate",
-      "Task do involve water and it may get messy, be prepared with clothes that will allow you to perform properly.",
-    ],
-    timeline: "27th March, ",
-    team: [
-      {
-        name: "Akash Pandey",
-        contact: "7828419250",
-        designation: "Faculty Coordinator",
-      },
-      {
-        name: "Yash Raj ",
-        contact: "6205369646",
-        designation: "Event Manager",
-      },
-      {
-        name: "Manish Singh",
-        contact: "7000431988",
-        designation: "Event Manager",
       },
     ],
   },
@@ -1646,30 +1739,6 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
         name: "Dr. Swapnasariti Kar",
         contact: "",
         designation: "Faculty Coordinaters",
-      },
-    ],
-  },
-  {
-    name: "Lan Gaming",
-    desc: ``,
-    link: "",
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    rules: ["Rule 1 ", "rule 2"],
-    timeline: "",
-    team: [
-      {
-        name: "",
-        contact: "",
-        designation: "",
       },
     ],
   },

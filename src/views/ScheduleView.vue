@@ -2,17 +2,23 @@
   <div class="schedule-box">
     <back />
     <div class="event-schedule">
-      <h1 class="_day">30<sup>th</sup> March</h1>
-      <ul class="event-list">
-        <li>Tech-Lab: Model Presentation</li>
-        <li>Exhibition and Expo</li>
-        <li>TechDoc</li>
-        <li>DJ Hunt</li>
-        <li>Roadies</li>
-        <li>Treasure Hunt</li>
-        <li>Inaugural Function</li>
-        <li>Grand-E-Rollix</li>
-      </ul>
+      <h1>Schedule</h1>
+      <div class="schedule" v-for="event in schedule" :key="event">
+        <h1 class="_day">
+          <span
+            >{{ event.date.substring(0, 2)
+            }}<sup>{{ event.date.substring(2, 4) }}</sup>
+          </span>
+          {{ event.date.substring(4) }}
+        </h1>
+        <ul class="event-list">
+          <li v-for="e in event.schedule" :key="e">
+            <p class="event-title">{{ e.event }}</p>
+            <p>Time</p>
+            <p>Venue {{ e.venue }}</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -24,20 +30,46 @@ export default {
   components: {
     back,
   },
+  data() {
+    return {
+      schedule: null,
+    };
+  },
+  created() {
+    const data = require("../components/schedule");
+    this.schedule = data.default;
+  },
 };
 </script>
 
 <style lang="scss" scoped>
+h1 {
+  color: #fff;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+}
+
+.event-title {
+  color: rgb(183, 255, 14);
+}
 .schedule-box {
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 5rem;
   .event-schedule {
     padding-top: 10rem;
     width: 80%;
     // border: 1px solid red;
     margin: 0 auto;
     ._day {
-      color: white;
+      span {
+        color: rgb(183, 255, 14);
+      }
+      color: #fff;
       font-size: 3rem;
+      &::first-letter {
+        color: rgb(183, 255, 14);
+      }
     }
     .event-list {
       position: relative;
@@ -61,9 +93,13 @@ export default {
           top: 1rem;
           left: 0;
           border-radius: 3rem;
-          background: grey;
+          background: rgb(183, 255, 14);
           width: 15px;
           height: 5%;
+        }
+        &:hover {
+          color: rgb(183, 255, 14);
+          cursor: pointer;
         }
       }
       &::before {
@@ -71,18 +107,7 @@ export default {
         position: absolute;
         top: 0;
         border-radius: 3rem;
-        background: #8e9eab; /* fallback for old browsers */
-        background: -webkit-linear-gradient(
-          to left,
-          #eef2f3,
-          #8e9eab
-        ); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(
-          to left,
-          #eef2f3,
-          #8e9eab
-        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: rgb(183, 255, 14);
         width: 1px;
         height: 96%;
       }
@@ -91,10 +116,11 @@ export default {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
   .schedule-box {
-    .event-schedule {
-      padding-top: 5rem;
-    }
+    padding: 1rem;
   }
 }
 </style>

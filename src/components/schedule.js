@@ -1,6 +1,6 @@
 const schedule = [
   {
-    day:"1",
+    day: "1",
     date: "30th March, 2022",
     schedule: [
       {
@@ -23,7 +23,7 @@ const schedule = [
         venue: "OAT",
         event: "DJ Hunt",
       },
-       {
+      {
         time: "12:00 PM",
         venue: "Bus Parking",
         event: "Roadies",
@@ -42,11 +42,11 @@ const schedule = [
         time: "07:30 PM",
         venue: "University playgroung",
         event: "Grand-E-Rollix",
-      },  
+      },
     ],
   },
   {
-    day:"2",
+    day: "2",
     date: "31st March, 2022",
     schedule: [
       {
@@ -93,11 +93,11 @@ const schedule = [
         time: "06:30 PM",
         venue: "University playground",
         event: "Grand-E-Rollix + Aaghaaz",
-      }, 
+      },
     ],
   },
   {
-    day:"3",
+    day: "3",
     date: "1st April, 2022",
     schedule: [
       {
@@ -135,11 +135,10 @@ const schedule = [
         venue: "University Playground",
         event: "JUNOON, Live Show by Darshan Raval",
       },
-      
     ],
   },
   {
-    day:"4",
+    day: "4",
     date: "2nd April, 2022",
     schedule: [
       {

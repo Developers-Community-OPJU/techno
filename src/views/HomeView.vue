@@ -189,6 +189,57 @@ export default {
   }
 }
 
+// junoon
+.junoon {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  .darshan {
+    margin-left: auto;
+    width: 720px;
+    height: auto;
+  }
+  .header {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    .featuring {
+      font-size: 3rem;
+      font-weight: 200;
+      font-family: signature;
+      color: rgb(183, 255, 14);
+    }
+    .name {
+      text-align: center;
+      letter-spacing: 0.3rem;
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: "Josefin Sans", sans-serif;
+    }
+    .action-btn {
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 1rem 3rem;
+      margin-top: 3rem;
+      text-align: center;
+      background: rgba(51, 51, 51, 0.925);
+      color: rgb(255, 255, 255);
+      border: 1px solid #fff;
+      text-decoration: none;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+      }
+    }
+  }
+  h1 {
+    color: #fff;
+  }
+}
+
 @media (max-width: 576px) {
   .banner {
     width: 116px;
@@ -239,55 +290,47 @@ export default {
   }
 }
 
-// junoon
-.junoon {
-  display: flex;
-  margin: 0 auto;
-  position: relative;
+@media (max-width: 576px) {
+  .junoon {
+    height: 100vh;
+    overflow: hidden;
+    left: 5%;
 
-  .darshan {
-    margin-left: auto;
-    width: 720px;
-    height: auto;
-  }
-  .header {
-    position: absolute;
-    left: 15%;
-    top: 30%;
-    .featuring {
-      font-size: 3rem;
-      font-weight: 200;
-      font-family: signature;
-      color: rgb(183, 255, 14);
-    }
-    .name {
-      text-align: center;
-      letter-spacing: 0.3rem;
-      font-size: 4rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-family: "Josefin Sans", sans-serif;
-    }
-    .action-btn {
-      text-transform: uppercase;
-      display: inline-block;
-      padding: 1rem 3rem;
-      margin-top: 3rem;
-      text-align: center;
-      background: rgba(51, 51, 51, 0.925);
-      color: rgb(255, 255, 255);
-      border: 1px solid #fff;
-      text-decoration: none;
-      &:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        color: #fff;
-        backdrop-filter: blur(5px);
-        cursor: pointer;
+    .header {
+      position: absolute;
+      left: 5%;
+      top: 45%;
+      .featuring {
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: signature;
+        color: rgb(183, 255, 14);
+      }
+      .name {
+        text-align: left;
+        font-size: 1.75rem;
+      }
+      .action-btn {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 1rem 3rem;
+        margin-top: 3rem;
+        text-align: center;
+        background: rgba(51, 51, 51, 0.925);
+        color: rgb(255, 255, 255);
+        border: 1px solid #fff;
+        text-decoration: none;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          color: #fff;
+          backdrop-filter: blur(5px);
+          cursor: pointer;
+        }
       }
     }
-  }
-  h1 {
-    color: #fff;
+    h1 {
+      color: #fff;
+    }
   }
 }
 </style>

@@ -1294,6 +1294,66 @@ ROBOT SPECIFICATIONS:
   },
 
   {
+    name: "Startup Business Plan ",
+    desc: `It is an event to showcase your talent for generating new business ideas with innovation and technology in addition with your passion
+Project idea topic must be related to any growing research area of management and economics field.`,
+    Image:
+      "https://images.pexels.com/photos/10607624/pexels-photo-10607624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
+    faqs: [
+      {
+        question: "1) What is Startup Business Plan?",
+        answer:
+          "This quiz covers various topics of business, companies, and related things.",
+      },
+      {
+        question: "2) Who can participate in Startup Business Plan?",
+        answer:
+          "Anyone can participate in this event after their registration on the website",
+      },
+    ],
+    rules: [
+      "1.	The minimum number of students in team would be 2 and maximum could be 5.. ",
+      "2.	Each team will be allotted with 15 minutes where 10 minutes is for presentation and 5 minutes for questionnaires round with audience and judges..",
+      "3.Students must carry and are responsible for their pen drives and laptops.",
+    ],
+    timeline: "31st March 2:30pm (EEE Seminar hall)",
+    team: [
+      {
+        name: "Dr. Adil Khan",
+        contact: "8445457996",
+        designation: "Faculty Co-ordinator",
+      },
+
+      {
+        name: "Dr. Sukanta Sahoo",
+        contact: "9937646042",
+        designation: "Faculty Co-ordinator",
+      },
+      {
+        name: "Pawan Gupta",
+        contact: "89815567023",
+        designation: "Event Manager",
+      },
+      {
+        name: "Suryaranjan Satapathy",
+        contact: "7869199650",
+        designation: "Co-ordinator",
+      },
+      {
+        name: "Prakash Nishad",
+        contact: "7617346510",
+        designation: "Co-ordinator",
+      },
+      {
+        name: "Omkar Das Sharma",
+        contact: "6267963520",
+        designation: "Co-ordinator",
+      },
+    ],
+  },
+
+  {
     name: "Master Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
            Structure of the Event:

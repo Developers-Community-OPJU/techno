@@ -324,7 +324,7 @@ Project idea topic must be related to any growing research area of management an
     name: "Exhibition and Expo - Glass Painting",
     desc: `Glass Painting is a type of art where we need to paint over the glass bottles This event is a theme based event and the theme is Doodle Art`,
     Image:
-      "https://images.unsplash.com/photo-1632226773381-ffcf3aa2ecdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+      "https://images.pexels.com/photos/186844/pexels-photo-186844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
     faqs: [

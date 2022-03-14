@@ -268,7 +268,6 @@ Project idea topic must be related to any growing research area of management an
     ],
   },
 
- 
   {
     name: "Exhibition and Expo - Photorollix",
     desc: `In this event participants need to click a selfie of their own based on our themes and judges will evaluate according to set criteria. 
@@ -578,7 +577,6 @@ Project idea topic must be related to any growing research area of management an
       "Logo must be related to our university.",
       "Duration of this event is 45min",
       "Registration for event is only valid through google forms.",
-   
     ],
     timeline: "30th and 31st March, Central Library",
     team: [
@@ -594,7 +592,7 @@ Project idea topic must be related to any growing research area of management an
       },
     ],
   },
-  
+
   {
     name: " Yuva Sabha",
     desc: `The yuva sabha, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students.
@@ -1120,7 +1118,7 @@ Project idea topic must be related to any growing research area of management an
       },
     ],
   },
-   {
+  {
     name: "Robovation - Robo Race",
     desc: `In this competition, the contestant or team of contestants should design a robot either wired or wireless within the specified dimensions that can be operated manually. The robot that will complete the specified task in the least time will be the winner.
     The robot must run on the given racetrack. There will be certain obstacles in the racetrack that will try to slow down the robot. The robot has to travel over different terrain and hurdles without going outside the track. The robot that will complete the specified task in the least time will 
@@ -1295,7 +1293,6 @@ ROBOT SPECIFICATIONS:
     ],
   },
 
-  
   {
     name: "Master Chef",
     desc: `This event which is named as MASTERCHEF is the event for students who loves cookingand are interested in showcasing their talent to others.
@@ -1351,7 +1348,6 @@ ROBOT SPECIFICATIONS:
     ],
   },
 
- 
   {
     name: "Roadies",
     desc: `Roadies is a youth based event it’s an thriller, suspense, sportive based event where
@@ -1410,7 +1406,7 @@ contestant perform various task.
       },
     ],
   },
-   {
+  {
     name: "AAGHAAZ - The Ethnic Fashion Show",
     desc: `“You can have anything you want in life if you dress for it”
 A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing and accessories. Our university is organising this event from consecutive 10 years where we get participations from all over India. Fashion show is all about Walking through a collaborative efforts between candidates.

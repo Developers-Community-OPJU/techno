@@ -46,7 +46,7 @@
       <a
         href="https://junoon.opjufest.in/"
         target="_blank"
-        data-aos="fade-up"
+        data-aos="fade-right"
         data-aos-delay="500"
         class="action-btn"
       >
@@ -55,7 +55,7 @@
     </div>
     <img
       data-aos="fade-right"
-      data-aos-delay="500"
+      data-aos-delay="700"
       data-aos-duration="1000"
       class="darshan"
       src="@/assets/darshan.jpg"

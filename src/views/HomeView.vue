@@ -50,7 +50,7 @@
         data-aos-delay="500"
         class="action-btn"
       >
-        Grab Tickets &#8594;
+        Grab Your Presence &#8594;
       </a>
     </div>
     <img

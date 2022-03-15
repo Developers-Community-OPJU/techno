@@ -113,6 +113,9 @@ export default {
   font-size: 1.5rem;
   color: rgb(255, 159, 14);
 }
+.junoon {
+  padding-bottom: 10vh;
+}
 .home {
   position: relative;
   width: 100%;

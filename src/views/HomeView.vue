@@ -37,6 +37,13 @@
   </div>
   <div class="junoon">
     <div class="header">
+      <img
+        class="junoonlogo"
+        data-aos="fade-right"
+        data-aos-delay="400"
+        src="@/assets/junoon.png"
+      />
+      <h1 data-aos="fade-right" data-aos-delay="500">Junoon 22'</h1>
       <h1 data-aos="fade-right" data-aos-delay="500" class="featuring">
         Featuring
       </h1>
@@ -112,9 +119,6 @@ export default {
   font-weight: bold;
   font-size: 1.5rem;
   color: rgb(255, 159, 14);
-}
-.junoon {
-  padding-bottom: 10vh;
 }
 .home {
   position: relative;
@@ -197,10 +201,17 @@ export default {
   display: flex;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 10vh;
   .darshan {
     margin-left: auto;
     width: 720px;
     height: auto;
+  }
+  .junoonlogo {
+    position: absolute;
+    top: -9%;
+    left: 30%;
+    width: 50px;
   }
   .header {
     position: absolute;
@@ -250,11 +261,10 @@ export default {
     left: 5%;
     top: 8%;
   }
-  .opju-logo {
+  .junoonlogo {
     position: absolute;
-    top: 41%;
-    left: 40%;
     width: 50px;
+    padding: 45px;
   }
   .opju-brand {
     font-size: 1rem;
@@ -316,8 +326,8 @@ export default {
       .action-btn {
         text-transform: uppercase;
         display: inline-block;
-        padding: 1rem 3rem;
-        margin-top: 3rem;
+        padding: 1rem;
+        margin-top: 1rem;
         text-align: center;
         background: rgba(51, 51, 51, 0.925);
         color: rgb(255, 255, 255);

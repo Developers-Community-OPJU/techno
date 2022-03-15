@@ -14,8 +14,8 @@
         <ul class="event-list">
           <li v-for="e in event.schedule" :key="e">
             <p class="event-title">{{ e.event }}</p>
-            <p>Time</p>
-            <p>Venue {{ e.venue }}</p>
+            <p>Time - {{ e.time }}</p>
+            <p>Venue - {{ e.venue }}</p>
           </li>
         </ul>
       </div>

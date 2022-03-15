@@ -123,7 +123,7 @@ const teams = [
     ],
   },
   {
-    name: "Convenor",
+    name: "Convenor (Students)",
     team: [
       {
         name: "Sushant Mukherjee",
@@ -212,7 +212,7 @@ const teams = [
     ],
   },
   {
-    name: "Co-convenor",
+    name: "Co-convenor (Students)",
     team: [
       {
         name: "Ritisha Agrawal",

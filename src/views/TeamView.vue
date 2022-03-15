@@ -136,7 +136,7 @@ export default {
     margin: 5rem auto;
     padding-bottom: 5px;
     .heading {
-      font-size: 3rem;
+      font-size: 2rem;
       text-align: center;
     }
   }

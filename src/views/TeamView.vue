@@ -57,6 +57,7 @@ export default {
   &-heading {
     margin-bottom: 5rem;
     font-size: 2rem;
+    text-align: left;
   }
 }
 
@@ -150,7 +151,7 @@ export default {
   &-heading {
     margin-bottom: 3rem;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
   }
 }
 </style>

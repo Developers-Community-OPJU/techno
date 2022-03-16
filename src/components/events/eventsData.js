@@ -6,28 +6,32 @@ const eventsData = [
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
-    prize:[
-           {
-             category:"Working",
-             prize: ["First prize: 10000","Second prize: 6000","Third prize: 3000",],
-           },
-           {
-             category:"Consolation",
-             prize: ["First prize: 1000","Second prize: 1000","Third prize: 1000",],
-           },
-           {
-             category:"Non Working",
-             prize: ["First prize: 2500","Second prize: 1500",],
-           },
-           {
-             category:"App Making",
-             prize: ["First prize: 2000","Second prize: 1000","Third prize: 750",],
-           },
-           {
-             category:"Poster Presentation",
-             prize:["First prize: 1500","Second prize: 1000","Third prize: 750",],
-           },
-         ],
+    prize: [
+      {
+        category: "Working",
+        prize: [
+          "First prize: 10000",
+          "Second prize: 6000",
+          "Third prize: 3000",
+        ],
+      },
+      {
+        category: "Consolation",
+        prize: ["First prize: 1000", "Second prize: 1000", "Third prize: 1000"],
+      },
+      {
+        category: "Non Working",
+        prize: ["First prize: 2500", "Second prize: 1500"],
+      },
+      {
+        category: "App Making",
+        prize: ["First prize: 2000", "Second prize: 1000", "Third prize: 750"],
+      },
+      {
+        category: "Poster Presentation",
+        prize: ["First prize: 1500", "Second prize: 1000", "Third prize: 750"],
+      },
+    ],
     faqs: [
       {
         question: "Reasons why you should participate?",
@@ -90,37 +94,36 @@ const eventsData = [
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
-    prize:[
-           {
-             category:"Mechanical Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Civil Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Electrical Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Computer Science Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Metallurgy Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"BBA / MBA",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Science Department",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-          
-         ],
+    prize: [
+      {
+        category: "Mechanical Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Civil Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Electrical Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Computer Science Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Metallurgy Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "BBA / MBA",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Science Department",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "What is an Abstract?",
@@ -217,12 +220,12 @@ premises where participants need to come and take quiz. The final round will occ
       "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
-    prize:[
-           {
-             category:"",
-             prize: ["First prize: 3000","Second prize: 2000","Third prize: 1000",],
-           },
-          ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 3000", "Second prize: 2000", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "1. Can participants take part from their homes?",
@@ -274,12 +277,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/WSYNcHNGnDz7tTyv5",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 4000","Second prize: 2000","Third prize: 1000",],
-           }, 
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 4000", "Second prize: 2000", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "1) What is Startup Business Plan?",
@@ -345,12 +348,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.pexels.com/photos/105254/pexels-photo-105254.jpeg?auto=compress&cs=tinysrgb&",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2000","Second prize: 1500","Third prize: 1000",],
-           },   
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2000", "Second prize: 1500", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "Where we need to upload the photos for Photorollix ?",
@@ -398,13 +401,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.pexels.com/photos/186844/pexels-photo-186844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1000","Second prize: 700",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1000", "Second prize: 700"],
+      },
+    ],
     faqs: [
       {
         question:
@@ -442,13 +444,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.unsplash.com/photo-1627921522614-86d4b431bd21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1000","Second prize: 700",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1000", "Second prize: 700"],
+      },
+    ],
     faqs: [
       {
         question: "Will the paints will be provided in the event ?",
@@ -483,13 +484,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1800","Second prize: 1500","Third prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1800", "Second prize: 1500", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "How will we get the material used in the Decoration Event?",
@@ -523,13 +523,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.unsplash.com/photo-1605362242548-3af0d67dd4c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1800","Second prize: 1500","Third prize: 800",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1800", "Second prize: 1500", "Third prize: 800"],
+      },
+    ],
     faqs: [
       {
         question: "Do we have to bring our own colours for Rangoli ?",
@@ -562,13 +561,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: [],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: [],
+      },
+    ],
     faqs: [
       {
         question: "Is this a group event",
@@ -602,13 +600,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1000","Second prize: 700",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1000", "Second prize: 700"],
+      },
+    ],
     faqs: [
       {
         question: "Will the paints will be provided in the event ?",
@@ -645,13 +642,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 1500",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 1500"],
+      },
+    ],
     faqs: [
       {
         question: "what will be the theme of this event?",
@@ -689,13 +685,12 @@ Project idea topic must be related to any growing research area of management an
       "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/cPLYZ26huunbzouP8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 500",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 500"],
+      },
+    ],
     faqs: [
       {
         question: "What will be the theme of this event?",
@@ -736,13 +731,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://images.pexels.com/photos/6949867/pexels-photo-6949867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/frTZgM4BX595bGf86",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 4000","Second prize: 2500","Third prize: 1500",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 4000", "Second prize: 2500", "Third prize: 1500"],
+      },
+    ],
     faqs: [
       {
         question: "How to Register for Yuva Sabha ?",
@@ -850,13 +844,12 @@ Project idea topic must be related to any growing research area of management an
 
     Image:
       "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/05/977398-974293-973307-950215-pubg-india-launch.jpg",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2000","Second prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2000", "Second prize: 1000"],
+      },
+    ],
 
     faqs: [
       {
@@ -947,13 +940,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://www.riotgames.com/darkroom/1000/d0807e131a84f2e42c7a303bda672789:5f9cc29dd5d2a50bb1a8ea2efbc97abb/valorant-offwhitelaunch-keyart.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2000","Second prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2000", "Second prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "What is the Registration fee? ",
@@ -1042,13 +1034,12 @@ Project idea topic must be related to any growing research area of management an
     desc: `Clash Royale is a real-time multiplayer game starring the Royales, your favourite Clash characters and much, much more. Collect and upgrade dozens of cards featuring the Clash of Clans troops, spells and defenses you know and love, as well as the Royales: Princes, Knights, Baby Dragons and more.`,
     Image: "https://pbs.twimg.com/media/ESLYB5pXUAIRiEl.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2000","Second prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2000", "Second prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "What is the Registration fee? ",
@@ -1129,13 +1120,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://digistatement.com/wp-content/uploads/2020/04/image_1587501879931.jpg",
     link: "https://forms.gle/LTxFNEf2Ve6iSXHz8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2000","Second prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2000", "Second prize: 1000"],
+      },
+    ],
 
     faqs: [
       {
@@ -1226,13 +1216,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://images.unsplash.com/photo-1602503875398-23215561eabc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
     link: "https://forms.gle/MSn1EZrKAkrRBLXZ9",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 2500","Second prize: 1500","Third prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 2500", "Second prize: 1500", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "I am an outsider, can I participate?",
@@ -1298,13 +1287,12 @@ Project idea topic must be related to any growing research area of management an
     Image:
       "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/SjBCga4GXdi4RcHf8",
-      prize:[
-           {
-             category:"",
-             prize: ["First prize: 5000","Second prize: 3000","Third prize: 2000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 5000", "Second prize: 3000", "Third prize: 2000"],
+      },
+    ],
     faqs: [
       {
         question: "How to register for Robovation?",
@@ -1416,13 +1404,12 @@ ROBOT SPECIFICATIONS:
     Image:
       "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     link: "https://forms.gle/SjBCga4GXdi4RcHf8",
-    prize:[
-           {
-             category:"",
-             prize: ["First prize: 5000","Second prize: 3000","Third prize: 2000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 5000", "Second prize: 3000", "Third prize: 2000"],
+      },
+    ],
     faqs: [
       {
         question: "How to register for Robovation?",
@@ -1492,13 +1479,12 @@ ROBOT SPECIFICATIONS:
       "https://docs.google.com/forms/d/e/1FAIpQLSfU-fzBRxZ0KuRKRR7RdiLcOYtY35bAtLD3T6VYzMRUsKa4Kg/viewform?usp=sf_link",
       "https://images.pexels.com/photos/5593153/pexels-photo-5593153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     ],
-    prize:[
-           {
-             category:"",
-             prize: ["First prize: 3000","Second prize: 2000","Third prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 3000", "Second prize: 2000", "Third prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "Who can participate?",
@@ -1548,13 +1534,12 @@ contestant perform various task.
     Image:
       "https://images.pexels.com/photos/564098/pexels-photo-564098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/iyaHSaCpSFP65WFz8",
-    prize:[
-           {
-             category:"",
-             prize: ["First prize: 3500","Second prize: 2500","Third prize: 1500",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 3500", "Second prize: 2500", "Third prize: 1500"],
+      },
+    ],
     faqs: [
       {
         question: "Who can participate?",
@@ -1620,13 +1605,12 @@ Structure of Event
       "https://images.unsplash.com/flagged/photo-1568988041298-26931e97a28e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
 
     link: "https://forms.gle/3QQAAnUtEEiK9h578",
-    prize:[
-           {
-             category:"MR. AND MISS",
-             prize: ["First prize: 4000-4000","Second prize: 2000-2000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "MR. AND MISS",
+        prize: ["First prize: 4000-4000", "Second prize: 2000-2000"],
+      },
+    ],
     faqs: [
       {
         question: "Will college provides dresses for all the rounds?",
@@ -1710,45 +1694,44 @@ healthy competition atmosphere.`,
     Image:
       "https://images.unsplash.com/photo-1621976360623-004223992275?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1128&q=80",
     link: "https://forms.gle/UqRzu7YyYPrYLvnx5",
-    prize:[
-           {
-             category:"Solo Dance",
-             prize: ["First prize: 1500","Second prize: 1000","Third prize: 500",],
-           },
-           {
-             category:"Group Dance",
-             prize: ["First prize: 2500","Second prize: 1500","Third prize: 500",],
-           },
-           {
-             category:"Singing",
-             prize: ["First prize: 2000","Second prize: 1000","Third prize: 500",],
-           },
-           {
-             category:"Skit",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Theme based Mime",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Rapping",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Mimicry",
-             prize: ["First prize: 1000","Second prize: 500",],
-           },
-           {
-             category:"Fusion",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           {
-             category:"Instrument",
-             prize: ["First prize: 1500","Second prize: 1000",],
-           },
-           
-         ],
+    prize: [
+      {
+        category: "Solo Dance",
+        prize: ["First prize: 1500", "Second prize: 1000", "Third prize: 500"],
+      },
+      {
+        category: "Group Dance",
+        prize: ["First prize: 2500", "Second prize: 1500", "Third prize: 500"],
+      },
+      {
+        category: "Singing",
+        prize: ["First prize: 2000", "Second prize: 1000", "Third prize: 500"],
+      },
+      {
+        category: "Skit",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Theme based Mime",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Rapping",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Mimicry",
+        prize: ["First prize: 1000", "Second prize: 500"],
+      },
+      {
+        category: "Fusion",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+      {
+        category: "Instrument",
+        prize: ["First prize: 1500", "Second prize: 1000"],
+      },
+    ],
     faqs: [
       {
         question: "How to register for the event?",
@@ -1813,17 +1796,17 @@ healthy competition atmosphere.`,
         contact: "6266819393",
         designation: "Event Manager",
       },
-       {
+      {
         name: " Sakshi Dwivedi",
         contact: "8827798674",
         designation: "Event Manager",
       },
-       {
+      {
         name: " Soumya Singh",
         contact: "7224085085",
         designation: "Event Manager",
       },
-       {
+      {
         name: " Khyati Singh Chandel",
         contact: "8349658484",
         designation: "Event Manager",
@@ -1865,12 +1848,12 @@ For ex- participant name is rocky so DJ name will be DJ ROCKY and it should be i
     Image:
       "https://images.pexels.com/photos/9005428/pexels-photo-9005428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     link: "https://forms.gle/nbSqHSSzFD9trRFc9",
-       prize:[
-           {
-             category:"",
-             prize: ["First prize: 3000","Second prize: 2000",],
-           }, 
-         ],    
+    prize: [
+      {
+        category: "",
+        prize: ["First prize: 3000", "Second prize: 2000"],
+      },
+    ],
     faqs: [
       {
         question: "DJ software is provided??",

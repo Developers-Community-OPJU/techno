@@ -33,6 +33,27 @@
               </ul>
             </div>
           </div>
+          <h4 class="title">Prize Money Distribution</h4>
+          <div class="faqs">
+            <div
+              v-for="distribution in event.prize"
+              :key="distribution"
+              class="member"
+            >
+              <ul>
+                <li>
+                  <p class="question">
+                    {{ distribution.category }}
+                  </p>
+                  <ul>
+                    <li v-for="p in distribution.prize" :key="p">
+                      {{ p }}
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
           <h4 class="title">Team</h4>
           <div class="team">
             <div v-for="member in event.team" :key="member" class="member">

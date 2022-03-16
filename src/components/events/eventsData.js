@@ -8,22 +8,25 @@ const eventsData = [
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
     prize:[
            {
-             category: "Working",
+             category:"Working",
              prize: ["First prize: 10000","Second prize: 6000","Third prize: 3000",],
            },
            {
-             category: "Consolation",
+             category:"Consolation",
              prize: ["First prize: 1000","Second prize: 1000","Third prize: 1000",],
            },
            {
-             category: "Non Working",
+             category:"Non Working",
              prize: ["First prize: 2500","Second prize: 1500",],
            },
            {
-             category: "App Making",
+             category:"App Making",
              prize: ["First prize: 2000","Second prize: 1000","Third prize: 750",],
            },
-          
+           {
+             category:"Poster Presentation",
+             prize:["First prize: 1500","Second prize: 1000","Third prize: 750",],
+           },
          ],
     faqs: [
       {
@@ -87,6 +90,37 @@ const eventsData = [
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/AUvttGzA8UHcC4Xn8",
+    prize:[
+           {
+             category:"Mechanical Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"Civil Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"Electrical Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"Computer Science Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"Metallurgy Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"BBA / MBA",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+           {
+             category:"Science Department",
+             prize: ["First prize: 1500","Second prize: 1000",],
+           },
+          
+         ],
     faqs: [
       {
         question: "What is an Abstract?",
@@ -183,6 +217,13 @@ premises where participants need to come and take quiz. The final round will occ
       "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 
     link: "https://forms.gle/yFs2FxJVJQWeTMAc9",
+    prize:[
+           {
+             category:"",
+             prize: ["First prize: 3000","Second prize: 2000","Third prize: 1000",],
+           },
+           
+         ],
     faqs: [
       {
         question: "1. Can participants take part from their homes?",

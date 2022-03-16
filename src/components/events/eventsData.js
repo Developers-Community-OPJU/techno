@@ -1286,7 +1286,7 @@ Project idea topic must be related to any growing research area of management an
       {
         name: "Vivek Gupta",
         contact: "8770733618",
-        designation: "E",
+        designation: "Event Manager",
       },
     ],
   },
@@ -1811,6 +1811,21 @@ healthy competition atmosphere.`,
       {
         name: " Anand Patel",
         contact: "6266819393",
+        designation: "Event Manager",
+      },
+       {
+        name: " Sakshi Dwivedi",
+        contact: "8827798674",
+        designation: "Event Manager",
+      },
+       {
+        name: " Soumya Singh",
+        contact: "7224085085",
+        designation: "Event Manager",
+      },
+       {
+        name: " Khyati Singh Chandel",
+        contact: "8349658484",
         designation: "Event Manager",
       },
     ],

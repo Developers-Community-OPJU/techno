@@ -6,6 +6,25 @@ const eventsData = [
     Image:
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     link: "https://forms.gle/wGuAvFMPtE8wDDAMA",
+    prize:[
+           {
+             category: "Working",
+             prize: ["First prize: 10000","Second prize: 6000","Third prize: 3000",],
+           },
+           {
+             category: "Consolation",
+             prize: ["First prize: 1000","Second prize: 1000","Third prize: 1000",],
+           },
+           {
+             category: "Non Working",
+             prize: ["First prize: 2500","Second prize: 1500",],
+           },
+           {
+             category: "App Making",
+             prize: ["First prize: 2000","Second prize: 1000","Third prize: 750",],
+           },
+          
+         ],
     faqs: [
       {
         question: "Reasons why you should participate?",

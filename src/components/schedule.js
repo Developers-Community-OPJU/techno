@@ -4,7 +4,7 @@ const schedule = [
     date: "30th March, 2022",
     schedule: [
       {
-        time: "10:00 AM",
+        time: "09:30",
         venue: "Babuji Chowk",
         event: "Techlab : Model Presentation",
       },
@@ -34,7 +34,7 @@ const schedule = [
         event: "Treasure Hunt",
       },
       {
-        time: "07:00 PM",
+        time: "06:30 PM",
         venue: "University playground",
         event: "Inaugural function",
       },
@@ -65,7 +65,7 @@ const schedule = [
         event: "Master Chef (Round 1)",
       },
       {
-        time: "11:00 AM",
+        time: "11:30 AM",
         venue: "G-08",
         event: "LAN Gaming",
       },
@@ -75,7 +75,7 @@ const schedule = [
         event: "Yuva Sabha (Round 1)",
       },
       {
-        time: "01:00 PM",
+        time: "01:30 PM",
         venue: "Bus Parking ",
         event: "Roadies",
       },
@@ -121,7 +121,7 @@ const schedule = [
         event: "Roadies",
       },
       {
-        time: "11:00 AM",
+        time: "11:30 AM",
         venue: "G-08",
         event: "LAN Gaming",
       },

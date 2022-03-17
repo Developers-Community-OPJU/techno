@@ -98,7 +98,7 @@ const schedule = [
   },
   {
     day: "3",
-    date: "1st April, 2022",
+    date: " 1st April, 2022",
     schedule: [
       {
         time: "09:30 AM",
@@ -139,7 +139,7 @@ const schedule = [
   },
   {
     day: "4",
-    date: "2nd April, 2022",
+    date: " 2nd April, 2022",
     schedule: [
       {
         time: "06:30 PM",

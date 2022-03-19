@@ -23,5 +23,4 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Visit our live site at
-[opjufest.in](https://opjufest.in)
+## [Visit our live site.](https://opjufest.in).

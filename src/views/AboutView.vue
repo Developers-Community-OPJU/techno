@@ -6,7 +6,7 @@
       <img class="opju-logo" src="../assets/opju_logo.png" />
     </div>
     <h1 class="section-remark" data-aos="zoom-in-up" data-aos-duration="1000">
-      From 30th March to 2 April
+      From 30th March to 2nd April
     </h1>
     <img class="poster" src="../assets/about_poster.jpg" />
     <h1 class="section-title" data-aos="fade-right">

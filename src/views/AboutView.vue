@@ -5,6 +5,9 @@
       <img class="techno-logo" src="../assets/about_logo.png" />
       <img class="opju-logo" src="../assets/opju_logo.png" />
     </div>
+    <h1 class="section-remark" data-aos="zoom-in-up" data-aos-duration="1000">
+      From 30th March to 2 April
+    </h1>
     <img class="poster" src="../assets/about_poster.jpg" />
     <h1 class="section-title" data-aos="fade-right">
       About O.P Jindal University
@@ -145,6 +148,11 @@ export default {
 .section-sub-title {
   color: #fff;
   padding: 20px;
+}
+.section-remark {
+  padding: 50px;
+  color: #fc466b;
+  text-align: center;
 }
 p {
   color: rgb(228, 206, 206);

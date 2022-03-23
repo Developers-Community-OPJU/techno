@@ -10,13 +10,13 @@ const schedule = [
       },
       {
         time: "10:30 AM",
-        venue: "Library",
+        venue: "Central Library",
         event: "Exhibition and Expo",
       },
       {
         time: "11:00 AM",
         venue: "EEE Seminar Hall (FB-05, FB-08, FB-14)",
-        event: "TechDocx",
+        event: "TechDoc",
       },
       {
         time: "11:00 AM",
@@ -56,7 +56,7 @@ const schedule = [
       },
       {
         time: "10:30 AM",
-        venue: "Library",
+        venue: "Central Library",
         event: "Exhibition and Expo",
       },
       {
@@ -102,18 +102,18 @@ const schedule = [
     schedule: [
       {
         time: "09:30 AM",
-        venue: "Library",
+        venue: "Central Library",
         event: "Exhibition and Expo",
       },
       {
         time: "10:00 AM",
         venue: "MP Hall",
-        event: "TechQuiz",
+        event: "Tech Quiz",
       },
       {
         time: "11:00 AM",
         venue: "Cafeteria",
-        event: "Master Chef (Round 2)",
+        event: "Master Chef (Finale)",
       },
       {
         time: "11:00 AM",

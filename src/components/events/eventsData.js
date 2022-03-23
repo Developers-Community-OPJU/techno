@@ -87,8 +87,8 @@ const eventsData = [
     ],
   },
   {
-    name: "Tech Docx",
-    desc: `The word TechDocx stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH.DOCX and come forward to present your ideas and enhance the competencies through paper presentation. `,
+    name: "Tech Doc",
+    desc: `The word TechDoc stands for a new idea innovation and invention. We budding engineers are today’s inventors, innovators and thinkers. So get your chance to be a part of the event TECH-DOC and come forward to present your ideas and enhance the competencies through paper presentation. `,
 
     Image:
       "https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",

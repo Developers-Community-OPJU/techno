@@ -217,7 +217,6 @@ export default {
   display: flex;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 10vh;
   .darshan {
     margin-left: auto;
     width: 720px;

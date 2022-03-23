@@ -91,6 +91,11 @@ const teams = [
         designation: "Team Lead",
       },
       {
+        name: "Utkarsh Dixit",
+        image: require("@/assets/utkarsh.png"),
+        designation: "Developer",
+      },
+      {
         name: "Subrat Jena",
         image: require("@/assets/subhrat.png"),
         designation: "Developer",
@@ -98,11 +103,6 @@ const teams = [
       {
         name: "Simrella Agrawal",
         image: require("@/assets/simrella.png"),
-        designation: "Developer",
-      },
-      {
-        name: "Utkarsh Dixit",
-        image: require("@/assets/utkarsh.png"),
         designation: "Developer",
       },
       {

@@ -40,7 +40,7 @@ const schedule = [
       },
       {
         time: "07:30 PM",
-        venue: "University playgroung",
+        venue: "University playground",
         event: "Grand-E-Rollix",
       },
     ],

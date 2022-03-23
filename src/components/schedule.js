@@ -20,7 +20,7 @@ const schedule = [
       },
       {
         time: "11:00 AM",
-        venue: "OAT",
+        venue: "In front of Gym",
         event: "DJ Hunt",
       },
       {
@@ -30,7 +30,7 @@ const schedule = [
       },
       {
         time: "02:00 PM",
-        venue: "In front of CDC",
+        venue: "In front of CDC office",
         event: "Treasure Hunt",
       },
       {
@@ -66,7 +66,7 @@ const schedule = [
       },
       {
         time: "11:30 AM",
-        venue: "G-08",
+        venue: "SB-06,07",
         event: "LAN Gaming",
       },
       {
@@ -76,7 +76,7 @@ const schedule = [
       },
       {
         time: "01:30 PM",
-        venue: "Bus Parking ",
+        venue: "Bus Parking Area ",
         event: "Roadies",
       },
       {
@@ -122,13 +122,13 @@ const schedule = [
       },
       {
         time: "11:30 AM",
-        venue: "G-08",
+        venue: "SB-06,07",
         event: "LAN Gaming",
       },
       {
         time: "01:00 PM",
         venue: "MP Hall",
-        event: "Yuva Sabha (Final)",
+        event: "Yuva Sabha (Finale)",
       },
       {
         time: "07:00 PM",
@@ -147,7 +147,7 @@ const schedule = [
         event: "Valedictory & Prize Distribution",
       },
       {
-        time: "07:00 PM",
+        time: "07:30 PM",
         venue: "University Playground",
         event: "Perisha (DJ Night)",
       },

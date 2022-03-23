@@ -5,7 +5,7 @@ const teams = [
       {
         name: "Ms. Shallu Jindal",
         image: require("@/assets/shallu.png"),
-        designation: "Chancellor",
+        designation: "Chancellor, OPJU",
       },
     ],
   },

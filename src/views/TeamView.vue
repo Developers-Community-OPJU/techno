@@ -124,6 +124,7 @@ export default {
       object-fit: cover;
       object-position: top;
       height: 380px;
+      pointer-events: none;
       filter: grayscale(100%) drop-shadow(1rem 1rem 3rem rgba(44, 44, 44, 0.5))
         brightness(109%);
       transform: scale(1);

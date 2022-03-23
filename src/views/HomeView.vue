@@ -43,7 +43,9 @@
         data-aos-delay="400"
         src="@/assets/junoon.png"
       />
-      <h1 data-aos="fade-right" data-aos-delay="500">Junoon 22'</h1>
+      <h1 data-aos="fade-right" data-aos-delay="500" class="junoon22">
+        Junoon 22'
+      </h1>
       <h1 data-aos="fade-right" data-aos-delay="500" class="featuring">
         Featuring
       </h1>
@@ -65,8 +67,22 @@
       data-aos-delay="700"
       data-aos-duration="1000"
       class="darshan"
-      src="@/assets/darshan.jpg"
+      src="@/assets/darshan.png"
       alt="darshan rawal"
+    />
+    <div class="header2">
+      <h1 data-aos="fade-right" data-aos-delay="500" class="and">And</h1>
+      <h1 data-aos="fade-right" data-aos-delay="700" class="djname">
+        DJ Perisha
+      </h1>
+    </div>
+    <img
+      data-aos="fade-right"
+      data-aos-delay="700"
+      data-aos-duration="1000"
+      class="perisha"
+      src="@/assets/perisha.png"
+      alt="dj perisha"
     />
   </div>
 </template>
@@ -206,11 +222,25 @@ export default {
     margin-left: auto;
     width: 720px;
     height: auto;
+    pointer-events: none;
+  }
+  .perisha {
+    margin-left: auto;
+    width: 720px;
+    height: auto;
+    pointer-events: none;
+  }
+  .junoon22 {
+    position: relative;
+    left: 75%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(183, 255, 14);
   }
   .junoonlogo {
     position: absolute;
-    top: -9%;
-    left: 30%;
+    top: -7%;
+    left: 120%;
     width: 50px;
   }
   .header {
@@ -247,6 +277,32 @@ export default {
         backdrop-filter: blur(5px);
         cursor: pointer;
       }
+    }
+  }
+  .header2 {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    .and {
+      position: absolute;
+      top: 25%;
+      left: 195%;
+      font-size: 3rem;
+      font-weight: 200;
+      font-family: signature;
+      color: rgb(183, 255, 14);
+    }
+    .djname {
+      position: relative;
+      padding-top: 145px;
+      bottom: 45%;
+      left: 195%;
+      text-align: center;
+      letter-spacing: 0.3rem;
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: "Josefin Sans", sans-serif;
     }
   }
   h1 {
@@ -299,6 +355,7 @@ export default {
       position: absolute;
       top: 20%;
       left: 45%;
+      pointer-events: none;
     }
   }
 }
@@ -306,8 +363,9 @@ export default {
 @media (max-width: 576px) {
   .junoon {
     height: 100vh;
-    overflow: hidden;
     left: 5%;
+    display: flex;
+    flex-direction: column;
 
     .header {
       position: absolute;
@@ -339,6 +397,21 @@ export default {
           backdrop-filter: blur(5px);
           cursor: pointer;
         }
+      }
+    }
+    .header2 {
+      position: relative;
+      left: 5%;
+      top: 45%;
+      .and {
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: signature;
+        color: rgb(183, 255, 14);
+      }
+      .djname {
+        text-align: left;
+        font-size: 1.75rem;
       }
     }
     h1 {

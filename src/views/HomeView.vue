@@ -370,6 +370,7 @@ export default {
     left: 5%;
     display: flex;
     flex-direction: column;
+    padding-top: 1.3rem;
     .darshan {
       position: relative;
       left: -8%;

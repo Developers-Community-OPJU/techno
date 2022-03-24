@@ -372,14 +372,14 @@ export default {
     flex-direction: column;
     .darshan {
       position: relative;
-      left: -10%;
-      width: 430px;
+      left: -8%;
+      width: 350px;
       object-fit: contain;
       z-index: -100;
     }
     .perisha {
       margin-left: -153px;
-      width: 500px;
+      width: 450px;
       height: auto;
       pointer-events: none;
     }

@@ -442,10 +442,13 @@ export default {
         font-weight: 200;
         font-family: signature;
         color: rgb(183, 255, 14);
+        visibility: hidden;
       }
       .djname {
         text-align: left;
         font-size: 1.75rem;
+        font-family: signature;
+        color: rgb(183, 255, 14);
       }
     }
     h1 {

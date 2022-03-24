@@ -231,7 +231,7 @@ export default {
   }
   .junoon22 {
     position: relative;
-    left: 75%;
+    left: 65%;
     font-size: 3rem;
     font-weight: 700;
     color: rgb(183, 255, 14);
@@ -239,7 +239,7 @@ export default {
   .junoonlogo {
     position: absolute;
     top: -7%;
-    left: 120%;
+    left: 110%;
     width: 50px;
   }
   .header {
@@ -316,8 +316,13 @@ export default {
     left: 5%;
     top: 8%;
   }
+  .junoon22 {
+    position: relative;
+    top: 900px;
+  }
   .junoonlogo {
     position: absolute;
+    left: -900px;
     width: 50px;
     padding: 45px;
   }
@@ -365,11 +370,38 @@ export default {
     left: 5%;
     display: flex;
     flex-direction: column;
-
+    .darshan {
+      position: relative;
+      left: -10%;
+      width: 430px;
+      object-fit: contain;
+      z-index: -100;
+    }
+    .perisha {
+      margin-left: -153px;
+      width: 500px;
+      height: auto;
+      pointer-events: none;
+    }
     .header {
+      display: inline-block;
       position: absolute;
       left: 5%;
       top: 45%;
+      width: 69%;
+      .junoonlogo {
+        position: absolute;
+        top: -159%;
+        left: 73%;
+        width: 35px;
+      }
+      .junoon22 {
+        position: absolute;
+        width: 100%;
+        top: -130%;
+        left: 18%;
+        font-size: 2rem;
+      }
       .featuring {
         font-size: 2rem;
         font-weight: 200;
@@ -400,10 +432,13 @@ export default {
     }
     .header2 {
       position: relative;
-      left: 5%;
-      top: 45%;
+      left: -640px;
+      top: 52%;
       .and {
-        font-size: 2rem;
+        position: absolute;
+        top: 25%;
+        left: 195%;
+        font-size: 3rem;
         font-weight: 200;
         font-family: signature;
         color: rgb(183, 255, 14);
@@ -415,6 +450,7 @@ export default {
     }
     h1 {
       color: #fff;
+      display: inline-block;
     }
   }
 }

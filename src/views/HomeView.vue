@@ -372,8 +372,8 @@ export default {
     flex-direction: column;
     .darshan {
       position: relative;
-      left: -10%;
-      width: 430px;
+      right: 18%;
+      width: 400px;
       object-fit: contain;
       z-index: -100;
     }
@@ -409,7 +409,7 @@ export default {
         color: rgb(183, 255, 14);
       }
       .name {
-        text-align: left;
+        text-align: right;
         font-size: 1.75rem;
       }
       .action-btn {

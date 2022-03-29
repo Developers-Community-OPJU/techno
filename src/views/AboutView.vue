@@ -190,4 +190,70 @@ span {
     margin-bottom: 3rem;
   }
 }
+@media (max-width: 1300px) {
+  .about {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+  .opju-logo {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: auto;
+  }
+  .logo {
+    padding: 0 1rem;
+    display: flex;
+    width: 100%;
+    pointer-events: none;
+    img {
+      height: 100px;
+      width: auto;
+    }
+  }
+  .poster {
+    height: auto;
+    width: 100%;
+  }
+  .section-title {
+    background: #fc466b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      #3f5efb,
+      #fc466b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #3f5efb,
+      #fc466b
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+  .section-sub-title {
+    color: #fff;
+    padding: 10px;
+  }
+  .section-remark {
+    padding: 50px;
+    color: #fc466b;
+    text-align: center;
+  }
+  p {
+    color: rgb(228, 206, 206);
+    padding: 10px;
+    font-weight: 100;
+  }
+  span {
+    color: #fc466b;
+  }
+}
 </style>

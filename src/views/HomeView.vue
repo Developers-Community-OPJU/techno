@@ -153,7 +153,6 @@ export default {
       font-size: 1rem;
       font-weight: 400;
       letter-spacing: 0.25rem;
-      // margin-bottom: 1rem;
     }
     .tagline2 {
       font-size: 1.5rem;
@@ -413,8 +412,8 @@ export default {
     .spiral {
       z-index: 0;
       position: absolute;
-      top: 20%;
-      left: 45%;
+      top: 12%;
+      left: 36%;
       animation: animate-spiral 50s ease infinite;
     }
   }
@@ -423,6 +422,7 @@ export default {
     height: 150vh;
     display: flex;
     margin: 0 auto;
+    overflow-y: hidden;
     .darshan {
       position: relative;
       right: 2%;
@@ -433,8 +433,8 @@ export default {
     .perisha {
       margin-left: -143px;
       padding-top: 12%;
-      width: 400px;
-      height: 650px;
+      width: 450px;
+      height: 625px;
       pointer-events: none;
     }
     .header {

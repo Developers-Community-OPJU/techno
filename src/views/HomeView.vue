@@ -363,7 +363,144 @@ export default {
     }
   }
 }
-
+@media (max-width: 1300px) {
+  .banner {
+    width: 80px;
+    position: absolute;
+    left: 20%;
+    top: 4%;
+  }
+  .home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    .content {
+      position: absolute;
+      z-index: 1;
+      padding-top: 9rem;
+      margin-left: -10%;
+      width: 50%;
+      color: #fff;
+      .tagline1 {
+        font-size: 0.9rem;
+        font-weight: 200;
+        letter-spacing: 0.25rem;
+      }
+      .tagline2 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        letter-spacing: 0.25rem;
+        margin-top: 1rem;
+      }
+      .headline {
+        margin: 1rem 0 1rem 0;
+        font-size: 5rem;
+        animation: animate-title 1s ease-in;
+        span {
+          color: rgb(183, 255, 14);
+        }
+      }
+      .date {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 100;
+        letter-spacing: 0.25rem;
+      }
+    }
+    .spiral {
+      z-index: 0;
+      position: absolute;
+      top: 20%;
+      left: 45%;
+      animation: animate-spiral 50s ease infinite;
+    }
+  }
+  .junoon {
+    overflow: hidden;
+    height: 150vh;
+    display: flex;
+    margin: 0 auto;
+    .darshan {
+      position: relative;
+      right: 2%;
+      width: 500px;
+      object-fit: contain;
+      z-index: -100;
+    }
+    .perisha {
+      margin-left: -143px;
+      padding-top: 12%;
+      width: 400px;
+      height: 650px;
+      pointer-events: none;
+    }
+    .header {
+      display: inline-block;
+      position: absolute;
+      left: 5%;
+      top: 45%;
+      width: 100%;
+      .junoonlogo {
+        position: absolute;
+        top: -109%;
+        left: 55%;
+        width: 35px;
+      }
+      .junoon22 {
+        position: absolute;
+        width: 100%;
+        top: -100%;
+        left: 40%;
+        font-size: 2rem;
+      }
+      .featuring {
+        font-size: 3rem;
+        font-weight: 200;
+        font-family: signature;
+        color: rgb(183, 255, 14);
+      }
+      .action-btn {
+        display: inline-block;
+        padding: 1rem;
+        margin-top: 3%;
+        margin-right: 30%;
+        cursor: pointer;
+        background: rgba(51, 51, 51, 0.925);
+        color: rgb(255, 255, 255);
+        border: 1px solid #fff;
+        text-decoration: none;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          color: #fff;
+          backdrop-filter: blur(5px);
+          cursor: pointer;
+        }
+      }
+      .name {
+        text-align: right;
+        font-size: 3rem;
+      }
+    }
+    .header2 {
+      position: relative;
+      left: -500px;
+      top: 76.5%;
+      .djname {
+        font-size: 3rem;
+      }
+    }
+    .and {
+      display: none;
+    }
+    h1 {
+      color: #fff;
+      display: inline-block;
+    }
+  }
+}
 @media (max-width: 576px) {
   .junoon {
     height: 100vh;
@@ -413,10 +550,9 @@ export default {
         font-size: 1.75rem;
       }
       .action-btn {
-        text-transform: uppercase;
         display: inline-block;
         padding: 1rem;
-        margin-top: 1rem;
+        cursor: pointer;
         text-align: center;
         background: rgba(51, 51, 51, 0.925);
         color: rgb(255, 255, 255);

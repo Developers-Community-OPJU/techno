@@ -125,6 +125,9 @@ export default {
   font-family: signature;
   src: url(../assets/BrittanySignature.ttf);
 }
+img {
+  pointer-events: none;
+}
 .banner {
   width: 120px;
   position: absolute;
@@ -236,6 +239,7 @@ export default {
     color: rgb(183, 255, 14);
   }
   .junoonlogo {
+    pointer-events: none;
     position: absolute;
     top: -7%;
     left: 110%;

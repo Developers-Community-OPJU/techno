@@ -1,5 +1,7 @@
 # techno
 
+# <a href="https://opjufest.in"><img src="https://img.shields.io/badge/State-Success-success?style=for-the-badge"></a>
+
 ## Project setup
 ```
 yarn install
@@ -22,5 +24,3 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## [Visit our live site](https://opjufest.in).
